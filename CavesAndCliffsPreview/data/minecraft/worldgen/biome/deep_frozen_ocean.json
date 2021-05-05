@@ -15,7 +15,7 @@
   "surface_builder": "minecraft:frozen_ocean",
   "carvers": {
     "air": [
-      "minecraft:prototype_ocean_cave",
+      "minecraft:prototype_cave",
       "minecraft:prototype_canyon"
     ]
   },
@@ -44,12 +44,11 @@
       "minecraft:prototype_ore_diorite",
       "minecraft:prototype_ore_andesite",
       "minecraft:prototype_ore_tuff",
-      "minecraft:ore_deepslate",
       "minecraft:prototype_ore_coal_upper",
       "minecraft:prototype_ore_coal_lower",
       "minecraft:prototype_ore_iron_upper",
       "minecraft:prototype_ore_iron_middle",
-      "minecraft:prototype_ore_iron_lower",
+      "minecraft:prototype_ore_iron_small",
       "minecraft:prototype_ore_gold",
       "minecraft:prototype_ore_redstone",
       "minecraft:prototype_ore_redstone_lower",
