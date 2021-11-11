@@ -5,10 +5,10 @@
       "item": "minecraft:jukebox"
     },
     "title": {
-      "translate": "advancements.husbandry.play_jukebox_in_meadows.title"
+      "translate": "advancements.adventure.play_jukebox_in_meadows.title"
     },
     "description": {
-      "translate": "advancements.husbandry.play_jukebox_in_meadows.description"
+      "translate": "advancements.adventure.play_jukebox_in_meadows.description"
     },
     "frame": "task",
     "show_toast": true,
