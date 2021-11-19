@@ -12,7 +12,8 @@ files_extracted_from_jar = ['assets','data']
 manifest_url = 'http://launchermeta.mojang.com/mc/game/version_manifest.json'
 
 # A storage string to be written to a .txt later
-list = "List of all files in the filesystem: \n"
+list = []
+size_list = []
 
 #####################################################################################
 # Set up data from mojang's servers to read in other parts of the program
@@ -45,7 +46,8 @@ with zipfile.ZipFile(client_jar) as archive :
     for object in archive.namelist() :
         for folder in files_extracted_from_jar :
             if object.startswith(folder+'/') and object.lstrip(folder+"/") not in index['objects'] :
-                list = list + "\n" + os.path.normpath(object)
+                list.append(os.path.normpath(object))
+                size_list.append(archive.getinfo(object).file_size)
                 path = os.path.abspath(os.path.join('..',object))
                 os.makedirs(os.path.dirname(path),exist_ok = True)
                 archive.extract(object, os.path.abspath(os.path.join('..')))
@@ -76,7 +78,8 @@ os.remove('client.jar')
 #####################################################################################
 
 for object in index['objects'] :
-    list = list + "\n"+ os.path.normpath(os.path.join('assets',object))
+    list.append(os.path.normpath(os.path.join('assets',object)))
+    size_list.append(index['objects'][object]['size'])
     if not object.startswith('icons/') :
         hash = index['objects'][object]['hash']
         destination_path = os.path.abspath(os.path.join("..","","assets",object))
@@ -108,4 +111,9 @@ for folder in files_extracted_from_jar :
 #####################################################################################
 
 with open('file_list.txt','wt') as file_list:
-    file_list.write(list)
+    num = 0
+    write_object = "List of all files in the filesystem:\n"
+    for item in list :
+        write_object = write_object + "\n" + item + ", size: " + str(size_list[num])
+        num = num + 1
+    file_list.write(write_object)
