@@ -1,15 +1,21 @@
-# Import proper libraries
-import urllib.request, json, math, re, os, shutil
+#####################################################################################
+# Proper setup
+#####################################################################################
 
-#####################################################################################
-# User-defined variables
-#####################################################################################
+# Importing all the various libraries I need... a lot.
+import urllib.request, json, os, shutil, zipfile
+
+# The files to be extracted from the client jar.
+files_extracted_from_jar = ['assets','data']
 
 # The link to Mojang's version manifest. This probably shouldn't change.
 manifest_url = 'http://launchermeta.mojang.com/mc/game/version_manifest.json'
 
+# A storage string to be written to a .txt later
+list = "List of all files in the filesystem: \n"
+
 #####################################################################################
-# Extracting cached data from resource links using index off the internet
+# Set up data from mojang's servers to read in other parts of the program
 #####################################################################################
 
 def json_from_url(url) :
@@ -18,28 +24,88 @@ def json_from_url(url) :
 version_manifest = json_from_url(manifest_url)
 latest_version_data = json_from_url(version_manifest['versions'][0]['url'])
 index = json_from_url(latest_version_data['assetIndex']['url'])
-number = 0
+
+#####################################################################################
+# Defining the get_jar functionality
+#####################################################################################
+
+def get_jar(name) :
+    url = latest_version_data['downloads'][name]['url']
+    path = os.path.abspath(os.path.join("..","data_extractor",name+".jar"))
+    os.makedirs(os.path.dirname(path), exist_ok = True)
+    urllib.request.urlretrieve(url,path)
+    return path
+
+#####################################################################################
+# Extracting assets and data from client jar
+#####################################################################################
+
+client_jar = get_jar('client')
+with zipfile.ZipFile(client_jar) as archive :
+    for object in archive.namelist() :
+        for folder in files_extracted_from_jar :
+            if object.startswith(folder+'/') and object.lstrip(folder+"/") not in index['objects'] :
+                list = list + "\n" + os.path.normpath(object)
+                path = os.path.abspath(os.path.join('..',object))
+                os.makedirs(os.path.dirname(path),exist_ok = True)
+                archive.extract(object, os.path.abspath(os.path.join('..')))
+
+#####################################################################################
+# Extracting reports and worldgen from server jar
+#####################################################################################
+
+server_jar = get_jar('server')
+os.makedirs('server_jar',exist_ok = True)
+os.chdir('server_jar')
+os.system("java -DbundlerMainClass=net.minecraft.data.Main -jar "+ server_jar +" --reports --output data")
+try: shutil.rmtree(os.path.abspath(os.path.join('..','..','data','minecraft','worldgen')))
+except: pass
+try: shutil.rmtree(os.path.abspath(os.path.join('..','..','reports')))
+except: pass
+shutil.move(os.path.abspath(os.path.join('data','reports','worldgen','minecraft')),os.path.abspath(os.path.join('..','..','data','minecraft','worldgen')))
+shutil.move(os.path.abspath(os.path.join('data','reports')),os.path.abspath(os.path.join('..','..','reports')))
+os.chdir('..')
+try: shutil.rmtree(os.path.abspath(os.path.join('server_jar')))
+except: pass
+
+os.remove('server.jar')
+os.remove('client.jar')
+
+#####################################################################################
+# Extracting cached data from resource links using index off the internet
+#####################################################################################
+
 for object in index['objects'] :
+    list = list + "\n"+ os.path.normpath(os.path.join('assets',object))
     if not object.startswith('icons/') :
         hash = index['objects'][object]['hash']
-        destination_path = os.path.abspath(os.path.join("..","assets",object))
+        destination_path = os.path.abspath(os.path.join("..","","assets",object))
         os.makedirs(os.path.dirname(destination_path), exist_ok = True)
         try :
             size = os.path.getsize(destination_path)
             if size == index['objects'][object]['size'] :
                 continue
-        except :
-            pass
+        except : pass
         object_url = "https://resources.download.minecraft.net/"+hash[:2]+"/"+hash
-        print("Downloading:",object_url)
+        print("Downloading: assets/"+object)
         urllib.request.urlretrieve(object_url, destination_path)
-        number = number + 1
-print(number,"new files downloaded")
 
+#####################################################################################
+# Removing any files that aren't supposed to be in the assets/data
+#####################################################################################
 
-#
-##wait = input("Press enter when you have updated the jar files located in this directory.")
-#
-##os.system("java -DbundlerMainClass=net.minecraft.data.Main -jar server.jar --server --reports --output data")
-#
-#print("Operations completed")
+core_path = os.path.abspath(os.path.join('..'))
+for folder in files_extracted_from_jar :
+    for root, directories, files in os.walk(os.path.join(core_path,folder)) :
+        for file in files :
+            final_path = os.path.join(root,file)[len(os.path.join(core_path)):].lstrip('\\')
+            if final_path not in list and not "\\worldgen\\" in final_path:
+                print("File removed:",final_path)
+                os.remove(os.path.abspath(os.path.join(core_path,final_path)))
+
+#####################################################################################
+# Summary of data
+#####################################################################################
+
+with open('file_list.txt','wt') as file_list:
+    file_list.write(list)
