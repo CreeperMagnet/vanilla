@@ -2435,7 +2435,7 @@
     "commands.worldborder.damage.buffer.success": "\u00c4ndrade v\u00e4rldsgr\u00e4nsens skadebuffert till %s block",
     "commands.worldborder.get": "V\u00e4rldsgr\u00e4nsen \u00e4r just nu %s block bred",
     "commands.worldborder.set.failed.big": "V\u00e4rldsgr\u00e4nsen kan inte vara st\u00f6rre \u00e4n %s block bred",
-    "commands.worldborder.set.failed.far": "V\u00e4rldsgr\u00e4nsen kan inte ha en v\u00e4gg som str\u00e4cker sig l\u00e4ngre bort \u00e4n %s block fr\u00e5n v\u00e4rldens mittpunkt",
+    "commands.worldborder.set.failed.far": "V\u00e4rldsgr\u00e4nsen kan inte vara l\u00e4ngre bort \u00e4n %s block",
     "commands.worldborder.set.failed.nochange": "Ingenting f\u00f6r\u00e4ndrades, v\u00e4rldsgr\u00e4nsen har redan denna storlek",
     "commands.worldborder.set.failed.small": "V\u00e4rldsgr\u00e4nsen kan inte vara mindre \u00e4n 1 block bred",
     "commands.worldborder.set.grow": "Ut\u00f6kar v\u00e4rldsgr\u00e4nsen till %s block bred \u00f6ver %s sekunder",

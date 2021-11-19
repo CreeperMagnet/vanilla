@@ -2435,7 +2435,7 @@
     "commands.worldborder.damage.buffer.success": "Se ha cambiado la zona segura fuera del borde del mundo a %s bloques",
     "commands.worldborder.get": "El borde del mundo tiene %s bloques de largo",
     "commands.worldborder.set.failed.big": "El borde del mundo no puede tener una extensi\u00f3n mayor a %s bloques",
-    "commands.worldborder.set.failed.far": "El borde del mundo no puede tener una extensi\u00f3n mayor a %s bloques",
+    "commands.worldborder.set.failed.far": "El borde del mundo no puede tener una longitud mayor a %s bloques",
     "commands.worldborder.set.failed.nochange": "Nada ha cambiado, el borde del mundo ya ten\u00eda este tama\u00f1o",
     "commands.worldborder.set.failed.small": "El borde del mundo no puede tener una extensi\u00f3n inferior a 1 bloque",
     "commands.worldborder.set.grow": "Aumentando el borde del mundo en %s bloques durante %s segundos",

@@ -2435,6 +2435,7 @@
     "commands.worldborder.damage.buffer.success": "D\u00fcnya s\u0131n\u0131r\u0131 hasar tamponu %s olarak ayarland\u0131",
     "commands.worldborder.get": "D\u00fcnya s\u0131n\u0131r\u0131 \u015fu anda %s blok geni\u015fli\u011finde",
     "commands.worldborder.set.failed.big": "D\u00fcnya s\u0131n\u0131r\u0131 %s bloktan daha geni\u015f olamaz",
+    "commands.worldborder.set.failed.far": "D\u00fcnya s\u0131n\u0131r\u0131 %s bloktan daha b\u00fcy\u00fck olamaz",
     "commands.worldborder.set.failed.nochange": "Bir \u015fey de\u011fi\u015fmedi, d\u00fcnya s\u0131n\u0131r\u0131 zaten bu boyutta",
     "commands.worldborder.set.failed.small": "D\u00fcnya s\u0131n\u0131r\u0131 1 bloktan daha k\u00fc\u00e7\u00fck olamaz",
     "commands.worldborder.set.grow": "D\u00fcnya s\u0131n\u0131r\u0131 %2$s saniye i\u00e7erisinde %1$s blok geni\u015fli\u011fine b\u00fcy\u00fct\u00fcl\u00fcyor",

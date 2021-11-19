@@ -2435,6 +2435,7 @@
     "commands.worldborder.damage.buffer.success": "Wr\u00e2ldgrinsskeabuffer ynsteld op %s blok(ken)",
     "commands.worldborder.get": "De wr\u00e2ldgrins is op it stuit %s blokken wiid",
     "commands.worldborder.set.failed.big": "Wr\u00e2ldgrins kin net grutter w\u00eaze as %s blok breed",
+    "commands.worldborder.set.failed.far": "De wr\u00e2ldgrins kin net fierder \u00fat w\u00eaze dan %s blokken",
     "commands.worldborder.set.failed.nochange": "Neat wizige, omdat de wr\u00e2ldgrins dizze grutte al hat",
     "commands.worldborder.set.failed.small": "Wr\u00e2ldgrins kin net lytser w\u00eaze as ien blok breed",
     "commands.worldborder.set.grow": "Wr\u00e2ldgrins wurdt fergrutte nei %s blokken breed yn %s sekonde(n)",

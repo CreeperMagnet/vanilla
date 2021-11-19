@@ -3944,7 +3944,7 @@
     "narrator.loading.done": "Aceptar",
     "narrator.position.list": "Se ha seleccionado la fila de la lista %s de %s",
     "narrator.position.object_list": "Se ha seleccionado el elemento de la fila %s de %s",
-    "narrator.position.screen": "Elemento %s fuera de %s",
+    "narrator.position.screen": "Elemento %s fuera de %s en la pantalla",
     "narrator.screen.title": "Men\u00fa principal",
     "narrator.screen.usage": "Us\u00e1 el cursor o Tab para seleccionar un elemento",
     "narrator.select": "Seleccionado: %s",

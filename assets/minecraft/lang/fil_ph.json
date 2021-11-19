@@ -2435,7 +2435,7 @@
     "commands.worldborder.damage.buffer.success": "Itinakda ang pinsalang buffer ng mundong hangganan sa %s bloke",
     "commands.worldborder.get": "Ang mundong border ay kasalukuyang %s bloke sa haba",
     "commands.worldborder.set.failed.big": "Hindi maaaring mas malaki sa %s bloke ang lapad ng hangganan ng mundo",
-    "commands.worldborder.set.failed.far": "Hindi maaaring mas malaki sa %s bloke ang lapad ng hangganan ng mundo",
+    "commands.worldborder.set.failed.far": "Hindi maaaring mas malayo sa %s bloke ang lapad ng hangganan ng mundo",
     "commands.worldborder.set.failed.nochange": "Walang nabago. Parehas na ang laki ng mundong hangganan",
     "commands.worldborder.set.failed.small": "Ang world bolder ay hindi pwede maging mas maliit kaysa sa 1 bloke",
     "commands.worldborder.set.grow": "Pinapalaki ang mundong hangganan sa %s bloke sa haba sa %s segundo",

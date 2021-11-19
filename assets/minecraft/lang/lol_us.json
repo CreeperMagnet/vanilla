@@ -2435,6 +2435,7 @@
     "commands.worldborder.damage.buffer.success": "Set teh world bordr damage buffr to %s blokz",
     "commands.worldborder.get": "Teh world bordr currentle r %s blokz wide",
     "commands.worldborder.set.failed.big": "Wurld bordr cant b biggr den %s blokz wide",
+    "commands.worldborder.set.failed.far": "Wurld bordr cant b moar away den %s blokz",
     "commands.worldborder.set.failed.nochange": "nothin changd, teh wurld bordr iz already dat size",
     "commands.worldborder.set.failed.small": "Da wrold border canot bee smaler thn 1 block wide",
     "commands.worldborder.set.grow": "Growin teh world bordr to %s blokz wide ovr %s secondz",

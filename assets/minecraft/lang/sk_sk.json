@@ -2435,7 +2435,7 @@
     "commands.worldborder.damage.buffer.success": "Vzdialenos\u0165 postihu hranice sveta nastaven\u00e1 na %s kociek",
     "commands.worldborder.get": "Hranica sveta je aktu\u00e1lne %s kociek \u0161irok\u00e1",
     "commands.worldborder.set.failed.big": "Hranica sveta nem\u00f4\u017ee by\u0165 \u0161ir\u0161ia ne\u017e %s kociek",
-    "commands.worldborder.set.failed.far": "Hranica sveta nem\u00f4\u017ee by\u0165 \u0161ir\u0161ia ne\u017e %s kociek",
+    "commands.worldborder.set.failed.far": "Stred hranice sveta nem\u00f4\u017ee by\u0165 \u010falej ne\u017e %s kociek",
     "commands.worldborder.set.failed.nochange": "Ni\u010d sa nezmenilo. Hranica sveta m\u00e1 dan\u00fa ve\u013ekos\u0165",
     "commands.worldborder.set.failed.small": "Hranica sveta nem\u00f4\u017ee by\u0165 men\u0161ia ako 1 kocka",
     "commands.worldborder.set.grow": "Hranica sveta rastie na %s kociek po\u010das %s sek\u00fand",

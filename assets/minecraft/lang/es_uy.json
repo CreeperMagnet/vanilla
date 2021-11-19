@@ -4101,7 +4101,7 @@
     "options.percent_add_value": "%s: +%s%%",
     "options.percent_value": "%s: %s%%",
     "options.pixel_value": "%s: %spx",
-    "options.prioritizeChunkUpdates": "Generaci\u00f3n de Chunks",
+    "options.prioritizeChunkUpdates": "Generador de chunks",
     "options.prioritizeChunkUpdates.byPlayer": "Parcialmente Bloqueado",
     "options.prioritizeChunkUpdates.byPlayer.tooltip": "Algunas acciones realizadas en el chunk se volver\u00e1n a recopilar en \u00e9l de forma inmediata. Esto incluye la colocaci\u00f3n y destrucci\u00f3n de bloques.",
     "options.prioritizeChunkUpdates.nearby": "Completamente Bloqueado",
