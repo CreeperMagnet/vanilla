@@ -11,9 +11,8 @@ files_extracted_from_jar = ['assets','data']
 # The link to Mojang's version manifest. This probably shouldn't change.
 manifest_url = 'http://launchermeta.mojang.com/mc/game/version_manifest.json'
 
-# A storage string to be written to a .txt later
+# A storage string to log all the files
 list = []
-size_list = []
 
 #####################################################################################
 # Set up data from mojang's servers to read in other parts of the program
@@ -46,7 +45,6 @@ with zipfile.ZipFile(client_jar) as archive :
     for object in archive.namelist() :
         if not (object.endswith(('.class','.xml','.jfc')) or object.startswith("META-INF") or "/".join(object.split("/")[1:]) in objects) :
             list.append(os.path.normpath(object))
-            size_list.append(archive.getinfo(object).file_size)
             path = os.path.abspath(os.path.join('..',object))
             if object.endswith('.json') and os.path.exists(path) :
                 with archive.open(object) as f1 :
@@ -89,7 +87,6 @@ os.remove('client.jar')
 
 for object in objects :
     list.append(os.path.normpath(os.path.join('assets',object)))
-    size_list.append(objects[object]['size'])
     if not object.startswith('icons/') :
         hash = objects[object]['hash']
         destination_path = os.path.abspath(os.path.join("..","","assets",object))
@@ -115,15 +112,3 @@ for folder in files_extracted_from_jar :
             if final_path not in list and not "\\worldgen\\" in final_path:
                 print("File removed:",final_path)
                 os.remove(os.path.abspath(os.path.join(core_path,final_path)))
-
-#####################################################################################
-# Summary of data
-#####################################################################################
-
-with open('file_list.txt','wt') as file_list:
-    num = 0
-    write_object = "List of all files in the filesystem:\n"
-    for item in list :
-        write_object = write_object + "\n" + item + ", size: " + str(size_list[num])
-        num = num + 1
-    file_list.write(write_object)
