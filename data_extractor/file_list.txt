@@ -1,5 +1,6 @@
 List of all files in the filesystem:
 
+pack.png, size: 13027
 assets\realms\textures\gui\realms\cross_player_icon.png, size: 206
 assets\realms\textures\gui\realms\expired_icon.png, size: 414
 assets\realms\textures\gui\realms\expires_soon_icon.png, size: 743
@@ -7273,6 +7274,7 @@ data\minecraft\tags\items\wooden_slabs.json, size: 271
 data\minecraft\tags\items\wooden_stairs.json, size: 287
 data\minecraft\tags\items\wooden_trapdoors.json, size: 303
 data\minecraft\tags\items\wool.json, size: 496
+version.json, size: 382
 assets\minecraft\models\block\glass_pane_side.json, size: 161
 assets\minecraft\models\block\weeping_vines_plant.json, size: 111
 assets\minecraft\models\block\wither_rose.json, size: 103

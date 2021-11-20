@@ -24,7 +24,7 @@ def json_from_url(url) :
 
 version_manifest = json_from_url(manifest_url)
 latest_version_data = json_from_url(version_manifest['versions'][0]['url'])
-index = json_from_url(latest_version_data['assetIndex']['url'])
+objects = json_from_url(latest_version_data['assetIndex']['url'])['objects']
 
 #####################################################################################
 # Defining the get_jar functionality
@@ -44,13 +44,19 @@ def get_jar(name) :
 client_jar = get_jar('client')
 with zipfile.ZipFile(client_jar) as archive :
     for object in archive.namelist() :
-        for folder in files_extracted_from_jar :
-            if object.startswith(folder+'/') and object.lstrip(folder+"/") not in index['objects'] :
-                list.append(os.path.normpath(object))
-                size_list.append(archive.getinfo(object).file_size)
-                path = os.path.abspath(os.path.join('..',object))
-                os.makedirs(os.path.dirname(path),exist_ok = True)
-                archive.extract(object, os.path.abspath(os.path.join('..')))
+        if not (object.endswith(('.class','.xml','.jfc')) or object.startswith("META-INF") or "/".join(object.split("/")[1:]) in objects) :
+            list.append(os.path.normpath(object))
+            size_list.append(archive.getinfo(object).file_size)
+            path = os.path.abspath(os.path.join('..',object))
+            if object.endswith('.json') and os.path.exists(path) :
+                with archive.open(object) as f1 :
+                    json1 = json.loads(f1.read().decode("utf-8"))
+                    with open(path, encoding="utf8") as f2 :
+                        json2 = json.load(f2)
+                    if json.dumps(json1, sort_keys=True) == json.dumps(json2, sort_keys=True) :
+                        continue
+            os.makedirs(os.path.dirname(path),exist_ok=True)
+            archive.extract(object, os.path.abspath(os.path.join('..')))
 
 #####################################################################################
 # Extracting reports and worldgen from server jar
@@ -66,6 +72,10 @@ try: shutil.rmtree(os.path.abspath(os.path.join('..','..','reports')))
 except: pass
 shutil.move(os.path.abspath(os.path.join('data','reports','worldgen','minecraft')),os.path.abspath(os.path.join('..','..','data','minecraft','worldgen')))
 shutil.move(os.path.abspath(os.path.join('data','reports')),os.path.abspath(os.path.join('..','..','reports')))
+
+#decode_path = os.path.abspath(os.path.join('..','..','data','minecraft','structures'))
+#os.system('java -DbundlerMainClass=net.minecraft.data.Main -jar '+ server_jar + ' --dev --input '+decode_path+' --output '+decode_path)
+
 os.chdir('..')
 try: shutil.rmtree(os.path.abspath(os.path.join('server_jar')))
 except: pass
@@ -77,16 +87,16 @@ os.remove('client.jar')
 # Extracting cached data from resource links using index off the internet
 #####################################################################################
 
-for object in index['objects'] :
+for object in objects :
     list.append(os.path.normpath(os.path.join('assets',object)))
-    size_list.append(index['objects'][object]['size'])
+    size_list.append(objects[object]['size'])
     if not object.startswith('icons/') :
-        hash = index['objects'][object]['hash']
+        hash = objects[object]['hash']
         destination_path = os.path.abspath(os.path.join("..","","assets",object))
-        os.makedirs(os.path.dirname(destination_path), exist_ok = True)
+        os.makedirs(os.path.dirname(destination_path),exist_ok=True)
         try :
             size = os.path.getsize(destination_path)
-            if size == index['objects'][object]['size'] :
+            if size == objects[object]['size'] :
                 continue
         except : pass
         object_url = "https://resources.download.minecraft.net/"+hash[:2]+"/"+hash
