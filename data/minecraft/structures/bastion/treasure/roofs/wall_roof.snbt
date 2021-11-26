@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [5, 2, 24],
     data: [
         {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:down_north}", nbt: {final_state: "minecraft:polished_blackstone_bricks", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:wall_roof_connector", pool: "minecraft:empty", target: "minecraft:empty"}},

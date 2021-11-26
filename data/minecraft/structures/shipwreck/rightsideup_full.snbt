@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [9, 9, 28],
     data: [
         {pos: [4, 0, 8], state: "minecraft:spruce_stairs{facing:south,half:top,shape:outer_right,waterlogged:false}"},

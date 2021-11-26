@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [2, 35, 2],
     data: [
         {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:down_north}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:center_brain", pool: "minecraft:empty", target: "minecraft:empty"}},

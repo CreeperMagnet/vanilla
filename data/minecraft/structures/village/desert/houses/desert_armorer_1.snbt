@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [7, 7, 7],
     data: [
         {pos: [0, 0, 1], state: "minecraft:sand"},

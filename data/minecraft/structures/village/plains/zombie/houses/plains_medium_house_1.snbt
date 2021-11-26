@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [13, 8, 11],
     data: [
         {pos: [0, 0, 3], state: "minecraft:grass_block{snowy:false}"},

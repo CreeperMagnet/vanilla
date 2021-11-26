@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [7, 5, 5],
     data: [
         {pos: [0, 0, 0], state: "minecraft:air"},

@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [14, 9, 7],
     data: [
         {pos: [0, 0, 0], state: "minecraft:snow{layers:1}"},

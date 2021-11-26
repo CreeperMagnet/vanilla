@@ -3,7 +3,7 @@
 #####################################################################################
 
 # Importing all the various libraries I need... a lot.
-import urllib.request, json, os, shutil, zipfile
+import urllib.request, json, os, shutil, zipfile, re
 
 # The link to Mojang's version manifest. This probably shouldn't change.
 manifest_url = 'http://launchermeta.mojang.com/mc/game/version_manifest.json'
@@ -106,7 +106,14 @@ for root, directories, files in os.walk('snbt') :
             shutil.move(source_path,final_path)
             removal_path = os.path.abspath(os.path.join('..','..',joined_nbt_path_array))
             os.remove(removal_path)
-
+            a_file = open(final_path, "r")
+            lines = a_file.readlines()
+            a_file.close()
+            new_file = open(final_path, "w")
+            for line in lines:
+                if not re.search('\\s+DataVersion:.+',line.lstrip("\n")) :
+                    new_file.write(line)
+            new_file.close()
 
 
 #####################################################################################

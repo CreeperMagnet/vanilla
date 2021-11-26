@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [3, 2, 5],
     data: [
         {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:structure_void", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:building_entrance", pool: "minecraft:village/plains/streets", target: "minecraft:building_entrance"}},

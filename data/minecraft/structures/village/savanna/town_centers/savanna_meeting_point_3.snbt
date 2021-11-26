@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [9, 6, 11],
     data: [
         {pos: [0, 0, 4], state: "minecraft:dirt_path"},

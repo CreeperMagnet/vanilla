@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [7, 7, 7],
     data: [
         {pos: [3, 0, 4], state: "minecraft:ladder{facing:north,waterlogged:false}"},

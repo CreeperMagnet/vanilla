@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [30, 24, 48],
     data: [
         {pos: [0, 0, 24], state: "minecraft:jigsaw{orientation:north_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:empty", pool: "minecraft:bastion/hoglin_stable/starting_pieces", target: "minecraft:starting_stairs_connector"}},

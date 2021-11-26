@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [7, 7, 10],
     data: [
         {pos: [2, 0, 3], state: "minecraft:smooth_sandstone"},

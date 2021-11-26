@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [12, 8, 10],
     data: [
         {pos: [0, 0, 2], state: "minecraft:netherrack"},

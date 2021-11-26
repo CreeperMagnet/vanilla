@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [15, 6, 16],
     data: [
         {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:north_up}", nbt: {final_state: "minecraft:basalt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:stairs_mirrored", pool: "minecraft:empty", target: "minecraft:empty"}},

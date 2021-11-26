@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [6, 5, 7],
     data: [
         {pos: [1, 0, 1], state: "minecraft:bone_block{axis:x}"},

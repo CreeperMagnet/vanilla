@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [9, 9, 17],
     data: [
         {pos: [0, 0, 10], state: "minecraft:oak_stairs{facing:east,half:top,shape:outer_right,waterlogged:false}"},

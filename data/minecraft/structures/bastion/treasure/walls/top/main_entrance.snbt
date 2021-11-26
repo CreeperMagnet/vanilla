@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [5, 15, 24],
     data: [
         {pos: [0, 0, 0], state: "minecraft:polished_blackstone_bricks"},

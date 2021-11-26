@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [7, 4, 13],
     data: [
         {pos: [0, 0, 1], state: "minecraft:coal_ore"},

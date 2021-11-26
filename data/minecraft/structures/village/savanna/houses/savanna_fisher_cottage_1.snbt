@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [8, 11, 9],
     data: [
         {pos: [0, 0, 5], state: "minecraft:dirt"},

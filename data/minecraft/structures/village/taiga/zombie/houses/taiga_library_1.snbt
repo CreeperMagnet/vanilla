@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [11, 10, 8],
     data: [
         {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:up_north}", nbt: {final_state: "minecraft:grass_block", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:bottom", pool: "minecraft:village/taiga/zombie/decor", target: "minecraft:bottom"}},

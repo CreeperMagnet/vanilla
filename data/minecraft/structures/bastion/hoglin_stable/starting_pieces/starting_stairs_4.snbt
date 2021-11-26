@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [15, 6, 16],
     data: [
         {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:north_up}", nbt: {final_state: "minecraft:polished_blackstone_bricks", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:stable_stairs", pool: "minecraft:bastion/hoglin_stable/small_stables/inner", target: "minecraft:inner_connector_right"}},

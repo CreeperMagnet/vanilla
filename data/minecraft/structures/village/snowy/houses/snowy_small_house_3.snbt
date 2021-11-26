@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [7, 6, 7],
     data: [
         {pos: [0, 0, 0], state: "minecraft:spruce_planks"},

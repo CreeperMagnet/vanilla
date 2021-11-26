@@ -1,5 +1,4 @@
 {
-    DataVersion: 2856,
     size: [9, 6, 13],
     data: [
         {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:up_north}", nbt: {final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:bottom", pool: "minecraft:village/plains/zombie/decor", target: "minecraft:bottom"}},
