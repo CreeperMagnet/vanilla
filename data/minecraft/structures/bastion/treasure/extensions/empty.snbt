@@ -1,0 +1,11 @@
+{
+    DataVersion: 2856,
+    size: [1, 1, 1],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:north_up}", nbt: {final_state: "minecraft:basalt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:extension_connector", pool: "minecraft:empty", target: "minecraft:empty"}}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:jigsaw{orientation:north_up}"
+    ]
+}

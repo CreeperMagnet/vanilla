@@ -1,0 +1,11 @@
+{
+    DataVersion: 2856,
+    size: [1, 1, 1],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:down_west}", nbt: {final_state: "minecraft:gold_block", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:block_connector", pool: "minecraft:empty", target: "minecraft:empty"}}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:jigsaw{orientation:down_west}"
+    ]
+}

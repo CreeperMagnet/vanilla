@@ -1,0 +1,25 @@
+{
+    DataVersion: 2856,
+    size: [2, 35, 2],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:down_north}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:center_brain", pool: "minecraft:empty", target: "minecraft:empty"}},
+        {pos: [0, 5, 0], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:empty", pool: "minecraft:bastion/treasure/connectors", target: "minecraft:mid_connector"}},
+        {pos: [0, 5, 1], state: "minecraft:jigsaw{orientation:south_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:empty", pool: "minecraft:bastion/treasure/connectors", target: "minecraft:mid_connector"}},
+        {pos: [1, 5, 0], state: "minecraft:jigsaw{orientation:north_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:empty", pool: "minecraft:bastion/treasure/connectors", target: "minecraft:mid_connector"}},
+        {pos: [1, 5, 1], state: "minecraft:jigsaw{orientation:east_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:empty", pool: "minecraft:bastion/treasure/connectors", target: "minecraft:mid_connector"}},
+        {pos: [0, 20, 0], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:empty", pool: "minecraft:bastion/treasure/connectors", target: "minecraft:top_connector"}},
+        {pos: [0, 20, 1], state: "minecraft:jigsaw{orientation:south_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:empty", pool: "minecraft:bastion/treasure/connectors", target: "minecraft:top_connector"}},
+        {pos: [1, 20, 0], state: "minecraft:jigsaw{orientation:north_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:empty", pool: "minecraft:bastion/treasure/connectors", target: "minecraft:top_connector_entrance"}},
+        {pos: [1, 20, 1], state: "minecraft:jigsaw{orientation:east_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:empty", pool: "minecraft:bastion/treasure/connectors", target: "minecraft:top_connector"}},
+        {pos: [1, 34, 0], state: "minecraft:jigsaw{orientation:up_north}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:empty", pool: "minecraft:bastion/treasure/roofs", target: "minecraft:center_roof_connector"}}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:jigsaw{orientation:down_north}",
+        "minecraft:jigsaw{orientation:west_up}",
+        "minecraft:jigsaw{orientation:south_up}",
+        "minecraft:jigsaw{orientation:north_up}",
+        "minecraft:jigsaw{orientation:east_up}",
+        "minecraft:jigsaw{orientation:up_north}"
+    ]
+}

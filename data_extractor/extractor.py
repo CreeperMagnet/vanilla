@@ -19,11 +19,6 @@ def json_from_url(url) :
     return json.loads(urllib.request.urlopen(url).read())
 
 version_manifest = json_from_url(manifest_url)
-
-#
-################3-----
-#
-
 latest_version_data = json_from_url(version_manifest['versions'][0]['url'])
 objects = json_from_url(latest_version_data['assetIndex']['url'])['objects']
 
@@ -59,7 +54,7 @@ with zipfile.ZipFile(client_jar) as archive :
             archive.extract(object, os.path.abspath(os.path.join('..')))
 
 #####################################################################################
-# Extracting reports and worldgen from server jar
+# Extracting reports and worldgen from server jar and converting them into snbt
 #####################################################################################
 
 server_jar = get_jar('server')
@@ -77,7 +72,8 @@ for root, directories, files in os.walk('data') :
             else :
                 path_array = path_array[1:]
             joined_path_array = os.path.sep.join(path_array)
-            list.append(joined_path_array)
+            if not file.endswith('.nbt') :
+                list.append(joined_path_array)
             source_path = os.path.join(root,file)
             path = os.path.abspath(os.path.join('..','..',joined_path_array))
             if file.endswith('.json') and os.path.exists(path) :
@@ -90,17 +86,40 @@ for root, directories, files in os.walk('data') :
             os.makedirs(os.path.dirname(path),exist_ok=True)
             shutil.copyfile(source_path,path)
 
+
+decode_path = os.path.abspath(os.path.join('..','..'))
+os.system('java -DbundlerMainClass=net.minecraft.data.Main -jar '+ server_jar + ' --dev --input '+decode_path+' --output snbt')
+for root, directories, files in os.walk('snbt') :
+    for file in files :
+        if file.endswith('.snbt') :
+            # Make an array from the path so I can tell what it starts with
+            path_array = os.path.normpath(os.path.join(root,file)).split(os.path.sep)
+            # Ignore anything that isn't the reports
+            nbt_path_array = path_array[1:]
+            path_array = path_array[1:]
+            nbt_path_array[-1] = nbt_path_array[-1].replace('.snbt','.nbt')
+            joined_nbt_path_array = os.path.sep.join(nbt_path_array)
+            joined_path_array = os.path.sep.join(path_array)
+            list.append(joined_path_array)
+            source_path = os.path.join(root,file)
+            final_path =os.path.abspath(os.path.join('..','..',joined_path_array))
+            shutil.move(source_path,final_path)
+            removal_path = os.path.abspath(os.path.join('..','..',joined_nbt_path_array))
+            os.remove(removal_path)
+
+
+
+#####################################################################################
+# Clean-up from the last couple steps (client/server jar extraction, nbt -> snbt -> json)
+#####################################################################################
+
 os.chdir('..')
+
 try : shutil.rmtree('server_jar')
 except: pass
 
 os.remove('server.jar')
 os.remove('client.jar')
-
-
-#decode_path = os.path.abspath(os.path.join('..','..','data','minecraft','structures'))
-#os.system('java -DbundlerMainClass=net.minecraft.data.Main -jar '+ server_jar + ' --dev --input '+decode_path+' --output '+decode_path)
-
 
 #####################################################################################
 # Extracting cached data from resource links using index off the internet

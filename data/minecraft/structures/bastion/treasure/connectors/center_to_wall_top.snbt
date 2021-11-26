@@ -1,0 +1,13 @@
+{
+    DataVersion: 2856,
+    size: [11, 1, 1],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:empty", pool: "minecraft:bastion/treasure/walls/top", target: "minecraft:center_connector"}},
+        {pos: [10, 0, 0], state: "minecraft:jigsaw{orientation:east_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:top_connector", pool: "minecraft:empty", target: "minecraft:empty"}}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:jigsaw{orientation:west_up}",
+        "minecraft:jigsaw{orientation:east_up}"
+    ]
+}

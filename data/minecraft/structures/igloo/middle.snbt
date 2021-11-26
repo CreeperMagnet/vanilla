@@ -1,0 +1,26 @@
+{
+    DataVersion: 2856,
+    size: [3, 3, 3],
+    data: [
+        {pos: [0, 0, 1], state: "minecraft:stone_bricks"},
+        {pos: [1, 0, 0], state: "minecraft:stone_bricks"},
+        {pos: [1, 0, 1], state: "minecraft:ladder{facing:north,waterlogged:false}"},
+        {pos: [1, 0, 2], state: "minecraft:stone_bricks"},
+        {pos: [2, 0, 1], state: "minecraft:stone_bricks"},
+        {pos: [0, 1, 1], state: "minecraft:stone_bricks"},
+        {pos: [1, 1, 0], state: "minecraft:stone_bricks"},
+        {pos: [1, 1, 1], state: "minecraft:ladder{facing:north,waterlogged:false}"},
+        {pos: [1, 1, 2], state: "minecraft:stone_bricks"},
+        {pos: [2, 1, 1], state: "minecraft:stone_bricks"},
+        {pos: [0, 2, 1], state: "minecraft:stone_bricks"},
+        {pos: [1, 2, 0], state: "minecraft:stone_bricks"},
+        {pos: [1, 2, 1], state: "minecraft:ladder{facing:north,waterlogged:false}"},
+        {pos: [1, 2, 2], state: "minecraft:stone_bricks"},
+        {pos: [2, 2, 1], state: "minecraft:stone_bricks"}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:stone_bricks",
+        "minecraft:ladder{facing:north,waterlogged:false}"
+    ]
+}
