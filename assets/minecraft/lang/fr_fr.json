@@ -2435,7 +2435,7 @@
     "commands.worldborder.damage.buffer.success": "La zone tampon des d\u00e9g\u00e2ts de la bordure du monde a \u00e9t\u00e9 d\u00e9finie \u00e0 %s blocs",
     "commands.worldborder.get": "La bordure du monde est actuellement de %s blocs de large",
     "commands.worldborder.set.failed.big": "La bordure du monde ne peut pas \u00eatre plus grande que %s blocs de large",
-    "commands.worldborder.set.failed.far": "La bordure du monde ne peut pas \u00eatre plus loin que %s blocs",
+    "commands.worldborder.set.failed.far": "La bordure du monde ne peut pas \u00eatre \u00e0 plus de %s blocs",
     "commands.worldborder.set.failed.nochange": "Rien n'a chang\u00e9, la bordure du monde est d\u00e9j\u00e0 de cette taille",
     "commands.worldborder.set.failed.small": "La bordure du monde ne peut pas \u00eatre plus petite qu'un bloc de large",
     "commands.worldborder.set.grow": "Agrandissement de la bordure du monde \u00e0 %s blocs de large durant %s secondes",

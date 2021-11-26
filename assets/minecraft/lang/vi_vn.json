@@ -2435,7 +2435,7 @@
     "commands.worldborder.damage.buffer.success": "\u0110\u00e3 ch\u1ec9nh b\u1ed9 \u0111\u1ec7m s\u00e1t th\u01b0\u01a1ng c\u1ee7a bi\u00ean gi\u1edbi th\u1ebf gi\u1edbi th\u00e0nh %s kh\u1ed1i",
     "commands.worldborder.get": "Bi\u00ean gi\u1edbi th\u1ebf gi\u1edbi hi\u1ec7n \u0111ang r\u1ed9ng %s kh\u1ed1i",
     "commands.worldborder.set.failed.big": "Gi\u1edbi h\u1ea1n th\u1ebf gi\u1edbi kh\u00f4ng th\u1ec3 r\u1ed9ng h\u01a1n %s kh\u1ed1i",
-    "commands.worldborder.set.failed.far": "Gi\u1edbi h\u1ea1n th\u1ebf gi\u1edbi kh\u00f4ng th\u1ec3 xa h\u01a1n %s kh\u1ed1i",
+    "commands.worldborder.set.failed.far": "Bi\u00ean gi\u1edbi th\u1ebf gi\u1edbi kh\u00f4ng th\u1ec3 xa h\u01a1n %s kh\u1ed1i",
     "commands.worldborder.set.failed.nochange": "Kh\u00f4ng thay \u0111\u1ed5i g\u00ec. Bi\u00ean gi\u1edbi th\u1ebf gi\u1edbi \u0111\u00e3 l\u00e0 kich c\u1ee1 n\u00e0y r\u1ed3i",
     "commands.worldborder.set.failed.small": "Bi\u00ean gi\u1edbi th\u1ebf gi\u1edbi kh\u00f4ng th\u1ec3 h\u1eb9p h\u01a1n 1 kh\u1ed1i",
     "commands.worldborder.set.grow": "\u0110ang n\u1edbi r\u1ed9ng bi\u00ean gi\u1edbi th\u1ebf gi\u1edbi th\u00e0nh r\u1ed9ng %s kh\u1ed1i trong %s gi\u00e2y",

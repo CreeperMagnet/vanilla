@@ -4101,7 +4101,7 @@
     "options.percent_add_value": "%s: +%%%s",
     "options.percent_value": "%s: %%%s",
     "options.pixel_value": "%s: %s piksel",
-    "options.prioritizeChunkUpdates": "Konum Olu\u015fturucu",
+    "options.prioritizeChunkUpdates": "Y\u0131\u011f\u0131n Olu\u015fturucu",
     "options.prioritizeChunkUpdates.byPlayer": "Yar\u0131 K\u0131s\u0131tlama",
     "options.prioritizeChunkUpdates.byPlayer.tooltip": "Bir y\u0131\u011f\u0131n i\u00e7indeki baz\u0131 eylemler, y\u0131\u011f\u0131n\u0131 hemen yeniden derleyecektir. Buna blok yerle\u015ftirme ve yok etme dahildir.",
     "options.prioritizeChunkUpdates.nearby": "Tamamen Engelleme",

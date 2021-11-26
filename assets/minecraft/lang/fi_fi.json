@@ -4104,7 +4104,7 @@
     "options.prioritizeChunkUpdates": "Lohkojen rakennus",
     "options.prioritizeChunkUpdates.byPlayer.tooltip": "Jotkin toiminnot lohkon sis\u00e4ll\u00e4 kokoavat lohkon v\u00e4litt\u00f6m\u00e4sti uudelleen. T\u00e4m\u00e4 pit\u00e4\u00e4 sis\u00e4ll\u00e4\u00e4n kuutioiden asettamisen & rikkomisen.",
     "options.prioritizeChunkUpdates.nearby.tooltip": "L\u00e4heiset lohkot kootaan v\u00e4litt\u00f6m\u00e4sti. T\u00e4m\u00e4 saattaa vaikuttaa pelin suorituskykyyn asetettaessa ja rikottaessa kuutioita.",
-    "options.prioritizeChunkUpdates.none": "Kierteinen",
+    "options.prioritizeChunkUpdates.none": "S\u00e4ikeistetty",
     "options.prioritizeChunkUpdates.none.tooltip": "L\u00e4heiset lohkot kootaan rinnakkaisiin ketjuihin. T\u00e4m\u00e4 saattaa johtaa hetkellisiin visuaalisiin aukkoihin rikottaessa kuutioita.",
     "options.rawMouseInput": "Raakasy\u00f6te",
     "options.realmsNotifications": "Realms-ilmoitukset",

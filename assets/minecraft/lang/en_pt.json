@@ -2435,7 +2435,7 @@
     "commands.worldborder.damage.buffer.success": "Set th' sea border damage buffer to %s blocks",
     "commands.worldborder.get": "Th' sea border is currently %s blocks wide",
     "commands.worldborder.set.failed.big": "Sea border cannot be bigger than %s waters wide",
-    "commands.worldborder.set.failed.far": "The seven seas' border nah can be further away than %s waters",
+    "commands.worldborder.set.failed.far": "Sea border cannot be further away than %s waters",
     "commands.worldborder.set.failed.nochange": "Nothin' touched. Th' sea border is already that big",
     "commands.worldborder.set.failed.small": "Seas border nah can be tinier than 1 block wide",
     "commands.worldborder.set.grow": "Expanding th' sea border to %s blocks wide over %s seconds",
