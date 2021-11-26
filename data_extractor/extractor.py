@@ -22,7 +22,12 @@ def json_from_url(url) :
     return json.loads(urllib.request.urlopen(url).read())
 
 version_manifest = json_from_url(manifest_url)
-latest_version_data = json_from_url(version_manifest['versions'][0]['url'])
+
+#
+################3-----
+#
+
+latest_version_data = json_from_url(version_manifest['versions'][4]['url'])
 objects = json_from_url(latest_version_data['assetIndex']['url'])['objects']
 
 #####################################################################################
@@ -64,22 +69,41 @@ server_jar = get_jar('server')
 os.makedirs('server_jar',exist_ok = True)
 os.chdir('server_jar')
 os.system("java -DbundlerMainClass=net.minecraft.data.Main -jar "+ server_jar +" --reports --output data")
-try: shutil.rmtree(os.path.abspath(os.path.join('..','..','data','minecraft','worldgen')))
-except: pass
-try: shutil.rmtree(os.path.abspath(os.path.join('..','..','reports')))
-except: pass
-shutil.move(os.path.abspath(os.path.join('data','reports','worldgen','minecraft')),os.path.abspath(os.path.join('..','..','data','minecraft','worldgen')))
-shutil.move(os.path.abspath(os.path.join('data','reports')),os.path.abspath(os.path.join('..','..','reports')))
-
-#decode_path = os.path.abspath(os.path.join('..','..','data','minecraft','structures'))
-#os.system('java -DbundlerMainClass=net.minecraft.data.Main -jar '+ server_jar + ' --dev --input '+decode_path+' --output '+decode_path)
+for root, directories, files in os.walk('data') :
+    for file in files :
+        # Make an array from the path so I can tell what it starts with
+        path_array = os.path.normpath(os.path.join(root,file)).split(os.path.sep)
+        # Ignore anything that isn't the reports
+        if path_array[1] == "reports" :
+            if path_array[2] == "worldgen" :
+                del path_array[1:3]
+            else :
+                path_array = path_array[1:]
+            joined_path_array = os.path.sep.join(path_array)
+            list.append(joined_path_array)
+            source_path = os.path.join(root,file)
+            path = os.path.abspath(os.path.join('..','..',joined_path_array))
+            if file.endswith('.json') and os.path.exists(path) :
+                with open(source_path, encoding="utf8") as f1 :
+                    json1 = json.load(f1)
+                    with open(path, encoding="utf8") as f2 :
+                        json2 = json.load(f2)
+                    if json.dumps(json1, sort_keys=True) == json.dumps(json2, sort_keys=True) :
+                        continue
+            os.makedirs(os.path.dirname(path),exist_ok=True)
+            shutil.copyfile(source_path,path)
 
 os.chdir('..')
-try: shutil.rmtree(os.path.abspath(os.path.join('server_jar')))
+try : shutil.rmtree('server_jar')
 except: pass
 
 os.remove('server.jar')
 os.remove('client.jar')
+
+
+#decode_path = os.path.abspath(os.path.join('..','..','data','minecraft','structures'))
+#os.system('java -DbundlerMainClass=net.minecraft.data.Main -jar '+ server_jar + ' --dev --input '+decode_path+' --output '+decode_path)
+
 
 #####################################################################################
 # Extracting cached data from resource links using index off the internet
@@ -109,6 +133,6 @@ for folder in files_extracted_from_jar :
     for root, directories, files in os.walk(os.path.join(core_path,folder)) :
         for file in files :
             final_path = os.path.join(root,file)[len(os.path.join(core_path)):].lstrip('\\')
-            if final_path not in list and not "\\worldgen\\" in final_path:
+            if final_path not in list:
                 print("File removed:",final_path)
                 os.remove(os.path.abspath(os.path.join(core_path,final_path)))
