@@ -5,9 +5,6 @@
 # Importing all the various libraries I need... a lot.
 import urllib.request, json, os, shutil, zipfile
 
-# The files to be extracted from the client jar.
-files_extracted_from_jar = ['assets','data']
-
 # The link to Mojang's version manifest. This probably shouldn't change.
 manifest_url = 'http://launchermeta.mojang.com/mc/game/version_manifest.json'
 
@@ -129,7 +126,7 @@ for object in objects :
 #####################################################################################
 
 core_path = os.path.abspath(os.path.join('..'))
-for folder in files_extracted_from_jar :
+for folder in ['assets','data','reports'] :
     for root, directories, files in os.walk(os.path.join(core_path,folder)) :
         for file in files :
             final_path = os.path.join(root,file)[len(os.path.join(core_path)):].lstrip('\\')
