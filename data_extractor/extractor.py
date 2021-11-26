@@ -24,7 +24,7 @@ version_manifest = json_from_url(manifest_url)
 ################3-----
 #
 
-latest_version_data = json_from_url(version_manifest['versions'][4]['url'])
+latest_version_data = json_from_url(version_manifest['versions'][0]['url'])
 objects = json_from_url(latest_version_data['assetIndex']['url'])['objects']
 
 #####################################################################################
