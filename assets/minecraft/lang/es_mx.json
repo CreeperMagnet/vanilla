@@ -3977,7 +3977,7 @@
     "options.attack.hotbar": "Barra",
     "options.attackIndicator": "Indicador de ataque",
     "options.audioDevice": "Dispositivo",
-    "options.audioDevice.default": "Por defecto del sistema",
+    "options.audioDevice.default": "Por defecto",
     "options.autoJump": "Salto autom\u00e1tico",
     "options.autoSuggestCommands": "Sugerir comandos",
     "options.autosaveIndicator": "Indicador de autoguardado",

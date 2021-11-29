@@ -2260,7 +2260,7 @@
     "commands.perf.reportSaved": "Relatio emendandi creatur in %s",
     "commands.perf.started": "Descriptio efficacitatis X secundorum coepta est (utere '/perf stop' ut prius desinat)",
     "commands.perf.stopped": "Descriptio efficacitatis desita est post %s secunda et %s momenta (%s momenta singulis secundis)",
-    "commands.playsound.failed": "Sonus procul auditur esse",
+    "commands.playsound.failed": "Sonus longinquior est quam ut audiatur",
     "commands.playsound.success.multiple": "Sonus %s lusori %s reproducitur",
     "commands.playsound.success.single": "Sonus %s lusori %s reproducitur",
     "commands.publish.alreadyPublished": "Ludus multorum iam hospitaris in porta %s",

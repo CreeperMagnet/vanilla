@@ -2435,7 +2435,7 @@
     "commands.worldborder.damage.buffer.success": "Sat verdengr\u00e6nse skade bufferen til %s blokke",
     "commands.worldborder.get": "Verdengr\u00e6nsen er i \u00f8jeblikket %s blokke bred",
     "commands.worldborder.set.failed.big": "Verdensgr\u00e6nsen kan ikke v\u00e6re st\u00f8rre end %s blokke bred",
-    "commands.worldborder.set.failed.far": "Verdensgr\u00e6nsen kan ikke v\u00e6re l\u00e6ngere v\u00e6k end %s blokke",
+    "commands.worldborder.set.failed.far": "Verdensgr\u00e6nsen kan ikke v\u00e6re st\u00f8rre end %s blokke",
     "commands.worldborder.set.failed.nochange": "Intet forandres, verdengr\u00e6nse er allerede den st\u00f8rrelse",
     "commands.worldborder.set.failed.small": "Verdensgr\u00e6nsen kan ikke v\u00e6re mindre end 1 blok bred",
     "commands.worldborder.set.grow": "Forst\u00f8rrer verdengr\u00e6nsen til %s blokke bred over %s sekunder",
