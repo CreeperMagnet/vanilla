@@ -2417,6 +2417,7 @@
     "commands.worldborder.damage.buffer.success": "D\u00fcnya s\u0259rh\u0259dl\u0259rin\u0259 z\u0259r\u0259r tamponu %s bloklar\u0131na t\u0259yin edin",
     "commands.worldborder.get": "D\u00fcnya s\u0259rh\u0259di bu anda %s blok geni\u015fliyind\u0259",
     "commands.worldborder.set.failed.big": "D\u00fcnya s\u0259rh\u0259di %s blok geni\u015fliyind\u0259n b\u00f6y\u00fck ola bilm\u0259z",
+    "commands.worldborder.set.failed.far": "D\u00fcnya s\u0259rh\u0259di %s blok geni\u015fliyind\u0259n b\u00f6y\u00fck ola bilm\u0259z",
     "commands.worldborder.set.failed.nochange": "He\u00e7n\u0259 d\u0259yi\u015fm\u0259di. D\u00fcnya s\u0259rh\u0259di art\u0131q oradad\u0131r",
     "commands.worldborder.set.grow": "D\u00fcnya s\u0259rh\u0259di %s saniy\u0259d\u0259n \u00e7ox %s bloka q\u0259d\u0259r b\u00f6y\u00fcd\u00fc",
     "commands.worldborder.set.immediate": "D\u00fcnya s\u0259rh\u0259dini %s bloklar s\u0259viyy\u0259sin\u0259 t\u0259yin edin",
