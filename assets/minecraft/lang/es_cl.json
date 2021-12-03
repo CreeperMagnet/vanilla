@@ -3967,7 +3967,7 @@
     "options.accessibility.text_background.everywhere": "Siempre",
     "options.accessibility.text_background_opacity": "Opacidad del fondo",
     "options.accessibility.title": "Accesibilidad...",
-    "options.allowServerListing": "Permitir listado de servers",
+    "options.allowServerListing": "Listado de servers",
     "options.allowServerListing.tooltip": "Los servers pueden mostrar usuarios conectados como parte de su estado p\u00fablico.\nAl desactivar esta opci\u00f3n, tu nombre no se mostrar\u00e1 en dichas listas.",
     "options.ao": "Iluminaci\u00f3n suave",
     "options.ao.max": "M\u00e1xima",

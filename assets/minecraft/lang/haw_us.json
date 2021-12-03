@@ -2093,6 +2093,7 @@
     "commands.scoreboard.players.list.empty": "\u02bbA\u02bbohe mea n\u0101n\u0101 \u02bbia",
     "commands.scoreboard.players.list.entity.entry": "%s: %s",
     "commands.seed.success": "Ua koho\u02bbia:%s",
+    "commands.setidletimeout.success": "\u02bbO %s mau minuke ka manawa ho\u02bbomaha ho\u02bbokani pila",
     "commands.setworldspawn.success": "Ho\u02bbohui i ka helu honua\u02bb\u0101pana %s, %s, %s [%s]",
     "commands.spawnpoint.success.single": "E ho\u02bbonoho i ka kiko spawn i %s, %s, %s [%s] i %s no %s",
     "commands.spectate.not_spectator": "%s \u02bba\u02bbole ia ma ke \u02bbano m\u0101ka\u02bbika\u02bbi\n",

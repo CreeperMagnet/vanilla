@@ -4058,7 +4058,7 @@
     "options.guiScale": "Valikon koko",
     "options.guiScale.auto": "Automaattinen",
     "options.hidden": "Piilotettu",
-    "options.hideLightningFlashes": "Piilota salamanv\u00e4l\u00e4hdykset",
+    "options.hideLightningFlashes": "Piilota salaman v\u00e4l\u00e4hdykset",
     "options.hideLightningFlashes.tooltip": "Est\u00e4\u00e4 taivaan v\u00e4l\u00e4htelyn salaman iskiess\u00e4. Salamat itse n\u00e4kyv\u00e4t edelleen.",
     "options.hideMatchedNames": "Piilota vastaavat nimet",
     "options.hideMatchedNames.tooltip": "Kolmannen osapuolen palvelimet voivat l\u00e4hett\u00e4\u00e4 keskusteluviestej\u00e4 poikkeavissa muodoissa. \nT\u00e4m\u00e4n asetuksen ollessa p\u00e4\u00e4ll\u00e4: piilotetut pelaajat sovitetaan keskusteluviestien l\u00e4hett\u00e4neiden nimien perusteella.",

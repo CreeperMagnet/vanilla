@@ -2239,7 +2239,7 @@
     "commands.list.nameAndId": "%s (%s)",
     "commands.list.players": "\u015eu anda %2$s oyuncudan %1$s'i \u00e7evrimi\u00e7i: %3$s",
     "commands.locate.failed": "Yak\u0131nlarda bu yap\u0131dan bulunamad\u0131",
-    "commands.locate.success": "En yak\u0131n %s; %s'de (%s blok uzakl\u0131kta)",
+    "commands.locate.success": "En yak\u0131n %s; %s'de (%s blok mesafede)",
     "commands.locatebiome.invalid": "\"%s\" t\u00fcr\u00fcnde biyom yok",
     "commands.locatebiome.notFound": "Desteklenen uzakl\u0131k i\u00e7inde \"%s\" Biyomundan bulunamad\u0131",
     "commands.locatebiome.success": "En yak\u0131n %s; %s'de (%s blok uzakl\u0131kta)",
