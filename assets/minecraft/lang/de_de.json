@@ -2435,7 +2435,7 @@
     "commands.worldborder.damage.buffer.success": "Der Unversehrtheitsbereich um die Weltbarriere wurde auf %s Bl\u00f6cke gesetzt",
     "commands.worldborder.get": "Die Weltbarriere hat derzeit eine Weite von %s Bl\u00f6cken",
     "commands.worldborder.set.failed.big": "Die Weite der Weltbarriere darf nicht gr\u00f6\u00dfer als %s Bl\u00f6cke sein",
-    "commands.worldborder.set.failed.far": "Weltbarriere darf nicht weiter als %s Bl\u00f6cke entfernt sein",
+    "commands.worldborder.set.failed.far": "Die Weltbarriere darf nicht weiter als %s Bl\u00f6cke entfernt sein",
     "commands.worldborder.set.failed.nochange": "Nichts hat sich ge\u00e4ndert, die Weltbarriere hat bereits diese Weite",
     "commands.worldborder.set.failed.small": "Die Weite der Weltbarriere darf nicht kleiner als 1 Block sein",
     "commands.worldborder.set.grow": "Die Weltbarriere wird innerhalb von %2$s Sekunden auf eine Weite von %1$s Bl\u00f6cken vergr\u00f6\u00dfert",

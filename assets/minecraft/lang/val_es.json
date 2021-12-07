@@ -2435,7 +2435,7 @@
     "commands.worldborder.damage.buffer.success": "S'ha establit la zona segura del l\u00edmit del m\u00f3n a %s blocs",
     "commands.worldborder.get": "El l\u00edmit del m\u00f3n t\u00e9 actualment %s blocs d'ample",
     "commands.worldborder.set.failed.big": "La vora del m\u00f3n no pot ser m\u00e9s ampla que %s blocs",
-    "commands.worldborder.set.failed.far": "El l\u00edmit del m\u00f3n no pot estar m\u00e9s lluny de %s blocs",
+    "commands.worldborder.set.failed.far": "El l\u00edmit del m\u00f3n no pot estar m\u00e9s lluny que %s blocs",
     "commands.worldborder.set.failed.nochange": "Res ha canviat, el l\u00edmit del m\u00f3n ja tenia eixa grand\u00e0ria",
     "commands.worldborder.set.failed.small": "El l\u00edmit del m\u00f3n no pot ser menor que 1 bloc",
     "commands.worldborder.set.grow": "Ampliant el l\u00edmit del m\u00f3n a %s blocs d'ample en %s segons",

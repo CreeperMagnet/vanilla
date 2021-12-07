@@ -2435,7 +2435,7 @@
     "commands.worldborder.damage.buffer.success": "Da Unversehrtheitsbereich um de W\u00f6dbarriere is auf %s Bleck gsetzt wordn",
     "commands.worldborder.get": "De W\u00f6dbarriere hot derzeit a Weitn vo %s Bleck",
     "commands.worldborder.set.failed.big": "Da Durchmessa von da W\u00f6dbegrenzung deaf ned gre\u00dfa ois %s Bleck sei",
-    "commands.worldborder.set.failed.far": "Weltbarriere darf nicht weiter als %s Bl\u00f6cke entfernt sein",
+    "commands.worldborder.set.failed.far": "Die Weltbarriere darf nicht weiter als %s Bl\u00f6cke entfernt sein",
     "commands.worldborder.set.failed.nochange": "Es is nix va\u00e4ndat wordn. Da Durchmessa von da W\u00f6dbegrenzung hot scho den Wert",
     "commands.worldborder.set.failed.small": "Da Durchmessa der Weltbegrenzung teaf ned kloana als 1 Block sein",
     "commands.worldborder.set.grow": "De W\u00f6dbarriere wead innahoib vo %2$s Sekundn auf a Weitn vo %1$s Bleck vagre\u00dfat",

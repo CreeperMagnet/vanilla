@@ -2032,7 +2032,7 @@
     "command.expected.separator": "Se requiere un espacio en blanco para concluir un argumento. Algunos datos est\u00e1n escritos sin separar",
     "command.failed": "Se ha producido un error inesperado al intentar ejecutar el comando",
     "command.unknown.argument": "Argumento incorrecto para este comando",
-    "command.unknown.command": "Comando desconocido o incompleto, a continuaci\u00f3n ver\u00e1s el error.",
+    "command.unknown.command": "Comando desconocido o incompleto, revisa el error a continuaci\u00f3n",
     "commands.advancement.advancementNotFound": "No se ha encontrado ning\u00fan progreso llamado \"%s\"",
     "commands.advancement.criterionNotFound": "El progreso %1$s no contiene el criterio \"%2$s\"",
     "commands.advancement.grant.criterion.to.many.failure": "No se ha podido conceder el criterio \"%s\" del progreso %s a %s jugadores porque ya lo tienen",

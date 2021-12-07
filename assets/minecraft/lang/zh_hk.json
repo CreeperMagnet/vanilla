@@ -2753,7 +2753,7 @@
     "disconnect.loginFailed": "\u767b\u5165\u5931\u6557",
     "disconnect.loginFailedInfo": "\u767b\u5165\u5931\u6557\uff1a%s",
     "disconnect.loginFailedInfo.insufficientPrivileges": "\u591a\u4eba\u904a\u6232\u5df2\u505c\u7528\u3002\u8acb\u6aa2\u67e5\u4f60\u5605 Microsoft \u5e33\u6237\u8a2d\u5b9a\u3002",
-    "disconnect.loginFailedInfo.invalidSession": "\u7121\u6548\u5c0d\u8ac7\uff08\u8acb\u5617\u8a66\u91cd\u65b0\u555f\u52d5\u904a\u6232\u8207\u555f\u52d5\u5668\uff09",
+    "disconnect.loginFailedInfo.invalidSession": "\u7121\u6548\u9023\u63a5\u968e\u6bb5\uff08\u8acb\u5617\u8a66\u91cd\u65b0\u555f\u52d5\u904a\u6232\u8207\u555f\u52d5\u5668\uff09",
     "disconnect.loginFailedInfo.serversUnavailable": "\u66ab\u6642\u7121\u6cd5\u9023\u7dda\u5230\u9a57\u8b49\u4f3a\u670d\u5668\uff0c\u8acb\u7a0d\u5f8c\u518d\u8a66\u3002",
     "disconnect.lost": "\u5931\u53bb\u9023\u7dda",
     "disconnect.overflow": "\u7de9\u885d\u5340\u6ea2\u4f4d",

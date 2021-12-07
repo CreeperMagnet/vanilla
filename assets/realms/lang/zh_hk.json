@@ -131,7 +131,7 @@
     "mco.download.preparing": "\u6b63\u5728\u6e96\u5099\u4e0b\u8f09",
     "mco.download.title": "\u4e0b\u8f09\u6700\u65b0\u5605\u4e16\u754c",
     "mco.error.invalid.session.message": "\u8acb\u5617\u8a66\u91cd\u65b0\u6253\u958b Minecraft",
-    "mco.error.invalid.session.title": "\u7121\u6548\u5c0d\u8ac7",
+    "mco.error.invalid.session.title": "\u7121\u6548\u9023\u63a5\u968e\u6bb5",
     "mco.errorMessage.6001": "\u7528\u6237\u7aef\u7248\u672c\u904e\u820a",
     "mco.errorMessage.6002": "\u4e26\u672a\u63a5\u53d7\u4f7f\u7528\u689d\u6b3e",
     "mco.errorMessage.6003": "\u4e0b\u8f09\u5df2\u9054\u5230\u4e0a\u9650",

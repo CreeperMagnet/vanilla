@@ -2435,7 +2435,7 @@
     "commands.worldborder.damage.buffer.success": "Dat Schotzarejal hinger de Weltbarrjeer wood op %s Sekunde jesetz",
     "commands.worldborder.get": "De Weltbarrjeer is jetzich %s Bl\u00f6ck wick",
     "commands.worldborder.set.failed.big": "De Wick vun d\u00e4 Weltbarrjeer darf nit jr\u00f6\u00dfer als %s Bl\u00f6ck sin",
-    "commands.worldborder.set.failed.far": "Weltbarriere darf nicht weiter als %s Bl\u00f6cke entfernt sein",
+    "commands.worldborder.set.failed.far": "Die Weltbarriere darf nicht weiter als %s Bl\u00f6cke entfernt sein",
     "commands.worldborder.set.failed.nochange": "Nix h\u00e4t sich je\u00e4ngert, de Weltbarrjeer h\u00e4t allt die Wick",
     "commands.worldborder.set.failed.small": "Die Weite der Weltbarriere darf nicht kleiner als 1 Block sein",
     "commands.worldborder.set.grow": "De Weltbarrjer weed in %2$s Sekunde op ein Wick vun %1$s erh\u00fcht",
