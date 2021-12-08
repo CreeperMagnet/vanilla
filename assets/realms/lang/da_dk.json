@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Download gr\u00e6nse n\u00e5et",
     "mco.errorMessage.6004": "Upload gr\u00e6nse n\u00e5et",
     "mco.errorMessage.connectionFailure": "Der skete en fejl, pr\u00f8v venligst igen senere.",
+    "mco.errorMessage.serviceBusy": "Realms har travlt i \u00f8jeblikket. \nPr\u00f8v at oprette forbindelse til dit Realm igen om et par minutter.",
     "mco.gui.button": "Knap",
     "mco.gui.ok": "Ok",
     "mco.invites.button.accept": "Accepter",

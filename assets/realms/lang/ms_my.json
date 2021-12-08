@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Had muat turun dicapai",
     "mco.errorMessage.6004": "Had muat naik dicapai",
     "mco.errorMessage.connectionFailure": "Ralat telah berlaku, sila cuba lagi.",
+    "mco.errorMessage.serviceBusy": "Realms sedang sibuk pada masa ini.\nSila cuba sambung semula kepada Realm anda sekali lagi dalam beberapa minit.",
     "mco.gui.button": "Butang",
     "mco.gui.ok": "Ok",
     "mco.invites.button.accept": "Terima",

@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Herunterladelimit erreicht",
     "mco.errorMessage.6004": "Hochladelimit erreicht",
     "mco.errorMessage.connectionFailure": "Es ist ein Fehler aufgetreten, bitte versuche es sp\u00e4ter noch einmal.",
+    "mco.errorMessage.serviceBusy": "Realms ist derzeit stark ausgelastet.\nBitte versuche in ein paar Minuten erneut, dich mit deinem Realm zu verbinden.",
     "mco.gui.button": "Schaltfl\u00e4che",
     "mco.gui.ok": "OK",
     "mco.invites.button.accept": "Annehmen",

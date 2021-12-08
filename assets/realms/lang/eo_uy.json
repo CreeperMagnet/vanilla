@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "El\u015dutlimo estas atingita",
     "mco.errorMessage.6004": "Al\u015dutlimo estas atingita",
     "mco.errorMessage.connectionFailure": "Eraro okazis, bonvolu reprovi poste.",
+    "mco.errorMessage.serviceBusy": "Nun Realms ne estas alirebla.\nBonvolu provi rekonekti\u011don al viaj realmoj post kelkaj minutoj.",
     "mco.gui.button": "Butono",
     "mco.gui.ok": "Bone",
     "mco.invites.button.accept": "Akcepti",

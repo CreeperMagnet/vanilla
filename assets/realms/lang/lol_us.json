@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Download limit reachd",
     "mco.errorMessage.6004": "Upload limit reachd",
     "mco.errorMessage.connectionFailure": "An error, lol. Plz try again latr.",
+    "mco.errorMessage.serviceBusy": "Realms iz busi rn.\nPles try conektin' too you're Realm agian in a coupl of minutes idk.",
     "mco.gui.button": "Butonn",
     "mco.gui.ok": "K",
     "mco.invites.button.accept": "Accept",

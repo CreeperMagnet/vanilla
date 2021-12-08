@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Il limite di download \u00e8 stato raggiunto",
     "mco.errorMessage.6004": "Il limite di caricamento \u00e8 stato raggiunto",
     "mco.errorMessage.connectionFailure": "Si \u00e8 verificato un errore, riprova pi\u00f9 tardi.",
+    "mco.errorMessage.serviceBusy": "Realms \u00e8 occupato al momento.\nProva a riconnetterti al tuo realm fra un paio di minuti.",
     "mco.gui.button": "Pulsante",
     "mco.gui.ok": "OK",
     "mco.invites.button.accept": "Accetta",

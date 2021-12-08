@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Nedladdningsgr\u00e4nsen har n\u00e5tts",
     "mco.errorMessage.6004": "Uppladdningsgr\u00e4nsen har n\u00e5tts",
     "mco.errorMessage.connectionFailure": "Ett fel uppstod, f\u00f6rs\u00f6k igen senare.",
+    "mco.errorMessage.serviceBusy": "Det \u00e4r m\u00e5nga som ansluter sig till Realms just nu.\nF\u00f6rs\u00f6k att ansluta till din Realm igen om n\u00e5gra minuter.",
     "mco.gui.button": "Knapp",
     "mco.gui.ok": "OK",
     "mco.invites.button.accept": "Acceptera",

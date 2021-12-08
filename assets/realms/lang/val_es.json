@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "L\u00edmit de desc\u00e0rregues assolit",
     "mco.errorMessage.6004": "L\u00edmit de pujada assolit",
     "mco.errorMessage.connectionFailure": "Ha ocorregut un error. Intenta-ho m\u00e9s tard.",
+    "mco.errorMessage.serviceBusy": "Realms est\u00e0 ocupat en aquest moment.\nProva a connectar-te al teu Realm de nou en uns minuts.",
     "mco.gui.button": "Bot\u00f3",
     "mco.gui.ok": "D'acord",
     "mco.invites.button.accept": "Accepta",

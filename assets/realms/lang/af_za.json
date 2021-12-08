@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Aflaai-limiet bereik",
     "mco.errorMessage.6004": "Oplaai-limiet bereik",
     "mco.errorMessage.connectionFailure": "Daar is 'n fout, probeer asb weer later.",
+    "mco.errorMessage.serviceBusy": "Realms is onbeskikbaar op hierdie oomblik. \nProbeer asseblief oor \u0144 paar minute weer na jou Realm aan te sluit.",
     "mco.gui.button": "Knoppie",
     "mco.gui.ok": "Ok",
     "mco.invites.button.accept": "Aanvaar",

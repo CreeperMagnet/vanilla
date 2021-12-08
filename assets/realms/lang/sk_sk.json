@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Dosiahnut\u00fd limit s\u0165ahovania",
     "mco.errorMessage.6004": "Dosiahnut\u00fd limit nahr\u00e1vania",
     "mco.errorMessage.connectionFailure": "Vyskytla sa chyba, pros\u00edm, sk\u00fas to znova nesk\u00f4r.",
+    "mco.errorMessage.serviceBusy": "Slu\u017eba Realms je moment\u00e1lne nedostupn\u00e1.\nSk\u00fas sa pripoji\u0165 znova o nieko\u013eko min\u00fat.",
     "mco.gui.button": "Tla\u010didlo",
     "mco.gui.ok": "Ok",
     "mco.invites.button.accept": "Prija\u0165",

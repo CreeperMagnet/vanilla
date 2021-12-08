@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Dosa\u017een limit sta\u017een\u00ed",
     "mco.errorMessage.6004": "Dosa\u017een limit nahr\u00e1v\u00e1n\u00ed",
     "mco.errorMessage.connectionFailure": "Do\u0161lo k chyb\u011b, zkus to pozd\u011bji.",
+    "mco.errorMessage.serviceBusy": "Slu\u017eba Realms je moment\u00e1ln\u011b nedostupn\u00e1.\nZkus se p\u0159ipojit znovu za n\u011bkolik minut.",
     "mco.gui.button": "Tla\u010d\u00edtko",
     "mco.gui.ok": "Ok",
     "mco.invites.button.accept": "P\u0159ijmout",

@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Ni\u00f0urhalskv\u00f3ta n\u00e1\u00f0",
     "mco.errorMessage.6004": "Upphle\u00f0slukv\u00f3ta n\u00e1\u00f0",
     "mco.errorMessage.connectionFailure": "Villa kom upp, vinsamlegast reyndu aftur s\u00ed\u00f0ar.",
+    "mco.errorMessage.serviceBusy": "Realms er uppteki\u00f0 \u00feessa stundina.\nVinsamlegast pr\u00f3fa\u00f0u tenginguna aftur eftir nokkrar m\u00edn\u00fatur.",
     "mco.gui.button": "Hnappur",
     "mco.gui.ok": "\u00cd lagi",
     "mco.invites.button.accept": "Sam\u00feykkja",

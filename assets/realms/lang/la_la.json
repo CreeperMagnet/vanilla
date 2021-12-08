@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Finis mundi extacti perveniebatur",
     "mco.errorMessage.6004": "Finis mundi impositi perveniebatur",
     "mco.errorMessage.connectionFailure": "Erratum evenit, quaeso postea iterum tempta.",
+    "mco.errorMessage.serviceBusy": "Realmi nunc occupatissimi sunt.\nRealmis conecti iterum conare posterius.",
     "mco.gui.button": "Globulus",
     "mco.gui.ok": "Bene",
     "mco.invites.button.accept": "Accipe",

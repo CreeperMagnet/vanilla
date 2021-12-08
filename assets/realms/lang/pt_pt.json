@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Limite de transfer\u00eancias atingido",
     "mco.errorMessage.6004": "Limite de envios atingido",
     "mco.errorMessage.connectionFailure": "Ocorreu um erro, tenta novamente mais tarde.",
+    "mco.errorMessage.serviceBusy": "O Realms est\u00e1 atualmente indispon\u00edvel.\nTenta entrar novamente no teu Realm dentro de uns minutos.",
     "mco.gui.button": "Bot\u00e3o",
     "mco.gui.ok": "OK",
     "mco.invites.button.accept": "Aceitar",

@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Untalodelimit erreicht",
     "mco.errorMessage.6004": "Hochlodelimit erreicht",
     "mco.errorMessage.connectionFailure": "A Fehla is afdrehn, vasouchs bitte spada numal.",
+    "mco.errorMessage.serviceBusy": "Realms is im Augnblick stoark asg'lastet.\nBitte versuache es in oan paar Minutn erneit, dich mid deinem Realm zu verbinden.",
     "mco.gui.button": "Schaltfl\u00e4che",
     "mco.gui.ok": "Bassd",
     "mco.invites.button.accept": "Anehma",

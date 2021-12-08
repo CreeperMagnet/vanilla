@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Lejupiel\u0101des limits ir sasniegts",
     "mco.errorMessage.6004": "Aug\u0161upiel\u0101des limits ir sasniegts",
     "mco.errorMessage.connectionFailure": "Rad\u0101s k\u013c\u016bda, l\u016bdzu m\u0113\u0123iniet atkal v\u0113l\u0101k.",
+    "mco.errorMessage.serviceBusy": "Realms \u0161obr\u012bd ir aiz\u0146emtas.\nL\u016bdzu m\u0113\u0123iniet piesl\u0113gties savai Realm atk\u0101rtoti, p\u0113c p\u0101ris min\u016bt\u0113m.",
     "mco.gui.button": "Poga",
     "mco.gui.ok": "Labi",
     "mco.invites.button.accept": "Piekrist",

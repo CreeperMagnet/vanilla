@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Downloadlimiet bereikt",
     "mco.errorMessage.6004": "Uploadlimiet bereikt",
     "mco.errorMessage.connectionFailure": "Een fout is opgetreden. Probeer het later opnieuw.",
+    "mco.errorMessage.serviceBusy": "Realms heeft het druk op dit moment.\nProbeer alstublieft over een paar minuten opnieuw verbinding te maken met uw Realm.",
     "mco.gui.button": "Knop",
     "mco.gui.ok": "Ok\u00e9",
     "mco.invites.button.accept": "Accepteren",

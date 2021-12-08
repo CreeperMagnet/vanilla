@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "\u0110\u00e3 \u0111\u1ea1t h\u1ea1n m\u1ee9c t\u1ea3i v\u1ec1",
     "mco.errorMessage.6004": "\u0110\u00e3 \u0111\u1ea1t h\u1ea1n m\u1ee9c t\u1ea3i l\u00ean",
     "mco.errorMessage.connectionFailure": "C\u00f3 l\u1ed7i x\u1ea3y ra, xin vui l\u00f2ng th\u1eed l\u1ea1i sau.",
+    "mco.errorMessage.serviceBusy": "Realm hi\u1ec7n \u0111ang b\u1eadn r\u1ed9n v\u00e0o l\u00fac n\u00e0y.\nXin vui l\u00f2ng th\u1eed k\u1ebft n\u1ed1i l\u1ea1i v\u1edbi Realm c\u1ee7a b\u1ea1n sau v\u00e0i ph\u00fat.",
     "mco.gui.button": "N\u00fat",
     "mco.gui.ok": "\u0110\u01b0\u1ee3c",
     "mco.invites.button.accept": "Ch\u1ea5p nh\u1eadn",

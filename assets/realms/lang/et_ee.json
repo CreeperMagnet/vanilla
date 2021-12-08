@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Allalaadimiste piir on t\u00e4is",
     "mco.errorMessage.6004": "\u00dcleslaadimiste piir on t\u00e4is",
     "mco.errorMessage.connectionFailure": "Ilmnes t\u00f5rge, palun proovi hiljem uuesti.",
+    "mco.errorMessage.serviceBusy": "Realms on hetkel h\u00f5ivatud.\nPalun proovi paari minuti p\u00e4rast oma realmi uuesti \u00fchenduda.",
     "mco.gui.button": "Nupp",
     "mco.gui.ok": "Ok",
     "mco.invites.button.accept": "N\u00f5ustu",

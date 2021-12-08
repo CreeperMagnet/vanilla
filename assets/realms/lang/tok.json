@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "sina kama jo e ijo mute a",
     "mco.errorMessage.6004": "sina pana e ijo mute a",
     "mco.errorMessage.connectionFailure": "pakala li lon. o alasa sin lon tenpo kama.",
+    "mco.errorMessage.serviceBusy": "ma Wen li pali mute lon tenpo ni.\no tawa ma Wen sina lon tenpo sin poka.",
     "mco.gui.button": "nena",
     "mco.gui.ok": "pona",
     "mco.invites.button.accept": "wile",
