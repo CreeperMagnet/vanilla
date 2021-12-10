@@ -2435,7 +2435,7 @@
     "commands.worldborder.damage.buffer.success": "Sette skadeomr\u00e5de \u00e5t verdsgrensa skadeomr\u00e5de til %s blokker",
     "commands.worldborder.get": "Verdsgrensa er for tida %s blokker vid",
     "commands.worldborder.set.failed.big": "Verdsgrensa kan ikkje vera vidare enn %s blokker",
-    "commands.worldborder.set.failed.far": "Verdsgrensa kan ikkje vera lenger ute enn %s blokker",
+    "commands.worldborder.set.failed.far": "Verdsgrensa kan ikkje vera lengre ute enn %s blokker",
     "commands.worldborder.set.failed.nochange": "Ingenting gjord om. Verdsgrensa har alt denne storleiken",
     "commands.worldborder.set.failed.small": "Verdsgrensa kan ikkje vera mindre enn 1 blokk vid",
     "commands.worldborder.set.grow": "Forst\u00f8rrar verdsgrensa til %s blokker vid over %s sekund",

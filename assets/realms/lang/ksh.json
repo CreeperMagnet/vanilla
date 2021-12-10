@@ -137,7 +137,7 @@
     "mco.errorMessage.6003": "Zevill erafjelade",
     "mco.errorMessage.6004": "Zevill eropjelade",
     "mco.errorMessage.connectionFailure": "Et es jet komisches passeet, bes esu jod un donn dat sp\u00e4der noch ens.",
-    "mco.errorMessage.serviceBusy": "Realms ist derzeit stark ausgelastet.\nBitte versuche in ein paar Minuten erneut, dich mit deinem Realm zu verbinden.",
+    "mco.errorMessage.serviceBusy": "Realms ist derzeit ausgelastet.\nBitte versuche in ein paar Minuten erneut, dich mit deinem Realm zu verbinden.",
     "mco.gui.button": "Knopp",
     "mco.gui.ok": "Jo",
     "mco.invites.button.accept": "Annemme",

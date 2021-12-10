@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Downloadlimyt berikke",
     "mco.errorMessage.6004": "Oplaadlimyt berikke",
     "mco.errorMessage.connectionFailure": "Der is in flater bard, probearje it letter opnij.",
+    "mco.errorMessage.serviceBusy": "Realms is drok op it stuit.\nBesykje t oer in pear minuten opnij te ferbinen mei jo Realm.",
     "mco.gui.button": "Knop",
     "mco.gui.ok": "OK",
     "mco.invites.button.accept": "Akseptearje",

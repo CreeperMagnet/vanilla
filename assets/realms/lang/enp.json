@@ -137,7 +137,7 @@
     "mco.errorMessage.6003": "Download threshold reached",
     "mco.errorMessage.6004": "Upload threshold reached",
     "mco.errorMessage.connectionFailure": "An dwale happened, kindly fand again later.",
-    "mco.errorMessage.serviceBusy": "Us\u0142uga Minecraft Realms jest teraz przeci\u0105\u017cona. Spr\u00f3buj po\u0142\u0105czy\u0107 si\u0119 ze swoim realmem za kilka minut.",
+    "mco.errorMessage.serviceBusy": "Realms is busy right now.\nKindly fand forbinding to your Realm again in a stoundle.",
     "mco.gui.button": "Button",
     "mco.gui.ok": "Done",
     "mco.invites.button.accept": "Bear",

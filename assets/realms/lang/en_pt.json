@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Download dock is out of ships",
     "mco.errorMessage.6004": "Upload dock is out of ships",
     "mco.errorMessage.connectionFailure": "Arr, this occurred doohickey ain't workin' right now.",
+    "mco.errorMessage.serviceBusy": "Realms be busy at th' moment.\nTry connectin' t' yer Realm 'gain in a couple o' minutes.",
     "mco.gui.button": "Knob",
     "mco.gui.ok": "Aye",
     "mco.invites.button.accept": "Say Yarr",

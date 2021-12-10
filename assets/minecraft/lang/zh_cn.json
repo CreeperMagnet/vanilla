@@ -3073,7 +3073,7 @@
     "gamerule.playersSleepingPercentage.description": "\u8df3\u8fc7\u591c\u665a\u6240\u9700\u7684\u5165\u7761\u73a9\u5bb6\u5360\u6bd4\u3002",
     "gamerule.randomTickSpeed": "\u968f\u673a\u523b\u901f\u7387",
     "gamerule.reducedDebugInfo": "\u7b80\u5316\u8c03\u8bd5\u4fe1\u606f",
-    "gamerule.reducedDebugInfo.description": "\u9650\u5236\u8c03\u8bd5\u5c4f\u5e55\u5185\u5bb9",
+    "gamerule.reducedDebugInfo.description": "\u9650\u5236\u8c03\u8bd5\u754c\u9762\u5185\u5bb9",
     "gamerule.sendCommandFeedback": "\u53d1\u9001\u547d\u4ee4\u53cd\u9988",
     "gamerule.showDeathMessages": "\u663e\u793a\u6b7b\u4ea1\u6d88\u606f",
     "gamerule.spawnRadius": "\u91cd\u751f\u70b9\u534a\u5f84",

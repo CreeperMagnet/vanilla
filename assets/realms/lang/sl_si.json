@@ -137,7 +137,7 @@
     "mco.errorMessage.6003": "Meja prenosa dose\u017eena",
     "mco.errorMessage.6004": "Meja nalaganja dose\u017eena",
     "mco.errorMessage.connectionFailure": "Pri\u0161lo je do napake, poskusi znova pozneje.",
-    "mco.errorMessage.serviceBusy": "Minecraft Realmi so trenutno preobremenjeni.\nPoskusite se znova povezati s svojim Realmom \u010dez nekaj minut.",
+    "mco.errorMessage.serviceBusy": "Realmi so trenutno preobremenjeni.\nPoskusite se znova povezati s svojim Realmom \u010dez nekaj minut.",
     "mco.gui.button": "Gumb",
     "mco.gui.ok": "V redu",
     "mco.invites.button.accept": "Sprejmi",

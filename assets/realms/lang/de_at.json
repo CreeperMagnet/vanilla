@@ -137,7 +137,7 @@
     "mco.errorMessage.6003": "Obalod-Limit erreicht",
     "mco.errorMessage.6004": "Hochlodelimit erreicht",
     "mco.errorMessage.connectionFailure": "A Fehla is auftretn, bitte vasuachs spada nuamoi.",
-    "mco.errorMessage.serviceBusy": "Realms ist derzeit stark ausgelastet.\nBitte versuche in ein paar Minuten erneut, dich mit deinem Realm zu verbinden.",
+    "mco.errorMessage.serviceBusy": "Realms ist derzeit ausgelastet.\nBitte versuche in ein paar Minuten erneut, dich mit deinem Realm zu verbinden.",
     "mco.gui.button": "Schoitfl\u00e4chn",
     "mco.gui.ok": "Ok",
     "mco.invites.button.accept": "Unemma",

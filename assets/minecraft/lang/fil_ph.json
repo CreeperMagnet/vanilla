@@ -4102,7 +4102,7 @@
     "options.percent_value": "%s: %s%%",
     "options.pixel_value": "%s: %spx",
     "options.prioritizeChunkUpdates": "Tagagawa ng Tipak",
-    "options.prioritizeChunkUpdates.byPlayer": "Seming Pagbablock",
+    "options.prioritizeChunkUpdates.byPlayer": "Medyong Pagbablock",
     "options.prioritizeChunkUpdates.byPlayer.tooltip": "May ilang aksyon na maaring magrecompile kaagad ng tipak. Kasama dito ang paglalagay at pagsisira ng bloke.",
     "options.prioritizeChunkUpdates.nearby": "Buong Pagbablock",
     "options.prioritizeChunkUpdates.nearby.tooltip": "Ang mga malapit na tipak ay palaging ikinocompile agad. Maaring makaapekto ito sa takbo ng laro kapag ang mga blocke ay inilagay o winasak.",

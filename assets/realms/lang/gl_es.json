@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "O l\u00edmite de descargas foi atinxido",
     "mco.errorMessage.6004": "O l\u00edmite de subidas foi atinxido",
     "mco.errorMessage.connectionFailure": "Produciuse un erro, t\u00e9ntao m\u00e1is tarde.",
+    "mco.errorMessage.serviceBusy": "O servicio de Reals at\u00f3pase ocupado nestes intres.\nPor favor, intenta conectar outra vez \u00f3 teu realm dentro duns minutos.",
     "mco.gui.button": "Bot\u00f3n",
     "mco.gui.ok": "Feito",
     "mco.invites.button.accept": "Aceptar",

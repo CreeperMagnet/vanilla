@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Limita de desc\u0103rcare a fost atins\u0103",
     "mco.errorMessage.6004": "Limita de \u00eenc\u0103rcare a fost atins\u0103",
     "mco.errorMessage.connectionFailure": "S-a produs o eroare, te rug\u0103m s\u0103 \u00eencerci din nou mai t\u00e2rziu.",
+    "mco.errorMessage.serviceBusy": "Realm-urile sunt ocupate momentan.\n\u00cencerca\u021bi s\u0103 v\u0103 conecta\u021bi din nou la Realm-ul vostru \u00een c\u00e2teva minute.",
     "mco.gui.button": "Buton",
     "mco.gui.ok": "OK",
     "mco.invites.button.accept": "Accept\u0103",

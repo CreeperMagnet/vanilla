@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Wedi taro terfyn lawrlwytho",
     "mco.errorMessage.6004": "Wedi taro terfyn uwchlwytho",
     "mco.errorMessage.connectionFailure": "Digwyddodd gwall, rhowch gynnig arall arni yn nes ymlaen.",
+    "mco.errorMessage.serviceBusy": "Mae Realms yn brysur ar hyn o bryd.\nRhowch gynnig ar gysylltu \u00e2'ch Realm eto mewn ychydig o funudau.",
     "mco.gui.button": "Botwm",
     "mco.gui.ok": "Iawn",
     "mco.invites.button.accept": "Derbyn",

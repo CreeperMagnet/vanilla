@@ -4105,7 +4105,7 @@
     "options.prioritizeChunkUpdates.byPlayer": "Semiblocare",
     "options.prioritizeChunkUpdates.byPlayer.tooltip": "Unele ac\u021biuni dintr-o bucat\u0103 vor recompila imediat fragmentul. Aceasta include plasarea blocurilor \u0219i distrugerea.",
     "options.prioritizeChunkUpdates.nearby": "Blocare complet\u0103",
-    "options.prioritizeChunkUpdates.nearby.tooltip": "Buc\u0103\u021bile din apropiere sunt \u00eentotdeauna compilate imediat. Acest lucru poate afecta performan\u021ba jocului atunci c\u00e2nd blocurile sunt plasate sau distruse.",
+    "options.prioritizeChunkUpdates.nearby.tooltip": "Chunk-urile din apropiere sunt \u00eentotdeauna compilate imediat. Acest lucru poate afecta performan\u021ba jocului atunci c\u00e2nd blocurile sunt plasate sau distruse.",
     "options.prioritizeChunkUpdates.none": "Filetat",
     "options.prioritizeChunkUpdates.none.tooltip": "Buc\u0103\u021bile din apropiere sunt compilate \u00een fire paralele. Acest lucru poate duce la g\u0103uri vizuale scurte atunci c\u00e2nd blocurile sunt distruse.",
     "options.rawMouseInput": "Intrare direct\u0103",

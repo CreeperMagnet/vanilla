@@ -137,7 +137,7 @@
     "mco.errorMessage.6003": "Herundorrladelimid erreischd",
     "mco.errorMessage.6004": "Hochladelimid erreischd",
     "mco.errorMessage.connectionFailure": "Es is ee F\u00e4hlorr uffgedr\u00e4dn, bidde versuchs schb\u00e4dorr noch ma.",
-    "mco.errorMessage.serviceBusy": "Realms ist derzeit stark ausgelastet.\nBitte versuche in ein paar Minuten erneut, dich mit deinem Realm zu verbinden.",
+    "mco.errorMessage.serviceBusy": "Realms ist derzeit ausgelastet.\nBitte versuche in ein paar Minuten erneut, dich mit deinem Realm zu verbinden.",
     "mco.gui.button": "Schaldfl\u00e4sche",
     "mco.gui.ok": "Guddi",
     "mco.invites.button.accept": "Ann\u00e4hmn",
