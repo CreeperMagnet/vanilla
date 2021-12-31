@@ -137,7 +137,7 @@
     "mco.errorMessage.6003": "Abeladelimit erreicht",
     "mco.errorMessage.6004": "Ufeladelimit erreicht",
     "mco.errorMessage.connectionFailure": "Es isch en Fehler uftrete, bitte versuech es sp\u00f6ter nomol.",
-    "mco.errorMessage.serviceBusy": "Realms isch im Mom\u00e4nt total besch\u00e4ftiget. Probiers doch ines paar Minute nomal, dich mit dim Realm z verbinde.",
+    "mco.errorMessage.serviceBusy": "Realms isch derzit usglastet.\nBitte versuech es in e paar Minute erneut, dich mit dim realm z'verbinde.",
     "mco.gui.button": "Chnopf",
     "mco.gui.ok": "Ok",
     "mco.invites.button.accept": "Ahneh",

@@ -3980,7 +3980,7 @@
     "options.audioDevice.default": "Por defecto del sistema",
     "options.autoJump": "Salto autom\u00e1tico",
     "options.autoSuggestCommands": "Sugerir comandos",
-    "options.autosaveIndicator": "Indicador de autoguardado",
+    "options.autosaveIndicator": "Indicar autoguardado",
     "options.biomeBlendRadius": "Transici\u00f3n de biomas",
     "options.biomeBlendRadius.1": "NO (m\u00e1s r\u00e1pido)",
     "options.biomeBlendRadius.11": "11x11 (extremo)",

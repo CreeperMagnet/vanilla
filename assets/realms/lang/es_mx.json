@@ -137,7 +137,7 @@
     "mco.errorMessage.6003": "L\u00edmite de descarga alcanzado",
     "mco.errorMessage.6004": "L\u00edmite de subida alcanzado",
     "mco.errorMessage.connectionFailure": "Se produjo un error. Por favor, vuelve a intentarlo m\u00e1s tarde.",
-    "mco.errorMessage.serviceBusy": "El servicio de Realms est\u00e1n ocupados en estos momentos.\nPor favor, intente conectarse a su Realms de nuevo dentro de unos minutos.",
+    "mco.errorMessage.serviceBusy": "Los servicios de Realms se encuentran ocupados en estos momentos.\nPor favor, intenta conectarte a tu reino nuevamente en unos minutos.",
     "mco.gui.button": "Bot\u00f3n",
     "mco.gui.ok": "Aceptar",
     "mco.invites.button.accept": "Aceptar",
