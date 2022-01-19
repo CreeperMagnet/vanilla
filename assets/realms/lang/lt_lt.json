@@ -137,7 +137,7 @@
     "mco.errorMessage.6003": "Pasiektas atsisiuntim\u0173 limitas",
     "mco.errorMessage.6004": "Pasiektas \u012fk\u0117lim\u0173 limitas",
     "mco.errorMessage.connectionFailure": "\u012evyko klaida, bandykite v\u0117liau.",
-    "mco.errorMessage.serviceBusy": "Realms \u0161iuo metu u\u017eimti.\nPabandykite v\u0117l prisijungti prie savo Realm po keli\u0173 minu\u010di\u0173.",
+    "mco.errorMessage.serviceBusy": "Realms \u0161iuo metu yra u\u017eimti.\nPabandykite prisijungti prie savo Realm po poros minu\u010di\u0173.",
     "mco.gui.button": "Mygtukas",
     "mco.gui.ok": "Gerai",
     "mco.invites.button.accept": "Priimti",

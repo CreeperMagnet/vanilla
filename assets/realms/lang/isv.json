@@ -137,6 +137,7 @@
     "mco.errorMessage.6003": "Ograni\u010denje dostavy dosegnuto",
     "mco.errorMessage.6004": "Ograni\u010denje aplodovanja dosegano",
     "mco.errorMessage.connectionFailure": "Pogr\u011b\u0161ka byvana, pro\u0161u probovati ponovno pozdn\u011bje.",
+    "mco.errorMessage.serviceBusy": "Usluga Realms jest pr\u011bnapena momentalno.\nProsim poprobuj podklju\u010diti se do Realms ponovno za n\u011bkoliko minuty.",
     "mco.gui.button": "Klavi\u0161",
     "mco.gui.ok": "Dobro",
     "mco.invites.button.accept": "Prijej",
