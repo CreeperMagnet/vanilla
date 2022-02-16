@@ -115,7 +115,7 @@
                             "sequence": [
                               {
                                 "if_true": {
-                                  "offset": -1,
+                                  "offset": 0,
                                   "surface_depth_multiplier": 0,
                                   "add_stone_depth": false,
                                   "type": "minecraft:water"
@@ -1114,7 +1114,7 @@
                                   "sequence": [
                                     {
                                       "if_true": {
-                                        "offset": -1,
+                                        "offset": 0,
                                         "surface_depth_multiplier": 0,
                                         "add_stone_depth": false,
                                         "type": "minecraft:water"
@@ -1267,7 +1267,7 @@
                           "sequence": [
                             {
                               "if_true": {
-                                "offset": -1,
+                                "offset": 0,
                                 "surface_depth_multiplier": 0,
                                 "add_stone_depth": false,
                                 "type": "minecraft:water"
@@ -2087,40 +2087,17 @@
   },
   "sea_level": 63,
   "structures": {
-    "minecraft:pillager_outpost": {
-      "salt": 165745296,
-      "spacing": 32,
-      "separation": 8,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:monument": {
-      "spread_type": "triangular",
-      "salt": 10387313,
-      "spacing": 32,
-      "separation": 5,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:ruined_portal": {
-      "salt": 34222645,
-      "spacing": 40,
-      "separation": 15,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:buried_treasure": {
-      "salt": 0,
-      "locate_offset": [
-        9,
-        0,
-        9
-      ],
-      "spacing": 1,
-      "separation": 0,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:bastion_remnant": {
-      "salt": 30084232,
-      "spacing": 27,
+    "minecraft:shipwreck": {
+      "salt": 165745295,
+      "spacing": 24,
       "separation": 4,
+      "type": "minecraft:random_spread"
+    },
+    "minecraft:mansion": {
+      "spread_type": "triangular",
+      "salt": 10387319,
+      "spacing": 80,
+      "separation": 20,
       "type": "minecraft:random_spread"
     },
     "minecraft:fortress": {
@@ -2141,58 +2118,21 @@
       "separation": 1,
       "type": "minecraft:random_spread"
     },
-    "minecraft:igloo": {
-      "salt": 14357618,
-      "spacing": 32,
-      "separation": 8,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:mansion": {
-      "spread_type": "triangular",
-      "salt": 10387319,
-      "spacing": 80,
-      "separation": 20,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:ocean_ruin": {
-      "salt": 14357621,
-      "spacing": 20,
-      "separation": 8,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:jungle_pyramid": {
-      "salt": 14357619,
-      "spacing": 32,
-      "separation": 8,
-      "type": "minecraft:random_spread"
-    },
     "minecraft:mineshaft": {
       "salt": 0,
       "spacing": 1,
       "separation": 0,
       "type": "minecraft:random_spread"
     },
-    "minecraft:desert_pyramid": {
-      "salt": 14357617,
-      "spacing": 32,
-      "separation": 8,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:shipwreck": {
-      "salt": 165745295,
-      "spacing": 24,
+    "minecraft:bastion_remnant": {
+      "salt": 30084232,
+      "spacing": 27,
       "separation": 4,
       "type": "minecraft:random_spread"
     },
-    "minecraft:stronghold": {
-      "distance": 32,
-      "spread": 3,
-      "count": 128,
-      "type": "minecraft:concentric_rings"
-    },
-    "minecraft:village": {
-      "salt": 10387312,
-      "spacing": 34,
+    "minecraft:pillager_outpost": {
+      "salt": 165745296,
+      "spacing": 32,
       "separation": 8,
       "type": "minecraft:random_spread"
     },
@@ -2202,6 +2142,66 @@
       "spacing": 20,
       "separation": 11,
       "type": "minecraft:random_spread"
+    },
+    "minecraft:buried_treasure": {
+      "salt": 0,
+      "locate_offset": [
+        9,
+        0,
+        9
+      ],
+      "spacing": 1,
+      "separation": 0,
+      "type": "minecraft:random_spread"
+    },
+    "minecraft:monument": {
+      "spread_type": "triangular",
+      "salt": 10387313,
+      "spacing": 32,
+      "separation": 5,
+      "type": "minecraft:random_spread"
+    },
+    "minecraft:igloo": {
+      "salt": 14357618,
+      "spacing": 32,
+      "separation": 8,
+      "type": "minecraft:random_spread"
+    },
+    "minecraft:village": {
+      "salt": 10387312,
+      "spacing": 34,
+      "separation": 8,
+      "type": "minecraft:random_spread"
+    },
+    "minecraft:jungle_pyramid": {
+      "salt": 14357619,
+      "spacing": 32,
+      "separation": 8,
+      "type": "minecraft:random_spread"
+    },
+    "minecraft:ruined_portal": {
+      "salt": 34222645,
+      "spacing": 40,
+      "separation": 15,
+      "type": "minecraft:random_spread"
+    },
+    "minecraft:ocean_ruin": {
+      "salt": 14357621,
+      "spacing": 20,
+      "separation": 8,
+      "type": "minecraft:random_spread"
+    },
+    "minecraft:desert_pyramid": {
+      "salt": 14357617,
+      "spacing": 32,
+      "separation": 8,
+      "type": "minecraft:random_spread"
+    },
+    "minecraft:stronghold": {
+      "distance": 32,
+      "spread": 3,
+      "count": 128,
+      "type": "minecraft:concentric_rings"
     }
   },
   "noise": {
