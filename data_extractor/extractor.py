@@ -19,7 +19,8 @@ def json_from_url(url) :
     return json.loads(urllib.request.urlopen(url).read())
 
 version_manifest = json_from_url(manifest_url)
-latest_version_data = json_from_url(version_manifest['versions'][0]['url'])
+with open('version_data.json', encoding="utf8") as encoded_version_data:
+    latest_version_data = json.load(encoded_version_data)
 objects = json_from_url(latest_version_data['assetIndex']['url'])['objects']
 
 #####################################################################################
