@@ -1,15 +1,15 @@
 {
-    "id": "22w07a",
-    "name": "22w07a",
-    "release_target": "1.18.2",
-    "world_version": 2969,
-    "series_id": "main",
-    "protocol_version": 1073741892,
+    "id": "1.19_deep_dark_experimental_snapshot-1",
+    "name": "Deep Dark Experimental Snapshot 1",
+    "release_target": "1.19",
+    "world_version": 3066,
+    "series_id": "deep_dark_preview",
+    "protocol_version": 1073741893,
     "pack_version": {
         "resource": 8,
         "data": 8
     },
-    "build_time": "2022-02-16T16:11:58+00:00",
+    "build_time": "2022-02-17T13:52:49+00:00",
     "java_component": "java-runtime-beta",
     "java_version": 17,
     "stable": false

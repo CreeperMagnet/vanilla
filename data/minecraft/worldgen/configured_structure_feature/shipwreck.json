@@ -2,6 +2,5 @@
   "config": {
     "is_beached": false
   },
-  "biomes": "#minecraft:has_structure/shipwreck",
   "type": "minecraft:shipwreck"
 }

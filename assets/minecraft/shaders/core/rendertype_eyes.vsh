@@ -9,7 +9,6 @@ in vec2 UV0;
 uniform mat4 ModelViewMat;
 uniform mat4 ProjMat;
 uniform mat3 IViewRotMat;
-uniform int FogShape;
 
 out float vertexDistance;
 out vec4 vertexColor;
@@ -18,7 +17,7 @@ out vec2 texCoord0;
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
 
-    vertexDistance = fog_distance(ModelViewMat, IViewRotMat * Position, FogShape);
+    vertexDistance = cylindrical_distance(ModelViewMat, IViewRotMat * Position);
     vertexColor = Color;
     texCoord0 = UV0;
 }

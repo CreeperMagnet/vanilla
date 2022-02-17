@@ -10,6 +10,5 @@
       "type": "minecraft:uniform"
     }
   },
-  "biomes": "#minecraft:has_structure/nether_fossil",
   "type": "minecraft:nether_fossil"
 }

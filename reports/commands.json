@@ -4678,9 +4678,80 @@
     "locate": {
       "type": "literal",
       "children": {
-        "structure": {
-          "type": "argument",
-          "parser": "minecraft:resource_location",
+        "pillager_outpost": {
+          "type": "literal",
+          "executable": true
+        },
+        "mineshaft": {
+          "type": "literal",
+          "executable": true
+        },
+        "mansion": {
+          "type": "literal",
+          "executable": true
+        },
+        "jungle_pyramid": {
+          "type": "literal",
+          "executable": true
+        },
+        "desert_pyramid": {
+          "type": "literal",
+          "executable": true
+        },
+        "igloo": {
+          "type": "literal",
+          "executable": true
+        },
+        "ruined_portal": {
+          "type": "literal",
+          "executable": true
+        },
+        "shipwreck": {
+          "type": "literal",
+          "executable": true
+        },
+        "swamp_hut": {
+          "type": "literal",
+          "executable": true
+        },
+        "stronghold": {
+          "type": "literal",
+          "executable": true
+        },
+        "monument": {
+          "type": "literal",
+          "executable": true
+        },
+        "ocean_ruin": {
+          "type": "literal",
+          "executable": true
+        },
+        "fortress": {
+          "type": "literal",
+          "executable": true
+        },
+        "endcity": {
+          "type": "literal",
+          "executable": true
+        },
+        "buried_treasure": {
+          "type": "literal",
+          "executable": true
+        },
+        "village": {
+          "type": "literal",
+          "executable": true
+        },
+        "nether_fossil": {
+          "type": "literal",
+          "executable": true
+        },
+        "bastion_remnant": {
+          "type": "literal",
+          "executable": true
+        },
+        "ancient_city": {
+          "type": "literal",
           "executable": true
         }
       }
@@ -5457,23 +5528,6 @@
                   }
                 }
               },
-              "executable": true
-            }
-          },
-          "executable": true
-        }
-      }
-    },
-    "placefeature": {
-      "type": "literal",
-      "children": {
-        "feature": {
-          "type": "argument",
-          "parser": "minecraft:resource_location",
-          "children": {
-            "pos": {
-              "type": "argument",
-              "parser": "minecraft:block_pos",
               "executable": true
             }
           },
@@ -7331,6 +7385,29 @@
             }
           },
           "executable": true
+        }
+      }
+    },
+    "warden_spawn_tracker": {
+      "type": "literal",
+      "children": {
+        "clear": {
+          "type": "literal",
+          "executable": true
+        },
+        "set": {
+          "type": "literal",
+          "children": {
+            "warning_level": {
+              "type": "argument",
+              "parser": "brigadier:integer",
+              "properties": {
+                "min": 0,
+                "max": 3
+              },
+              "executable": true
+            }
+          }
         }
       }
     },

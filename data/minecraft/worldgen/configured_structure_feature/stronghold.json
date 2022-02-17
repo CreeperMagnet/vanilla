@@ -1,5 +1,4 @@
 {
   "config": {},
-  "biomes": "#minecraft:has_structure/stronghold",
   "type": "minecraft:stronghold"
 }

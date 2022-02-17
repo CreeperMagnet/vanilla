@@ -2,7 +2,9 @@
   "config": {
     "rock_count": 4,
     "hole_count": 1,
-    "valid_blocks": "minecraft:netherrack",
+    "valid_blocks": [
+      "minecraft:netherrack"
+    ],
     "state": {
       "Properties": {
         "falling": "true"

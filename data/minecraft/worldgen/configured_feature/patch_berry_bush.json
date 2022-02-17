@@ -23,7 +23,9 @@
           "predicate": {
             "predicates": [
               {
-                "blocks": "minecraft:air",
+                "blocks": [
+                  "minecraft:air"
+                ],
                 "type": "minecraft:matching_blocks"
               },
               {
@@ -32,7 +34,9 @@
                   -1,
                   0
                 ],
-                "blocks": "minecraft:grass_block",
+                "blocks": [
+                  "minecraft:grass_block"
+                ],
                 "type": "minecraft:matching_blocks"
               }
             ],
