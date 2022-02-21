@@ -104,8 +104,6 @@ for root, directories, files in os.walk('snbt') :
             source_path = os.path.join(root,file)
             final_path =os.path.abspath(os.path.join('..','..',joined_path_array))
             shutil.move(source_path,final_path)
-            removal_path = os.path.abspath(os.path.join('..','..',joined_nbt_path_array))
-            os.remove(removal_path)
             a_file = open(final_path, "r")
             lines = a_file.readlines()
             a_file.close()
