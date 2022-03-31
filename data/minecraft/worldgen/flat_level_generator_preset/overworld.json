@@ -7,9 +7,9 @@
     "structure_overrides": [
       "minecraft:ruined_portals",
       "minecraft:strongholds",
+      "minecraft:villages",
       "minecraft:pillager_outposts",
-      "minecraft:mineshafts",
-      "minecraft:villages"
+      "minecraft:mineshafts"
     ],
     "layers": [
       {

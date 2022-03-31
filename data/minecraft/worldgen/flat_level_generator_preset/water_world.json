@@ -5,8 +5,8 @@
     "features": false,
     "biome": "minecraft:deep_ocean",
     "structure_overrides": [
-      "minecraft:ocean_ruins",
       "minecraft:shipwrecks",
+      "minecraft:ocean_ruins",
       "minecraft:ocean_monuments"
     ],
     "layers": [
