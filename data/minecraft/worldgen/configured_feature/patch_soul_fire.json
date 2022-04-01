@@ -8,6 +8,9 @@
         "config": {
           "to_place": {
             "state": {
+              "Properties": {
+                "age": "0"
+              },
               "Name": "minecraft:soul_fire"
             },
             "type": "minecraft:simple_state_provider"
