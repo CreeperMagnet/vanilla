@@ -1,0 +1,16 @@
+{
+    size: [1, 4, 1],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:down_south}", nbt: {final_state: "minecraft:cut_sandstone", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:bottom", pool: "minecraft:empty", target: "minecraft:bottom"}},
+        {pos: [0, 1, 0], state: "minecraft:cut_sandstone"},
+        {pos: [0, 2, 0], state: "minecraft:terracotta"},
+        {pos: [0, 3, 0], state: "minecraft:torch"}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:cut_sandstone",
+        "minecraft:terracotta",
+        "minecraft:torch",
+        "minecraft:jigsaw{orientation:down_south}"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    size: [8, 5, 13],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:cobbled_deepslate"},
+        {pos: [0, 0, 1], state: "minecraft:cobbled_deepslate"},
+        {pos: [0, 0, 2], state: "minecraft:cobbled_deepslate"},
+        {pos: [0, 0, 4], state: "minecraft:cobbled_deepslate"},
+        {pos: [0, 0, 6], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:structure_void", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:connect_structure", pool: "minecraft:empty", target: "minecraft:empty"}},
+        {pos: [1, 0, 0], state: "minecraft:cobbled_deepslate"},
+        {pos: [3, 0, 0], state: "minecraft:cobbled_deepslate"},
+        {pos: [4, 0, 0], state: "minecraft:cobbled_deepslate"},
+        {pos: [7, 0, 0], state: "minecraft:cobbled_deepslate"},
+        {pos: [7, 0, 2], state: "minecraft:cobbled_deepslate"},
+        {pos: [7, 0, 7], state: "minecraft:cobbled_deepslate"},
+        {pos: [7, 0, 10], state: "minecraft:cobbled_deepslate"},
+        {pos: [7, 0, 11], state: "minecraft:cobbled_deepslate"},
+        {pos: [7, 0, 12], state: "minecraft:cobbled_deepslate"},
+        {pos: [0, 1, 1], state: "minecraft:cobbled_deepslate"},
+        {pos: [0, 1, 2], state: "minecraft:cobbled_deepslate"},
+        {pos: [0, 1, 4], state: "minecraft:cobbled_deepslate"},
+        {pos: [7, 1, 2], state: "minecraft:cobbled_deepslate"},
+        {pos: [7, 1, 11], state: "minecraft:cobbled_deepslate"},
+        {pos: [0, 2, 2], state: "minecraft:cobbled_deepslate"}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:cobbled_deepslate",
+        "minecraft:jigsaw{orientation:west_up}"
+    ]
+}

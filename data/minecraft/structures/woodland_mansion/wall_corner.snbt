@@ -1,0 +1,42 @@
+{
+    size: [9, 8, 2],
+    data: [
+        {pos: [7, 0, 0], state: "minecraft:cobblestone"},
+        {pos: [7, 0, 1], state: "minecraft:cobblestone"},
+        {pos: [8, 0, 0], state: "minecraft:cobblestone"},
+        {pos: [8, 0, 1], state: "minecraft:cobblestone"},
+        {pos: [7, 1, 0], state: "minecraft:cobblestone"},
+        {pos: [7, 1, 1], state: "minecraft:cobblestone"},
+        {pos: [8, 1, 0], state: "minecraft:cobblestone"},
+        {pos: [8, 1, 1], state: "minecraft:cobblestone_wall{east:none,north:low,south:none,up:true,waterlogged:false,west:low}"},
+        {pos: [7, 2, 0], state: "minecraft:cobblestone"},
+        {pos: [7, 2, 1], state: "minecraft:cobblestone"},
+        {pos: [8, 2, 0], state: "minecraft:cobblestone"},
+        {pos: [8, 2, 1], state: "minecraft:cobblestone_wall{east:none,north:low,south:none,up:true,waterlogged:false,west:low}"},
+        {pos: [7, 3, 0], state: "minecraft:cobblestone"},
+        {pos: [7, 3, 1], state: "minecraft:cobblestone"},
+        {pos: [8, 3, 0], state: "minecraft:cobblestone"},
+        {pos: [8, 3, 1], state: "minecraft:cobblestone_wall{east:none,north:low,south:none,up:true,waterlogged:false,west:low}"},
+        {pos: [7, 4, 0], state: "minecraft:cobblestone"},
+        {pos: [7, 4, 1], state: "minecraft:cobblestone"},
+        {pos: [8, 4, 0], state: "minecraft:cobblestone"},
+        {pos: [8, 4, 1], state: "minecraft:cobblestone_wall{east:none,north:low,south:none,up:true,waterlogged:false,west:low}"},
+        {pos: [7, 5, 0], state: "minecraft:cobblestone"},
+        {pos: [7, 5, 1], state: "minecraft:cobblestone"},
+        {pos: [8, 5, 0], state: "minecraft:cobblestone"},
+        {pos: [8, 5, 1], state: "minecraft:cobblestone_wall{east:none,north:low,south:none,up:true,waterlogged:false,west:low}"},
+        {pos: [7, 6, 0], state: "minecraft:cobblestone"},
+        {pos: [7, 6, 1], state: "minecraft:cobblestone"},
+        {pos: [8, 6, 0], state: "minecraft:cobblestone"},
+        {pos: [8, 6, 1], state: "minecraft:cobblestone_wall{east:none,north:low,south:none,up:true,waterlogged:false,west:low}"},
+        {pos: [7, 7, 0], state: "minecraft:cobblestone"},
+        {pos: [7, 7, 1], state: "minecraft:cobblestone"},
+        {pos: [8, 7, 0], state: "minecraft:cobblestone"},
+        {pos: [8, 7, 1], state: "minecraft:cobblestone_wall{east:none,north:low,south:none,up:true,waterlogged:false,west:low}"}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:cobblestone",
+        "minecraft:cobblestone_wall{east:none,north:low,south:none,up:true,waterlogged:false,west:low}"
+    ]
+}

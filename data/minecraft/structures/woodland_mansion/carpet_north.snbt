@@ -1,0 +1,18 @@
+{
+    size: [5, 1, 2],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:white_carpet"},
+        {pos: [1, 0, 0], state: "minecraft:red_carpet"},
+        {pos: [1, 0, 1], state: "minecraft:red_carpet"},
+        {pos: [2, 0, 0], state: "minecraft:red_carpet"},
+        {pos: [2, 0, 1], state: "minecraft:red_carpet"},
+        {pos: [3, 0, 0], state: "minecraft:red_carpet"},
+        {pos: [3, 0, 1], state: "minecraft:red_carpet"},
+        {pos: [4, 0, 0], state: "minecraft:white_carpet"}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:white_carpet",
+        "minecraft:red_carpet"
+    ]
+}
