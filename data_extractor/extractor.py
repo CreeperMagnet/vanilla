@@ -3,7 +3,7 @@
 #####################################################################################
 
 # Importing all the various libraries I need... a lot.
-import urllib.request, json, os, shutil, zipfile, re, nbtlib
+import urllib.request, json, os, shutil, zipfile, re, filecmp
 
 # The link to Mojang's version manifest. This probably shouldn't change.
 manifest_url = 'http://launchermeta.mojang.com/mc/game/version_manifest.json'
@@ -51,10 +51,10 @@ with zipfile.ZipFile(client_jar) as archive :
                     if json.dumps(json1, sort_keys=True) == json.dumps(json2, sort_keys=True) :
                         continue
             os.makedirs(os.path.dirname(path),exist_ok=True)
-            archive.extract(object, os.path.abspath(os.path.join('..')))
-            if object.endswith(".nbt"):
-                with nbtlib.load(os.path.abspath(os.path.join(os.path.abspath('..'),object))) as nbt_f :
-                    del nbt_f['']['DataVersion']
+            if object.endswith('.nbt') :
+                archive.extract(object, os.path.abspath(os.path.join('..','data_extractor','server_jar','nbt')))
+            else :
+                archive.extract(object, os.path.abspath(os.path.join('..')))
 
 #####################################################################################
 # Extracting reports and worldgen from server jar and converting them into snbt
@@ -89,8 +89,7 @@ for root, directories, files in os.walk('data') :
             os.makedirs(os.path.dirname(path),exist_ok=True)
             shutil.copyfile(source_path,path)
 
-
-decode_path = os.path.abspath(os.path.join('..','..'))
+decode_path = os.path.abspath(os.path.join('..','..','data'))
 os.system('java -DbundlerMainClass=net.minecraft.data.Main -jar '+ server_jar + ' --dev --input '+decode_path+' --output snbt')
 for root, directories, files in os.walk('snbt') :
     for file in files :
@@ -103,18 +102,23 @@ for root, directories, files in os.walk('snbt') :
             nbt_path_array[-1] = nbt_path_array[-1].replace('.snbt','.nbt')
             joined_nbt_path_array = os.path.sep.join(nbt_path_array)
             joined_path_array = os.path.sep.join(path_array)
-            list.append(joined_path_array)
+            list.append(os.path.join('data',joined_path_array))
             source_path = os.path.join(root,file)
-            final_path =os.path.abspath(os.path.join('..','..',joined_path_array))
-            shutil.move(source_path,final_path)
-            a_file = open(final_path, "r")
+            a_file = open(source_path, "r")
             lines = a_file.readlines()
             a_file.close()
-            new_file = open(final_path, "w")
+            new_file = open(source_path, "w")
             for line in lines:
                 if not re.search('\\s+DataVersion:.+',line.lstrip("\n")) :
                     new_file.write(line)
             new_file.close()
+            final_path =os.path.abspath(os.path.join('..','..','data',joined_path_array))
+            source_nbt_path = os.path.abspath(os.path.join('nbt',joined_nbt_path_array))
+            final_nbt_path = os.path.abspath(os.path.join('..','..','data',joined_nbt_path_array))
+            if not filecmp.cmp(source_path, final_path) :
+                shutil.move(source_path,final_path)
+                shutil.move(source_nbt_path,final_nbt_path)
+                print("NBT file changed: ",final_nbt_path)
 
 
 #####################################################################################
