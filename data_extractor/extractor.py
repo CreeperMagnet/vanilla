@@ -3,7 +3,7 @@
 #####################################################################################
 
 # Importing all the various libraries I need... a lot.
-import urllib.request, json, os, shutil, zipfile, re
+import urllib.request, json, os, shutil, zipfile, re, nbtlib
 
 # The link to Mojang's version manifest. This probably shouldn't change.
 manifest_url = 'http://launchermeta.mojang.com/mc/game/version_manifest.json'
@@ -52,6 +52,9 @@ with zipfile.ZipFile(client_jar) as archive :
                         continue
             os.makedirs(os.path.dirname(path),exist_ok=True)
             archive.extract(object, os.path.abspath(os.path.join('..')))
+            if object.endswith(".nbt"):
+                with nbtlib.load(os.path.abspath(os.path.join(os.path.abspath('..'),object))) as nbt_f :
+                    del nbt_f['']['DataVersion']
 
 #####################################################################################
 # Extracting reports and worldgen from server jar and converting them into snbt
