@@ -67,8 +67,8 @@ for root, directories, files in os.walk('data') :
         path_array = os.path.normpath(os.path.join(root,file)).split(os.path.sep)
         # Ignore anything that isn't the reports
         if path_array[1] == "reports" :
-            if path_array[2] == "worldgen" :
-                del path_array[1:3]
+            if path_array[2] == "minecraft" :
+                del path_array[1]
             else :
                 path_array = path_array[1:]
             joined_path_array = os.path.sep.join(path_array)
