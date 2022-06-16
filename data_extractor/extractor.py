@@ -6,7 +6,7 @@
 import urllib.request, json, os, shutil, zipfile, re, filecmp
 
 # The link to Mojang's version manifest. This probably shouldn't change.
-manifest_url = 'http://launchermeta.mojang.com/mc/game/version_manifest.json'
+manifest_url = 'https://piston-meta.mojang.com/mc/game/version_manifest.json'
 
 # A storage string to log all the files
 list = []
