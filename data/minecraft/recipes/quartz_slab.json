@@ -1,8 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": [
       {
@@ -16,8 +14,11 @@
       }
     ]
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "minecraft:quartz_slab",
-    "count": 6
+    "count": 6,
+    "item": "minecraft:quartz_slab"
   }
 }

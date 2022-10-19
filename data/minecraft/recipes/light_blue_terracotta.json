@@ -1,11 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
   "group": "stained_terracotta",
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "minecraft:terracotta"
@@ -14,8 +10,13 @@
       "item": "minecraft:light_blue_dye"
     }
   },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
   "result": {
-    "item": "minecraft:light_blue_terracotta",
-    "count": 8
+    "count": 8,
+    "item": "minecraft:light_blue_terracotta"
   }
 }

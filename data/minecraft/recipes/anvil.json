@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "III",
-    " i ",
-    "iii"
-  ],
+  "category": "misc",
   "key": {
     "I": {
       "item": "minecraft:iron_block"
@@ -13,6 +9,11 @@
       "item": "minecraft:iron_ingot"
     }
   },
+  "pattern": [
+    "III",
+    " i ",
+    "iii"
+  ],
   "result": {
     "item": "minecraft:anvil"
   }

@@ -1,16 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##",
-    "##"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:red_sandstone"
     }
   },
+  "pattern": [
+    "##",
+    "##"
+  ],
   "result": {
-    "item": "minecraft:cut_red_sandstone",
-    "count": 4
+    "count": 4,
+    "item": "minecraft:cut_red_sandstone"
   }
 }

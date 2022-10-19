@@ -1,16 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "TTT",
-    "#X#",
-    "#R#"
-  ],
+  "category": "redstone",
   "key": {
-    "R": {
-      "item": "minecraft:redstone"
-    },
     "#": {
       "item": "minecraft:cobblestone"
+    },
+    "R": {
+      "item": "minecraft:redstone"
     },
     "T": {
       "tag": "minecraft:planks"
@@ -19,6 +15,11 @@
       "item": "minecraft:iron_ingot"
     }
   },
+  "pattern": [
+    "TTT",
+    "#X#",
+    "#R#"
+  ],
   "result": {
     "item": "minecraft:piston"
   }

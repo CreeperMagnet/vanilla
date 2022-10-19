@@ -1,16 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "# #",
-    " # "
-  ],
+  "category": "misc",
   "key": {
     "#": {
       "tag": "minecraft:planks"
     }
   },
+  "pattern": [
+    "# #",
+    " # "
+  ],
   "result": {
-    "item": "minecraft:bowl",
-    "count": 4
+    "count": 4,
+    "item": "minecraft:bowl"
   }
 }

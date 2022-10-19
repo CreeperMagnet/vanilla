@@ -1,13 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
+  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:wheat"
     }
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
     "item": "minecraft:bread"
   }

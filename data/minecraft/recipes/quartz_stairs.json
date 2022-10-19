@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
+  "category": "building",
   "key": {
     "#": [
       {
@@ -18,8 +14,13 @@
       }
     ]
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "minecraft:quartz_stairs",
-    "count": 4
+    "count": 4,
+    "item": "minecraft:quartz_stairs"
   }
 }

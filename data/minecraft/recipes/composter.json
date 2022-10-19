@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "# #",
-    "# #",
-    "###"
-  ],
+  "category": "misc",
   "key": {
     "#": {
       "tag": "minecraft:wooden_slabs"
     }
   },
+  "pattern": [
+    "# #",
+    "# #",
+    "###"
+  ],
   "result": {
     "item": "minecraft:composter"
   }

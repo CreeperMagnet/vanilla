@@ -1,11 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
   "group": "stained_glass",
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "minecraft:glass"
@@ -14,8 +10,13 @@
       "item": "minecraft:white_dye"
     }
   },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
   "result": {
-    "item": "minecraft:white_stained_glass",
-    "count": 8
+    "count": 8,
+    "item": "minecraft:white_stained_glass"
   }
 }

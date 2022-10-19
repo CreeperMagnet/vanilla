@@ -1,20 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "I-I",
-    "# #"
-  ],
+  "category": "misc",
   "key": {
-    "I": {
-      "item": "minecraft:stick"
+    "#": {
+      "tag": "minecraft:planks"
     },
     "-": {
       "item": "minecraft:stone_slab"
     },
-    "#": {
-      "tag": "minecraft:planks"
+    "I": {
+      "item": "minecraft:stick"
     }
   },
+  "pattern": [
+    "I-I",
+    "# #"
+  ],
   "result": {
     "item": "minecraft:grindstone"
   }

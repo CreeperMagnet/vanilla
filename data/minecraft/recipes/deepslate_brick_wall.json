@@ -1,16 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:deepslate_bricks"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "minecraft:deepslate_brick_wall",
-    "count": 6
+    "count": 6,
+    "item": "minecraft:deepslate_brick_wall"
   }
 }

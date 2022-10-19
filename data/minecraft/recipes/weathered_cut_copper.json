@@ -1,16 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##",
-    "##"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:weathered_copper"
     }
   },
+  "pattern": [
+    "##",
+    "##"
+  ],
   "result": {
-    "item": "minecraft:weathered_cut_copper",
-    "count": 4
+    "count": 4,
+    "item": "minecraft:weathered_cut_copper"
   }
 }

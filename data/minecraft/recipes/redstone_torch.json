@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "X",
-    "#"
-  ],
+  "category": "redstone",
   "key": {
     "#": {
       "item": "minecraft:stick"
@@ -12,6 +9,10 @@
       "item": "minecraft:redstone"
     }
   },
+  "pattern": [
+    "X",
+    "#"
+  ],
   "result": {
     "item": "minecraft:redstone_torch"
   }

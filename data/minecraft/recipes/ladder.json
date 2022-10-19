@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "# #",
-    "###",
-    "# #"
-  ],
+  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:stick"
     }
   },
+  "pattern": [
+    "# #",
+    "###",
+    "# #"
+  ],
   "result": {
-    "item": "minecraft:ladder",
-    "count": 3
+    "count": 3,
+    "item": "minecraft:ladder"
   }
 }

@@ -1,13 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##"
-  ],
+  "category": "redstone",
   "key": {
     "#": {
       "item": "minecraft:gold_ingot"
     }
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
     "item": "minecraft:light_weighted_pressure_plate"
   }

@@ -1,14 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "redstone",
   "group": "wooden_pressure_plate",
-  "pattern": [
-    "##"
-  ],
   "key": {
     "#": {
       "item": "minecraft:crimson_planks"
     }
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
     "item": "minecraft:crimson_pressure_plate"
   }

@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "XXX",
-    "X#X",
-    "XXX"
-  ],
+  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:soul_torch"
@@ -13,6 +9,11 @@
       "item": "minecraft:iron_nugget"
     }
   },
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
   "result": {
     "item": "minecraft:soul_lantern"
   }

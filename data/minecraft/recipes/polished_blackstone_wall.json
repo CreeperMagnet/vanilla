@@ -1,16 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
+  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:polished_blackstone"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "minecraft:polished_blackstone_wall",
-    "count": 6
+    "count": 6,
+    "item": "minecraft:polished_blackstone_wall"
   }
 }

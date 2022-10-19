@@ -1,16 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##",
-    "##"
-  ],
+  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:quartz_block"
     }
   },
+  "pattern": [
+    "##",
+    "##"
+  ],
   "result": {
-    "item": "minecraft:quartz_bricks",
-    "count": 4
+    "count": 4,
+    "item": "minecraft:quartz_bricks"
   }
 }

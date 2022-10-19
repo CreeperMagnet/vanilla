@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " # ",
-    "#X#",
-    " # "
-  ],
+  "category": "equipment",
   "key": {
     "#": {
       "item": "minecraft:gold_ingot"
@@ -13,6 +9,11 @@
       "item": "minecraft:redstone"
     }
   },
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
   "result": {
     "item": "minecraft:clock"
   }

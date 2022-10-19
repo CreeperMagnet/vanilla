@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "SSS",
-    "SCS",
-    "SSS"
-  ],
+  "category": "equipment",
   "key": {
     "C": {
       "item": "minecraft:compass"
@@ -13,6 +9,11 @@
       "item": "minecraft:echo_shard"
     }
   },
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
+  ],
   "result": {
     "item": "minecraft:recovery_compass"
   }

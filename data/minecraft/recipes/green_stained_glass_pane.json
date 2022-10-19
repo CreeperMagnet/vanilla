@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "group": "stained_glass_pane",
-  "pattern": [
-    "###",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "minecraft:green_stained_glass"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "minecraft:green_stained_glass_pane",
-    "count": 16
+    "count": 16,
+    "item": "minecraft:green_stained_glass_pane"
   }
 }

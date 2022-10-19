@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##",
-    "##",
-    "##"
-  ],
+  "category": "redstone",
   "key": {
     "#": {
       "item": "minecraft:iron_ingot"
     }
   },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
   "result": {
-    "item": "minecraft:iron_door",
-    "count": 3
+    "count": 3,
+    "item": "minecraft:iron_door"
   }
 }

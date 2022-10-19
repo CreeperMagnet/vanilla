@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "@@",
-    "##"
-  ],
+  "category": "misc",
   "key": {
     "#": {
       "tag": "minecraft:planks"
@@ -12,6 +9,10 @@
       "item": "minecraft:string"
     }
   },
+  "pattern": [
+    "@@",
+    "##"
+  ],
   "result": {
     "item": "minecraft:loom"
   }

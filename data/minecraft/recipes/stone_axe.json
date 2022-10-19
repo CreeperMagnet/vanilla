@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "XX",
-    "X#",
-    " #"
-  ],
+  "category": "equipment",
   "key": {
     "#": {
       "item": "minecraft:stick"
@@ -13,6 +9,11 @@
       "tag": "minecraft:stone_tool_materials"
     }
   },
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
   "result": {
     "item": "minecraft:stone_axe"
   }
