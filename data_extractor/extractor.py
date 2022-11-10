@@ -52,7 +52,6 @@ with zipfile.ZipFile(client_jar) as archive :
                         continue
             os.makedirs(os.path.dirname(path),exist_ok=True)
             if object.endswith('.nbt') :
-                print(object)
                 archive.extract(object, os.path.abspath(os.path.join('..','data_extractor','server_jar','nbt')))
             else :
                 archive.extract(object, os.path.abspath(os.path.join('..')))
