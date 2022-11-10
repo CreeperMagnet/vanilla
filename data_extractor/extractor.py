@@ -52,6 +52,7 @@ with zipfile.ZipFile(client_jar) as archive :
                         continue
             os.makedirs(os.path.dirname(path),exist_ok=True)
             if object.endswith('.nbt') :
+                print(object)
                 archive.extract(object, os.path.abspath(os.path.join('..','data_extractor','server_jar','nbt')))
             else :
                 archive.extract(object, os.path.abspath(os.path.join('..')))
@@ -89,7 +90,7 @@ for root, directories, files in os.walk('data') :
             os.makedirs(os.path.dirname(path),exist_ok=True)
             shutil.copyfile(source_path,path)
 
-decode_path = os.path.abspath(os.path.join('..','..','data'))
+decode_path = os.path.abspath(os.path.join('nbt'))
 os.system('java -DbundlerMainClass=net.minecraft.data.Main -jar '+ server_jar + ' --dev --input '+decode_path+' --output snbt')
 for root, directories, files in os.walk('snbt') :
     for file in files :
@@ -102,7 +103,7 @@ for root, directories, files in os.walk('snbt') :
             nbt_path_array[-1] = nbt_path_array[-1].replace('.snbt','.nbt')
             joined_nbt_path_array = os.path.sep.join(nbt_path_array)
             joined_path_array = os.path.sep.join(path_array)
-            list.append(os.path.join('data',joined_path_array))
+            list.append(os.path.join(joined_path_array))
             source_path = os.path.join(root,file)
             a_file = open(source_path, "r")
             lines = a_file.readlines()
@@ -112,10 +113,14 @@ for root, directories, files in os.walk('snbt') :
                 if not re.search('\\s+DataVersion:.+',line.lstrip("\n")) :
                     new_file.write(line)
             new_file.close()
-            final_path =os.path.abspath(os.path.join('..','..','data',joined_path_array))
+            final_path =os.path.abspath(os.path.join('..','..',joined_path_array))
             source_nbt_path = os.path.abspath(os.path.join('nbt',joined_nbt_path_array))
-            final_nbt_path = os.path.abspath(os.path.join('..','..','data',joined_nbt_path_array))
-            if not filecmp.cmp(source_path, final_path) :
+            final_nbt_path = os.path.abspath(os.path.join('..','..',joined_nbt_path_array))
+            if not os.path.isfile(final_path) :
+                shutil.move(source_path,final_path)
+                shutil.move(source_nbt_path,final_nbt_path)
+                print("NBT file added: ",final_nbt_path)
+            elif not filecmp.cmp(source_path, final_path) :
                 shutil.move(source_path,final_path)
                 shutil.move(source_nbt_path,final_nbt_path)
                 print("NBT file changed: ",final_nbt_path)

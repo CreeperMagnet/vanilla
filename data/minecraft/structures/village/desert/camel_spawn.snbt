@@ -1,0 +1,20 @@
+{
+    size: [1, 4, 2],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:down_north}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:empty", pool: "minecraft:empty", target: "minecraft:empty"}},
+        {pos: [0, 0, 1], state: "minecraft:air"},
+        {pos: [0, 1, 0], state: "minecraft:air"},
+        {pos: [0, 1, 1], state: "minecraft:air"},
+        {pos: [0, 2, 0], state: "minecraft:air"},
+        {pos: [0, 2, 1], state: "minecraft:air"},
+        {pos: [0, 3, 0], state: "minecraft:air"},
+        {pos: [0, 3, 1], state: "minecraft:air"}
+    ],
+    entities: [
+        {blockPos: [0, 0, 1], pos: [0.0d, 0.0d, 0.0d], nbt: {id: "minecraft:camel"}}
+    ],
+    palette: [
+        "minecraft:air",
+        "minecraft:jigsaw{orientation:down_north}"
+    ]
+}
