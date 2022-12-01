@@ -349,6 +349,8 @@
     "arguments.item.tag.unknown": "Tundmatu esemesilt \"%s\"",
     "arguments.nbtpath.node.invalid": "Sobimatu NBT-tee element",
     "arguments.nbtpath.nothing_found": "Ükski element ei vasta NBT-teele %s",
+    "arguments.nbtpath.too_deep": "Tulenev NBT on liiga sügavate harudega",
+    "arguments.nbtpath.too_large": "Tulenev NBT on liiga suur",
     "arguments.objective.notFound": "Tundmatu tulemustabeli siht \"%s\"",
     "arguments.objective.readonly": "Tulemustabeli siht \"%s\" on ainult loetav",
     "arguments.operation.div0": "Nulliga ei saa jagada",
@@ -3373,7 +3375,7 @@
     "gui.socialInteractions.tab_all": "Kõik",
     "gui.socialInteractions.tab_blocked": "Blokeeritud",
     "gui.socialInteractions.tab_hidden": "Peidetud",
-    "gui.socialInteractions.title": "Suhtlustegevused",
+    "gui.socialInteractions.title": "Suhtlustoimingud",
     "gui.socialInteractions.tooltip.hide": "Peida sõnumid",
     "gui.socialInteractions.tooltip.report": "Teata mängijast",
     "gui.socialInteractions.tooltip.report.disabled": "Raporteerimisteenus pole kättesaadav",
@@ -4082,7 +4084,7 @@
     "key.screenshot": "Loo kuvatõmmis",
     "key.smoothCamera": "Lülita kinemaatilist kaamerat",
     "key.sneak": "Hiili",
-    "key.socialInteractions": "Suhtlustegevused",
+    "key.socialInteractions": "Suhtlustoimingud",
     "key.spectatorOutlines": "Too mängijad esile (vaatlejad)",
     "key.sprint": "Jookse",
     "key.swapOffhand": "Vaheta ese teisase käega",
@@ -4420,7 +4422,7 @@
     "multiplayer.requiredTexturePrompt.disconnect": "Server nõuab kohandatud ressursipakki",
     "multiplayer.requiredTexturePrompt.line1": "See server kohustab kasutada kohandatud ressursipakki.",
     "multiplayer.requiredTexturePrompt.line2": "Antud kohandatud ressursipakist keeldumine eemaldab su sellest serverist.",
-    "multiplayer.socialInteractions.not_available": "Suhtlustegevused on saadaval vaid mitmikmängu maailmades",
+    "multiplayer.socialInteractions.not_available": "Suhtlustoimingud on saadaval vaid mitmikmängu maailmades",
     "multiplayer.status.and_more": "...ja veel %s...",
     "multiplayer.status.cancelled": "Tühistatud",
     "multiplayer.status.cannot_connect": "Serveriga ei saa ühenduda",
@@ -5814,5 +5816,5 @@
     "tutorial.punch_tree.description": "Hoia klahvi %s",
     "tutorial.punch_tree.title": "Hävita puu",
     "tutorial.socialInteractions.description": "Avamiseks vajuta %s",
-    "tutorial.socialInteractions.title": "Suhtlustegevused"
+    "tutorial.socialInteractions.title": "Suhtlustoimingud"
 }
