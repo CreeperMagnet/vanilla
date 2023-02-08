@@ -1,32 +1,37 @@
 {
   "parent": "minecraft:story/obtain_armor",
+  "criteria": {
+    "deflected_projectile": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_projectile"
+              }
+            ]
+          },
+          "blocked": true
+        }
+      },
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
   "display": {
-    "icon": {
-      "item": "minecraft:shield",
-      "nbt": "{Damage:0}"
-    },
-    "title": {
-      "translate": "advancements.story.deflect_arrow.title"
-    },
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.deflect_arrow.description"
     },
     "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:shield",
+      "nbt": "{Damage:0}"
+    },
     "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "deflected_projectile": {
-      "trigger": "minecraft:entity_hurt_player",
-      "conditions": {
-        "damage": {
-          "type": {
-            "is_projectile": true
-          },
-          "blocked": true
-        }
-      }
+    "title": {
+      "translate": "advancements.story.deflect_arrow.title"
     }
   },
   "requirements": [
