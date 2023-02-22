@@ -1,32 +1,32 @@
 {
   "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "minecraft:glass"
-    ]
-  },
   "criteria": {
-    "has_sand": {
-      "trigger": "minecraft:inventory_changed",
+    "has_smelts_to_glass": {
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:sand"
+            "tag": "minecraft:smelts_to_glass"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
       "conditions": {
         "recipe": "minecraft:glass"
-      }
+      },
+      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_sand",
+      "has_smelts_to_glass",
       "has_the_recipe"
     ]
-  ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:glass"
+    ]
+  }
 }
