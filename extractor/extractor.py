@@ -19,7 +19,7 @@ def json_from_url(url) :
     return json.loads(urllib.request.urlopen(url).read())
 
 version_manifest = json_from_url(manifest_url)
-latest_version_data = json_from_url(version_manifest['versions'][2]['url'])
+latest_version_data = json_from_url(version_manifest['versions'][0]['url'])
 objects = json_from_url(latest_version_data['assetIndex']['url'])['objects']
 
 #####################################################################################
