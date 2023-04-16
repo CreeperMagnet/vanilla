@@ -19,7 +19,7 @@ def json_from_url(url) :
     return json.loads(urllib.request.urlopen(url).read())
 
 version_manifest = json_from_url(manifest_url)
-latest_version_data = json_from_url(version_manifest['versions'][0]['url'])
+latest_version_data = json_from_url(version_manifest['versions'][2]['url'])
 objects = json_from_url(latest_version_data['assetIndex']['url'])['objects']
 
 #####################################################################################
@@ -28,7 +28,7 @@ objects = json_from_url(latest_version_data['assetIndex']['url'])['objects']
 
 def get_jar(name) :
     url = latest_version_data['downloads'][name]['url']
-    path = os.path.abspath(os.path.join("..","data_extractor",name+".jar"))
+    path = os.path.abspath(os.path.join("..","extractor",name+".jar"))
     os.makedirs(os.path.dirname(path), exist_ok = True)
     urllib.request.urlretrieve(url,path)
     return path
@@ -52,7 +52,7 @@ with zipfile.ZipFile(client_jar) as archive :
                         continue
             os.makedirs(os.path.dirname(path),exist_ok=True)
             if object.endswith('.nbt') :
-                archive.extract(object, os.path.abspath(os.path.join('..','data_extractor','server_jar','nbt')))
+                archive.extract(object, os.path.abspath(os.path.join('..','extractor','server_jar','nbt')))
             else :
                 archive.extract(object, os.path.abspath(os.path.join('..')))
 
