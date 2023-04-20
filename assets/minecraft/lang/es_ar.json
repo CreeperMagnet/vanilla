@@ -4955,7 +4955,7 @@
     "quickplay.error.invalid_identifier": "No se pudo encontrar el mundo con el identificador proporcionado",
     "quickplay.error.realm_connect": "No se pudo conectar al Realm",
     "quickplay.error.realm_permission": "No tenés permiso para entrar a este Realm",
-    "quickplay.error.title": "Error en Juego Rapido",
+    "quickplay.error.title": "Error al ingresar en juego rápido",
     "realms.missing.module.error.text": "Ahora mismo no se puede acceder a Minecraft Realms. Por favor, volvé a probar luego.",
     "realms.missing.snapshot.error.text": "Minecraft Realms no es compatible con versiones snapshot.",
     "recipe.notFound": "Receta desconocida: %s",

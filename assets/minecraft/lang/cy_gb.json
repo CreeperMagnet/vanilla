@@ -4952,6 +4952,7 @@
     "potion.withAmplifier": "%s %s",
     "potion.withDuration": "%s (%s)",
     "predicate.unknown": "Dibeniad anhysbys: %s",
+    "quickplay.error.invalid_identifier": "Ni ellir canfod byd gyda'r dynodydd a roddwyd",
     "quickplay.error.realm_connect": "Ni allai gysylltu â'r Realm",
     "quickplay.error.realm_permission": "Dim caniatâd i gysylltu â'r Realm hwn",
     "quickplay.error.title": "Methwyd i Chwarae Cyflym",

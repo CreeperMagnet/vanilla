@@ -355,7 +355,7 @@
     "arguments.nbtpath.too_deep": "Tulenev NBT on liiga sügavate harudega",
     "arguments.nbtpath.too_large": "Tulenev NBT on liiga suur",
     "arguments.objective.notFound": "Tundmatu tulemustabeli siht \"%s\"",
-    "arguments.objective.readonly": "Tulemustabeli siht \"%s\" on ainult loetav",
+    "arguments.objective.readonly": "Tulemustabeli siht \"%s\" on kirjutuskaitstud",
     "arguments.operation.div0": "Nulliga ei saa jagada",
     "arguments.operation.invalid": "Sobimatu toiming",
     "arguments.swizzle.invalid": "Sobimatu teljekombinatsioon, oodati \"x\", \"y\" ja \"z\" kombinatsiooni",
