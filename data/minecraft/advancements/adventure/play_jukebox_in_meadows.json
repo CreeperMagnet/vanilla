@@ -1,41 +1,50 @@
 {
   "parent": "minecraft:adventure/sleep_in_bed",
+  "criteria": {
+    "play_jukebox_in_meadows": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biome": "minecraft:meadow",
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "minecraft:music_discs"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
   "display": {
-    "icon": {
-      "item": "minecraft:jukebox"
-    },
-    "title": {
-      "translate": "advancements.adventure.play_jukebox_in_meadows.title"
-    },
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.play_jukebox_in_meadows.description"
     },
     "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:jukebox"
+    },
     "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "play_jukebox_in_meadows": {
-      "trigger": "minecraft:item_used_on_block",
-      "conditions": {
-        "location": {
-          "biome": "minecraft:meadow",
-          "block": {
-            "blocks": [
-              "minecraft:jukebox"
-            ]
-          }
-        },
-        "item": {
-          "tag": "minecraft:music_discs"
-        }
-      }
+    "title": {
+      "translate": "advancements.adventure.play_jukebox_in_meadows.title"
     }
   },
   "requirements": [
     [
       "play_jukebox_in_meadows"
     ]
-  ]
+  ],
+  "sends_telemetry_event": true
 }
