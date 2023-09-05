@@ -3191,7 +3191,7 @@
         {pos: [5, 8, 26], state: "minecraft:end_stone_bricks"},
         {pos: [5, 8, 27], state: "minecraft:air"},
         {pos: [5, 8, 28], state: "minecraft:air"},
-        {pos: [6, 8, 0], state: "minecraft:dragon_wall_head{facing:north}", nbt: {id: "minecraft:skull"}},
+        {pos: [6, 8, 0], state: "minecraft:dragon_wall_head{facing:north,powered:false}", nbt: {id: "minecraft:skull"}},
         {pos: [6, 8, 1], state: "minecraft:purpur_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [6, 8, 2], state: "minecraft:air"},
         {pos: [6, 8, 3], state: "minecraft:air"},
@@ -9088,6 +9088,6 @@
         "minecraft:chest{facing:south,type:single,waterlogged:false}",
         "minecraft:structure_block{mode:data}",
         "minecraft:brewing_stand{has_bottle_0:true,has_bottle_1:false,has_bottle_2:true}",
-        "minecraft:dragon_wall_head{facing:north}"
+        "minecraft:dragon_wall_head{facing:north,powered:false}"
     ]
 }

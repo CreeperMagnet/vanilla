@@ -1416,7 +1416,7 @@
         {pos: [19, 5, 9], state: "minecraft:white_candle{candles:2,lit:true,waterlogged:false}"},
         {pos: [19, 5, 10], state: "minecraft:deepslate_tiles"},
         {pos: [19, 5, 11], state: "minecraft:deepslate_tiles"},
-        {pos: [19, 5, 12], state: "minecraft:skeleton_skull{rotation:14}", nbt: {id: "minecraft:skull"}},
+        {pos: [19, 5, 12], state: "minecraft:skeleton_skull{powered:false,rotation:14}", nbt: {id: "minecraft:skull"}},
         {pos: [19, 5, 13], state: "minecraft:white_candle{candles:3,lit:true,waterlogged:false}"},
         {pos: [19, 5, 14], state: "minecraft:white_candle{candles:2,lit:true,waterlogged:false}"},
         {pos: [19, 5, 15], state: "minecraft:deepslate_tiles"},
@@ -1614,6 +1614,6 @@
         "minecraft:jigsaw{orientation:up_west}",
         "minecraft:jigsaw{orientation:up_north}",
         "minecraft:chest{facing:north,type:single,waterlogged:false}",
-        "minecraft:skeleton_skull{rotation:14}"
+        "minecraft:skeleton_skull{powered:false,rotation:14}"
     ]
 }

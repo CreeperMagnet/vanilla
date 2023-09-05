@@ -32,7 +32,7 @@
         {pos: [3, 1, 4], state: "minecraft:deepslate{axis:y}"},
         {pos: [3, 1, 5], state: "minecraft:deepslate_tile_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [4, 1, 2], state: "minecraft:deepslate_tile_slab{type:bottom,waterlogged:false}"},
-        {pos: [4, 1, 4], state: "minecraft:skeleton_skull{rotation:2}", nbt: {id: "minecraft:skull"}},
+        {pos: [4, 1, 4], state: "minecraft:skeleton_skull{powered:false,rotation:2}", nbt: {id: "minecraft:skull"}},
         {pos: [4, 1, 5], state: "minecraft:deepslate_tile_slab{type:bottom,waterlogged:false}"},
         {pos: [2, 2, 3], state: "minecraft:deepslate{axis:y}"},
         {pos: [2, 2, 4], state: "minecraft:deepslate{axis:y}"},
@@ -154,6 +154,6 @@
         "minecraft:deepslate_tile_stairs{facing:west,half:top,shape:straight,waterlogged:false}",
         "minecraft:deepslate_tile_stairs{facing:west,half:top,shape:outer_right,waterlogged:false}",
         "minecraft:jigsaw{orientation:east_up}",
-        "minecraft:skeleton_skull{rotation:2}"
+        "minecraft:skeleton_skull{powered:false,rotation:2}"
     ]
 }
