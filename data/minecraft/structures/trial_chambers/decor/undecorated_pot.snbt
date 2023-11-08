@@ -1,0 +1,12 @@
+{
+    size: [1, 2, 1],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:waxed_oxidized_cut_copper", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:decor", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "minecraft:empty"}},
+        {pos: [0, 1, 0], state: "minecraft:decorated_pot{cracked:false,facing:north,waterlogged:false}", nbt: {LootTable: "minecraft:pots/trial_chambers/corridor", id: "minecraft:decorated_pot"}}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:jigsaw{orientation:west_up}",
+        "minecraft:decorated_pot{cracked:false,facing:north,waterlogged:false}"
+    ]
+}

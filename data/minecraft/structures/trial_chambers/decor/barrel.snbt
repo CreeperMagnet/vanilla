@@ -1,0 +1,12 @@
+{
+    size: [1, 2, 1],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:waxed_oxidized_cut_copper", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:decor", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "minecraft:empty"}},
+        {pos: [0, 1, 0], state: "minecraft:barrel{facing:up,open:false}", nbt: {LootTable: "minecraft:chests/trial_chambers/corridor", id: "minecraft:barrel"}}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:jigsaw{orientation:west_up}",
+        "minecraft:barrel{facing:up,open:false}"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    size: [3, 2, 3],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:podzol{snowy:false}"},
+        {pos: [0, 0, 1], state: "minecraft:waxed_chiseled_copper"},
+        {pos: [0, 0, 2], state: "minecraft:stone"},
+        {pos: [1, 0, 0], state: "minecraft:waxed_chiseled_copper"},
+        {pos: [1, 0, 1], state: "minecraft:waxed_copper_block"},
+        {pos: [1, 0, 2], state: "minecraft:waxed_chiseled_copper"},
+        {pos: [2, 0, 0], state: "minecraft:stone"},
+        {pos: [2, 0, 1], state: "minecraft:waxed_chiseled_copper"},
+        {pos: [2, 0, 2], state: "minecraft:podzol{snowy:false}"},
+        {pos: [0, 1, 0], state: "minecraft:red_mushroom"},
+        {pos: [0, 1, 1], state: "minecraft:air"},
+        {pos: [0, 1, 2], state: "minecraft:cobweb"},
+        {pos: [1, 1, 0], state: "minecraft:jigsaw{orientation:up_north}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:spawner", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "minecraft:empty"}},
+        {pos: [1, 1, 1], state: "minecraft:trial_spawner{trial_spawner_state:waiting_for_players}", nbt: {cooldown_ends_at: 0L, current_mobs: [], id: "minecraft:trial_spawner", loot_tables_to_eject: [{data: "minecraft:spawners/trial_chamber/consumables", weight: 1}, {data: "minecraft:spawners/trial_chamber/key", weight: 1}], next_mob_spawns_at: 0L, registered_players: [], required_player_range: 14, simultaneous_mobs: 3.0f, simultaneous_mobs_added_per_player: 2.0f, spawn_potentials: [{data: {entity: {id: "minecraft:cave_spider"}}, weight: 1}], spawn_range: 4, target_cooldown_length: 36000, ticks_between_spawn: 20, total_mobs: 6.0f, total_mobs_added_per_player: 2.0f, total_mobs_spawned: 0}},
+        {pos: [1, 1, 2], state: "minecraft:cobweb"},
+        {pos: [2, 1, 0], state: "minecraft:cobweb"},
+        {pos: [2, 1, 1], state: "minecraft:air"},
+        {pos: [2, 1, 2], state: "minecraft:red_mushroom"}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:podzol{snowy:false}",
+        "minecraft:waxed_chiseled_copper",
+        "minecraft:stone",
+        "minecraft:waxed_copper_block",
+        "minecraft:red_mushroom",
+        "minecraft:air",
+        "minecraft:cobweb",
+        "minecraft:jigsaw{orientation:up_north}",
+        "minecraft:trial_spawner{trial_spawner_state:waiting_for_players}"
+    ]
+}

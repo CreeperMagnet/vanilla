@@ -1,0 +1,37 @@
+{
+    size: [5, 6, 5],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [0, 0, 1], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [0, 0, 2], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [0, 0, 3], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [0, 0, 4], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [1, 0, 0], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [1, 0, 1], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [1, 0, 2], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [1, 0, 3], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [1, 0, 4], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [2, 0, 0], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [2, 0, 1], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [2, 0, 2], state: "minecraft:jigsaw{orientation:down_north}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:empty", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "minecraft:empty"}},
+        {pos: [2, 0, 3], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [2, 0, 4], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [3, 0, 0], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [3, 0, 1], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [3, 0, 2], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [3, 0, 3], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [3, 0, 4], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [4, 0, 0], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [4, 0, 1], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [4, 0, 2], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [4, 0, 3], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [4, 0, 4], state: "minecraft:waxed_oxidized_copper"},
+        {pos: [2, 2, 2], state: "minecraft:jigsaw{orientation:east_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:empty", placement_priority: 1, pool: "minecraft:trial_chambers/spawner/melee", selection_priority: 1, target: "minecraft:spawner_connector"}}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:waxed_oxidized_copper",
+        "minecraft:jigsaw{orientation:down_north}",
+        "minecraft:jigsaw{orientation:east_up}"
+    ]
+}
