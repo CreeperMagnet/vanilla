@@ -14,7 +14,7 @@
         {pos: [0, 1, 1], state: "minecraft:air"},
         {pos: [0, 1, 2], state: "minecraft:air"},
         {pos: [1, 1, 0], state: "minecraft:jigsaw{orientation:up_north}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:reward", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "minecraft:empty"}},
-        {pos: [1, 1, 1], state: "minecraft:chest{facing:south,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/trial_chambers/reward", id: "minecraft:chest"}},
+        {pos: [1, 1, 1], state: "minecraft:vault{facing:south,vault_state:inactive}", nbt: {config: {key_item: {Count: 1b, id: "minecraft:trial_key"}, loot_table: "minecraft:chests/trial_chambers/reward"}, id: "minecraft:vault"}},
         {pos: [1, 1, 2], state: "minecraft:air"},
         {pos: [2, 1, 0], state: "minecraft:air"},
         {pos: [2, 1, 1], state: "minecraft:air"},
@@ -26,6 +26,6 @@
         "minecraft:waxed_copper_block",
         "minecraft:air",
         "minecraft:jigsaw{orientation:up_north}",
-        "minecraft:chest{facing:south,type:single,waterlogged:false}"
+        "minecraft:vault{facing:south,vault_state:inactive}"
     ]
 }
