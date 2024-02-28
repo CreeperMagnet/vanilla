@@ -201,7 +201,7 @@
         {pos: [6, 1, 2], state: "minecraft:green_carpet"},
         {pos: [6, 1, 3], state: "minecraft:green_carpet"},
         {pos: [6, 1, 4], state: "minecraft:green_carpet"},
-        {pos: [6, 1, 5], state: "minecraft:chest{facing:west,type:single,waterlogged:false}", nbt: {Items: [{Count: 9b, Slot: 4b, id: "minecraft:dark_oak_sapling"}, {Count: 10b, Slot: 10b, id: "minecraft:dark_oak_sapling"}, {Count: 9b, Slot: 23b, id: "minecraft:dark_oak_sapling"}], id: "minecraft:chest"}},
+        {pos: [6, 1, 5], state: "minecraft:chest{facing:west,type:single,waterlogged:false}", nbt: {Items: [{Slot: 4b, count: 9, id: "minecraft:dark_oak_sapling"}, {Slot: 10b, count: 10, id: "minecraft:dark_oak_sapling"}, {Slot: 23b, count: 9, id: "minecraft:dark_oak_sapling"}], id: "minecraft:chest"}},
         {pos: [6, 1, 6], state: "minecraft:oak_planks"},
         {pos: [6, 1, 7], state: "minecraft:oak_planks"},
         {pos: [6, 1, 8], state: "minecraft:oak_planks"},

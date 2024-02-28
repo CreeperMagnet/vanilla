@@ -3,6 +3,7 @@
   "ingredient": {
     "item": "minecraft:cobbled_deepslate"
   },
-  "result": "minecraft:chiseled_deepslate",
-  "count": 1
+  "result": {
+    "id": "minecraft:chiseled_deepslate"
+  }
 }

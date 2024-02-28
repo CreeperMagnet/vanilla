@@ -476,7 +476,7 @@
         {pos: [3, 4, 7], state: "minecraft:air"},
         {pos: [3, 4, 8], state: "minecraft:air"},
         {pos: [3, 4, 9], state: "minecraft:air"},
-        {pos: [3, 4, 10], state: "minecraft:gray_wall_banner{facing:north}", nbt: {Patterns: [], id: "minecraft:banner"}},
+        {pos: [3, 4, 10], state: "minecraft:gray_wall_banner{facing:north}", nbt: {id: "minecraft:banner", patterns: []}},
         {pos: [3, 4, 11], state: "minecraft:cobblestone"},
         {pos: [3, 4, 12], state: "minecraft:air"},
         {pos: [3, 4, 13], state: "minecraft:air"},

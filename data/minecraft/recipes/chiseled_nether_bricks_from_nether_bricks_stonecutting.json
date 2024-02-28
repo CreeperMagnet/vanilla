@@ -3,6 +3,7 @@
   "ingredient": {
     "item": "minecraft:nether_bricks"
   },
-  "result": "minecraft:chiseled_nether_bricks",
-  "count": 1
+  "result": {
+    "id": "minecraft:chiseled_nether_bricks"
+  }
 }

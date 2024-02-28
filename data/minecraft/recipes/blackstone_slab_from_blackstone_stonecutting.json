@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:blackstone"
   },
-  "result": "minecraft:blackstone_slab",
-  "count": 2
+  "result": {
+    "count": 2,
+    "id": "minecraft:blackstone_slab"
+  }
 }

@@ -471,7 +471,7 @@
         {pos: [3, 4, 2], state: "minecraft:air"},
         {pos: [3, 4, 3], state: "minecraft:air"},
         {pos: [3, 4, 4], state: "minecraft:air"},
-        {pos: [3, 4, 5], state: "minecraft:trapped_chest{facing:south,type:single,waterlogged:false}", nbt: {Items: [{Count: 1b, Slot: 11b, id: "minecraft:ender_pearl"}, {Count: 1b, Slot: 15b, id: "minecraft:ender_pearl"}], id: "minecraft:trapped_chest"}},
+        {pos: [3, 4, 5], state: "minecraft:trapped_chest{facing:south,type:single,waterlogged:false}", nbt: {Items: [{Slot: 11b, count: 1, id: "minecraft:ender_pearl"}, {Slot: 15b, count: 1, id: "minecraft:ender_pearl"}], id: "minecraft:trapped_chest"}},
         {pos: [3, 4, 6], state: "minecraft:air"},
         {pos: [3, 4, 7], state: "minecraft:air"},
         {pos: [3, 4, 8], state: "minecraft:air"},

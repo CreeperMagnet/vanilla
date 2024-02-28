@@ -2839,7 +2839,7 @@
         {pos: [6, 7, 22], state: "minecraft:air"},
         {pos: [6, 7, 23], state: "minecraft:air"},
         {pos: [6, 7, 24], state: "minecraft:air"},
-        {pos: [6, 7, 25], state: "minecraft:brewing_stand{has_bottle_0:true,has_bottle_1:false,has_bottle_2:true}", nbt: {BrewTime: 0s, Fuel: 0b, Items: [{Count: 1b, Slot: 0b, id: "minecraft:potion", tag: {Potion: "minecraft:strong_healing"}}, {Count: 1b, Slot: 2b, id: "minecraft:potion", tag: {Potion: "minecraft:strong_healing"}}], id: "minecraft:brewing_stand"}},
+        {pos: [6, 7, 25], state: "minecraft:brewing_stand{has_bottle_0:true,has_bottle_1:false,has_bottle_2:true}", nbt: {BrewTime: 0s, Fuel: 0b, Items: [{Slot: 0b, components: {"minecraft:potion_contents": {potion: "minecraft:strong_healing"}}, count: 1, id: "minecraft:potion"}, {Slot: 2b, components: {"minecraft:potion_contents": {potion: "minecraft:strong_healing"}}, count: 1, id: "minecraft:potion"}], id: "minecraft:brewing_stand"}},
         {pos: [6, 7, 26], state: "minecraft:purpur_pillar{axis:y}"},
         {pos: [6, 7, 27], state: "minecraft:air"},
         {pos: [6, 7, 28], state: "minecraft:air"},

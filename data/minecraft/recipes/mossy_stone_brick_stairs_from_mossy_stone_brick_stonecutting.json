@@ -3,6 +3,7 @@
   "ingredient": {
     "item": "minecraft:mossy_stone_bricks"
   },
-  "result": "minecraft:mossy_stone_brick_stairs",
-  "count": 1
+  "result": {
+    "id": "minecraft:mossy_stone_brick_stairs"
+  }
 }

@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:polished_deepslate"
   },
-  "result": "minecraft:polished_deepslate_slab",
-  "count": 2
+  "result": {
+    "count": 2,
+    "id": "minecraft:polished_deepslate_slab"
+  }
 }

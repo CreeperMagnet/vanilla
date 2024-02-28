@@ -3,6 +3,7 @@
   "ingredient": {
     "item": "minecraft:deepslate_bricks"
   },
-  "result": "minecraft:deepslate_brick_stairs",
-  "count": 1
+  "result": {
+    "id": "minecraft:deepslate_brick_stairs"
+  }
 }
