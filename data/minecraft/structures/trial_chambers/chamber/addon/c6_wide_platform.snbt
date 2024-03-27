@@ -374,9 +374,11 @@
         {pos: [4, 2, 22], state: "minecraft:waxed_copper_block"},
         {pos: [4, 2, 23], state: "minecraft:waxed_copper_block"},
         {pos: [4, 2, 24], state: "minecraft:waxed_copper_block"},
-        {pos: [2, 4, 2], state: "minecraft:jigsaw{orientation:east_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:empty", placement_priority: 0, pool: "minecraft:trial_chambers/reward/all", selection_priority: 0, target: "minecraft:reward_connector"}},
+        {pos: [3, 3, 2], state: "minecraft:air"},
+        {pos: [2, 4, 2], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:empty", placement_priority: 0, pool: "minecraft:trial_chambers/reward/all", selection_priority: 0, target: "minecraft:reward_connector"}},
         {pos: [2, 4, 7], state: "minecraft:jigsaw{orientation:east_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:empty", placement_priority: 1, pool: "minecraft:trial_chambers/spawner/ranged", selection_priority: 1, target: "minecraft:spawner_connector"}},
-        {pos: [2, 4, 17], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:empty", placement_priority: 1, pool: "minecraft:trial_chambers/spawner/breeze", selection_priority: 1, target: "minecraft:spawner_connector"}}
+        {pos: [2, 4, 17], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:empty", placement_priority: 1, pool: "minecraft:trial_chambers/spawner/breeze", selection_priority: 1, target: "minecraft:spawner_connector"}},
+        {pos: [3, 4, 2], state: "minecraft:air"}
     ],
     entities: [],
     palette: [
@@ -384,8 +386,9 @@
         "minecraft:waxed_oxidized_cut_copper",
         "minecraft:waxed_oxidized_copper",
         "minecraft:waxed_copper_block",
+        "minecraft:air",
         "minecraft:jigsaw{orientation:down_east}",
-        "minecraft:jigsaw{orientation:east_up}",
-        "minecraft:jigsaw{orientation:west_up}"
+        "minecraft:jigsaw{orientation:west_up}",
+        "minecraft:jigsaw{orientation:east_up}"
     ]
 }

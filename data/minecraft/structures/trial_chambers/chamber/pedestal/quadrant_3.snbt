@@ -52,6 +52,8 @@
         {pos: [5, 0, 6], state: "minecraft:tuff_bricks"},
         {pos: [5, 0, 7], state: "minecraft:tuff_bricks"},
         {pos: [5, 0, 8], state: "minecraft:tuff_bricks"},
+        {pos: [5, 0, 9], state: "minecraft:tuff_bricks"},
+        {pos: [5, 0, 10], state: "minecraft:tuff_bricks"},
         {pos: [6, 0, 0], state: "minecraft:tuff_bricks"},
         {pos: [6, 0, 1], state: "minecraft:waxed_oxidized_copper"},
         {pos: [6, 0, 2], state: "minecraft:waxed_oxidized_copper"},

@@ -778,7 +778,7 @@
         {pos: [7, 7, 4], state: "minecraft:air"},
         {pos: [7, 7, 5], state: "minecraft:air"},
         {pos: [7, 7, 6], state: "minecraft:air"},
-        {pos: [7, 7, 7], state: "minecraft:air"},
+        {pos: [7, 7, 7], state: "minecraft:jigsaw{orientation:east_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:empty", placement_priority: 0, pool: "minecraft:trial_chambers/reward/all", selection_priority: 0, target: "minecraft:reward_connector"}},
         {pos: [7, 7, 8], state: "minecraft:air"},
         {pos: [7, 7, 9], state: "minecraft:air"},
         {pos: [8, 7, 0], state: "minecraft:air"},
@@ -788,7 +788,7 @@
         {pos: [8, 7, 4], state: "minecraft:air"},
         {pos: [8, 7, 5], state: "minecraft:air"},
         {pos: [8, 7, 6], state: "minecraft:air"},
-        {pos: [8, 7, 7], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:empty", placement_priority: 0, pool: "minecraft:trial_chambers/reward/all", selection_priority: 0, target: "minecraft:reward_connector"}},
+        {pos: [8, 7, 7], state: "minecraft:air"},
         {pos: [8, 7, 8], state: "minecraft:air"},
         {pos: [8, 7, 9], state: "minecraft:air"},
         {pos: [9, 7, 0], state: "minecraft:tuff_bricks"},
@@ -1212,6 +1212,6 @@
         "minecraft:polished_tuff",
         "minecraft:air",
         "minecraft:jigsaw{orientation:north_up}",
-        "minecraft:jigsaw{orientation:west_up}"
+        "minecraft:jigsaw{orientation:east_up}"
     ]
 }
