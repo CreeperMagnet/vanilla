@@ -4493,35 +4493,35 @@
   "minecraft:bow": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 384
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -5480,35 +5480,35 @@
   "minecraft:brush": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 64
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -6015,35 +6015,35 @@
   "minecraft:carrot_on_a_stick": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 25
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -6279,35 +6279,35 @@
   "minecraft:chainmail_boots": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 195
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -6319,35 +6319,35 @@
   "minecraft:chainmail_chestplate": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 240
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -6359,35 +6359,35 @@
   "minecraft:chainmail_helmet": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 165
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -6399,35 +6399,35 @@
   "minecraft:chainmail_leggings": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 225
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -9967,39 +9967,39 @@
   "minecraft:crossbow": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
-      },
-      {
-        "type": "minecraft:charged_projectiles",
-        "value": []
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 465
       },
       {
+        "type": "minecraft:charged_projectiles",
+        "value": []
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -11971,30 +11971,12 @@
   "minecraft:debug_stick": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
-      },
-      {
         "type": "minecraft:rarity",
         "value": "epic"
       },
       {
-        "type": "minecraft:enchantment_glint_override",
-        "value": true
-      },
-      {
         "type": "minecraft:debug_stick_state",
         "value": {}
-      },
-      {
-        "type": "minecraft:attribute_modifiers",
-        "value": {
-          "modifiers": []
-        }
       },
       {
         "type": "minecraft:enchantments",
@@ -12003,8 +11985,26 @@
         }
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
+        "type": "minecraft:attribute_modifiers",
+        "value": {
+          "modifiers": []
+        }
+      },
+      {
         "type": "minecraft:lore",
         "value": []
+      },
+      {
+        "type": "minecraft:enchantment_glint_override",
+        "value": true
       }
     ]
   },
@@ -12660,20 +12660,18 @@
   "minecraft:diamond_axe": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -12694,6 +12692,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -12726,12 +12732,6 @@
               ]
             }
           ]
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -12775,35 +12775,35 @@
   "minecraft:diamond_boots": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 429
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -12815,35 +12815,35 @@
   "minecraft:diamond_chestplate": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 528
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -12855,35 +12855,35 @@
   "minecraft:diamond_helmet": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 363
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -12895,20 +12895,18 @@
   "minecraft:diamond_hoe": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -12929,6 +12927,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -12961,12 +12967,6 @@
               ]
             }
           ]
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -13010,35 +13010,35 @@
   "minecraft:diamond_leggings": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 495
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -13082,20 +13082,18 @@
   "minecraft:diamond_pickaxe": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -13116,6 +13114,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -13151,12 +13157,6 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
       }
@@ -13165,20 +13165,18 @@
   "minecraft:diamond_shovel": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -13199,6 +13197,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -13234,12 +13240,6 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
       }
@@ -13248,20 +13248,18 @@
   "minecraft:diamond_sword": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -13283,6 +13281,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -13315,12 +13321,6 @@
               ]
             }
           ]
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -14052,35 +14052,35 @@
   "minecraft:elytra": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "uncommon"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "uncommon"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 432
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -14188,32 +14188,8 @@
   "minecraft:enchanted_book": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
-      },
-      {
-        "type": "minecraft:stored_enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:rarity",
         "value": "uncommon"
-      },
-      {
-        "type": "minecraft:enchantment_glint_override",
-        "value": true
-      },
-      {
-        "type": "minecraft:attribute_modifiers",
-        "value": {
-          "modifiers": []
-        }
       },
       {
         "type": "minecraft:enchantments",
@@ -14222,24 +14198,50 @@
         }
       },
       {
-        "type": "minecraft:lore",
-        "value": []
-      }
-    ]
-  },
-  "minecraft:enchanted_golden_apple": {
-    "components": [
-      {
-        "type": "minecraft:max_stack_size",
-        "value": 64
+        "type": "minecraft:stored_enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:repair_cost",
         "value": 0
       },
       {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
+        "type": "minecraft:attribute_modifiers",
+        "value": {
+          "modifiers": []
+        }
+      },
+      {
+        "type": "minecraft:lore",
+        "value": []
+      },
+      {
+        "type": "minecraft:enchantment_glint_override",
+        "value": true
+      }
+    ]
+  },
+  "minecraft:enchanted_golden_apple": {
+    "components": [
+      {
         "type": "minecraft:rarity",
         "value": "epic"
+      },
+      {
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
       },
       {
         "type": "minecraft:food",
@@ -14282,8 +14284,8 @@
         }
       },
       {
-        "type": "minecraft:enchantment_glint_override",
-        "value": true
+        "type": "minecraft:max_stack_size",
+        "value": 64
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -14292,14 +14294,12 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
+      },
+      {
+        "type": "minecraft:enchantment_glint_override",
+        "value": true
       }
     ]
   },
@@ -15342,35 +15342,35 @@
   "minecraft:filled_map": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 64
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
-      },
-      {
         "type": "minecraft:rarity",
         "value": "common"
+      },
+      {
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:map_decorations",
         "value": {}
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
         "type": "minecraft:map_color",
         "value": 4603950
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 64
       },
       {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -15580,35 +15580,35 @@
   "minecraft:fishing_rod": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 64
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -15684,35 +15684,35 @@
   "minecraft:flint_and_steel": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 64
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -16880,20 +16880,18 @@
   "minecraft:golden_axe": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -16914,6 +16912,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -16949,12 +16955,6 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
       }
@@ -16963,35 +16963,35 @@
   "minecraft:golden_boots": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 91
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -17042,35 +17042,35 @@
   "minecraft:golden_chestplate": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 112
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -17082,35 +17082,35 @@
   "minecraft:golden_helmet": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 77
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -17122,20 +17122,18 @@
   "minecraft:golden_hoe": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -17156,6 +17154,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -17188,12 +17194,6 @@
               ]
             }
           ]
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -17237,35 +17237,35 @@
   "minecraft:golden_leggings": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 105
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -17277,20 +17277,18 @@
   "minecraft:golden_pickaxe": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -17311,6 +17309,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -17346,12 +17352,6 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
       }
@@ -17360,20 +17360,18 @@
   "minecraft:golden_shovel": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -17394,6 +17392,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -17429,12 +17435,6 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
       }
@@ -17443,20 +17443,18 @@
   "minecraft:golden_sword": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -17478,6 +17476,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -17510,12 +17516,6 @@
               ]
             }
           ]
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -19698,20 +19698,18 @@
   "minecraft:iron_axe": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -19732,6 +19730,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -19764,12 +19770,6 @@
               ]
             }
           ]
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -19845,35 +19845,35 @@
   "minecraft:iron_boots": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 195
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -19885,35 +19885,35 @@
   "minecraft:iron_chestplate": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 240
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -19989,35 +19989,35 @@
   "minecraft:iron_helmet": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 165
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -20029,20 +20029,18 @@
   "minecraft:iron_hoe": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -20063,6 +20061,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -20095,12 +20101,6 @@
               ]
             }
           ]
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -20176,35 +20176,35 @@
   "minecraft:iron_leggings": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 225
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -20280,20 +20280,18 @@
   "minecraft:iron_pickaxe": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -20314,6 +20312,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -20349,12 +20355,6 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
       }
@@ -20363,20 +20363,18 @@
   "minecraft:iron_shovel": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -20397,6 +20395,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -20432,12 +20438,6 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
       }
@@ -20446,20 +20446,18 @@
   "minecraft:iron_sword": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -20481,6 +20479,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -20513,12 +20519,6 @@
               ]
             }
           ]
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -21622,35 +21622,35 @@
   "minecraft:leather_boots": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 65
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -21662,35 +21662,35 @@
   "minecraft:leather_chestplate": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 80
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -21702,35 +21702,35 @@
   "minecraft:leather_helmet": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 55
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -21774,35 +21774,35 @@
   "minecraft:leather_leggings": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 75
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -23474,20 +23474,22 @@
   "minecraft:mace": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
+      },
+      {
+        "type": "minecraft:max_damage",
+        "value": 250
       },
       {
         "type": "minecraft:tool",
@@ -23497,19 +23499,44 @@
         }
       },
       {
-        "type": "minecraft:max_damage",
-        "value": 250
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
         "value": {
-          "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
+          "modifiers": [
+            {
+              "type": "minecraft:generic.attack_damage",
+              "amount": 6.0,
+              "name": "Weapon modifier",
+              "operation": "add_value",
+              "slot": "mainhand",
+              "uuid": [
+                -885041709,
+                1683771192,
+                -1533567981,
+                -1556236849
+              ]
+            },
+            {
+              "type": "minecraft:generic.attack_speed",
+              "amount": -2.4000000953674316,
+              "name": "Weapon modifier",
+              "operation": "add_value",
+              "slot": "mainhand",
+              "uuid": [
+                -98353636,
+                1098926181,
+                -1340359474,
+                -1752847197
+              ]
+            }
+          ]
         }
       },
       {
@@ -26626,20 +26653,18 @@
   "minecraft:netherite_axe": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -26662,8 +26687,12 @@
         }
       },
       {
-        "type": "minecraft:fire_resistant",
-        "value": {}
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -26699,14 +26728,12 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
+      },
+      {
+        "type": "minecraft:fire_resistant",
+        "value": {}
       }
     ]
   },
@@ -26749,28 +26776,30 @@
   "minecraft:netherite_boots": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 481
       },
       {
-        "type": "minecraft:fire_resistant",
-        "value": {}
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -26779,42 +26808,42 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
+      },
+      {
+        "type": "minecraft:fire_resistant",
+        "value": {}
       }
     ]
   },
   "minecraft:netherite_chestplate": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 592
       },
       {
-        "type": "minecraft:fire_resistant",
-        "value": {}
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -26823,48 +26852,24 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
+      },
+      {
+        "type": "minecraft:fire_resistant",
+        "value": {}
       }
     ]
   },
   "minecraft:netherite_helmet": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
-      },
-      {
-        "type": "minecraft:damage",
-        "value": 0
-      },
-      {
         "type": "minecraft:rarity",
         "value": "common"
       },
       {
-        "type": "minecraft:max_damage",
-        "value": 407
-      },
-      {
-        "type": "minecraft:fire_resistant",
-        "value": {}
-      },
-      {
-        "type": "minecraft:attribute_modifiers",
-        "value": {
-          "modifiers": []
-        }
+        "type": "minecraft:damage",
+        "value": 0
       },
       {
         "type": "minecraft:enchantments",
@@ -26873,28 +26878,48 @@
         }
       },
       {
-        "type": "minecraft:lore",
-        "value": []
-      }
-    ]
-  },
-  "minecraft:netherite_hoe": {
-    "components": [
-      {
-        "type": "minecraft:max_stack_size",
-        "value": 1
+        "type": "minecraft:max_damage",
+        "value": 407
       },
       {
         "type": "minecraft:repair_cost",
         "value": 0
       },
       {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
+        "type": "minecraft:attribute_modifiers",
+        "value": {
+          "modifiers": []
+        }
+      },
+      {
+        "type": "minecraft:lore",
+        "value": []
+      },
+      {
+        "type": "minecraft:fire_resistant",
+        "value": {}
+      }
+    ]
+  },
+  "minecraft:netherite_hoe": {
+    "components": [
+      {
+        "type": "minecraft:rarity",
+        "value": "common"
+      },
+      {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -26917,8 +26942,12 @@
         }
       },
       {
-        "type": "minecraft:fire_resistant",
-        "value": {}
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -26954,14 +26983,12 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
+      },
+      {
+        "type": "minecraft:fire_resistant",
+        "value": {}
       }
     ]
   },
@@ -27004,34 +27031,12 @@
   "minecraft:netherite_leggings": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
-      },
-      {
-        "type": "minecraft:damage",
-        "value": 0
-      },
-      {
         "type": "minecraft:rarity",
         "value": "common"
       },
       {
-        "type": "minecraft:max_damage",
-        "value": 555
-      },
-      {
-        "type": "minecraft:fire_resistant",
-        "value": {}
-      },
-      {
-        "type": "minecraft:attribute_modifiers",
-        "value": {
-          "modifiers": []
-        }
+        "type": "minecraft:damage",
+        "value": 0
       },
       {
         "type": "minecraft:enchantments",
@@ -27040,28 +27045,48 @@
         }
       },
       {
-        "type": "minecraft:lore",
-        "value": []
-      }
-    ]
-  },
-  "minecraft:netherite_pickaxe": {
-    "components": [
-      {
-        "type": "minecraft:max_stack_size",
-        "value": 1
+        "type": "minecraft:max_damage",
+        "value": 555
       },
       {
         "type": "minecraft:repair_cost",
         "value": 0
       },
       {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
+        "type": "minecraft:attribute_modifiers",
+        "value": {
+          "modifiers": []
+        }
+      },
+      {
+        "type": "minecraft:lore",
+        "value": []
+      },
+      {
+        "type": "minecraft:fire_resistant",
+        "value": {}
+      }
+    ]
+  },
+  "minecraft:netherite_pickaxe": {
+    "components": [
+      {
+        "type": "minecraft:rarity",
+        "value": "common"
+      },
+      {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -27084,8 +27109,12 @@
         }
       },
       {
-        "type": "minecraft:fire_resistant",
-        "value": {}
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -27121,14 +27150,12 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
+      },
+      {
+        "type": "minecraft:fire_resistant",
+        "value": {}
       }
     ]
   },
@@ -27171,20 +27198,18 @@
   "minecraft:netherite_shovel": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -27207,8 +27232,12 @@
         }
       },
       {
-        "type": "minecraft:fire_resistant",
-        "value": {}
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -27244,34 +27273,30 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
+      },
+      {
+        "type": "minecraft:fire_resistant",
+        "value": {}
       }
     ]
   },
   "minecraft:netherite_sword": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -27295,8 +27320,12 @@
         }
       },
       {
-        "type": "minecraft:fire_resistant",
-        "value": {}
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -27332,14 +27361,12 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
+      },
+      {
+        "type": "minecraft:fire_resistant",
+        "value": {}
       }
     ]
   },
@@ -28114,20 +28141,22 @@
   "minecraft:ominous_bottle": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 64
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:ominous_bottle_amplifier",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
       },
       {
         "type": "minecraft:food",
@@ -28137,15 +28166,13 @@
         }
       },
       {
+        "type": "minecraft:max_stack_size",
+        "value": 64
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -35189,20 +35216,22 @@
   "minecraft:shears": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
+      },
+      {
+        "type": "minecraft:max_damage",
+        "value": 238
       },
       {
         "type": "minecraft:tool",
@@ -35232,19 +35261,17 @@
         }
       },
       {
-        "type": "minecraft:max_damage",
-        "value": 238
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -35320,39 +35347,39 @@
   "minecraft:shield": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
-      },
-      {
-        "type": "minecraft:banner_patterns",
-        "value": []
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 336
       },
       {
+        "type": "minecraft:banner_patterns",
+        "value": []
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -37764,20 +37791,18 @@
   "minecraft:stone_axe": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -37798,6 +37823,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -37830,12 +37863,6 @@
               ]
             }
           ]
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -38007,20 +38034,18 @@
   "minecraft:stone_hoe": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -38041,6 +38066,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -38076,12 +38109,6 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
       }
@@ -38090,20 +38117,18 @@
   "minecraft:stone_pickaxe": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -38124,6 +38149,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -38156,12 +38189,6 @@
               ]
             }
           ]
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -38205,20 +38232,18 @@
   "minecraft:stone_shovel": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -38239,6 +38264,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -38271,12 +38304,6 @@
               ]
             }
           ]
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -38352,20 +38379,18 @@
   "minecraft:stone_sword": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -38387,6 +38412,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -38419,12 +38452,6 @@
               ]
             }
           ]
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -39460,16 +39487,18 @@
   "minecraft:suspicious_stew": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
+        "type": "minecraft:rarity",
+        "value": "common"
+      },
+      {
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:repair_cost",
         "value": 0
-      },
-      {
-        "type": "minecraft:rarity",
-        "value": "common"
       },
       {
         "type": "minecraft:food",
@@ -39480,8 +39509,8 @@
         }
       },
       {
-        "type": "minecraft:suspicious_stew_effects",
-        "value": []
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -39490,13 +39519,11 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
+        "type": "minecraft:lore",
+        "value": []
       },
       {
-        "type": "minecraft:lore",
+        "type": "minecraft:suspicious_stew_effects",
         "value": []
       }
     ]
@@ -40131,20 +40158,22 @@
   "minecraft:trident": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
+      },
+      {
+        "type": "minecraft:max_damage",
+        "value": 250
       },
       {
         "type": "minecraft:tool",
@@ -40154,8 +40183,12 @@
         }
       },
       {
-        "type": "minecraft:max_damage",
-        "value": 250
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -40188,12 +40221,6 @@
               ]
             }
           ]
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -40728,35 +40755,35 @@
   "minecraft:turtle_helmet": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 275
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -41344,35 +41371,35 @@
   "minecraft:warped_fungus_on_a_stick": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 100
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -44080,35 +44107,35 @@
   "minecraft:wolf_armor": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
         "value": 64
       },
       {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
+      },
+      {
         "type": "minecraft:attribute_modifiers",
         "value": {
           "modifiers": []
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
@@ -44152,20 +44179,18 @@
   "minecraft:wooden_axe": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -44186,6 +44211,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -44221,12 +44254,6 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
       }
@@ -44235,20 +44262,18 @@
   "minecraft:wooden_hoe": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -44269,6 +44294,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -44304,12 +44337,6 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
       }
@@ -44318,20 +44345,18 @@
   "minecraft:wooden_pickaxe": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -44352,6 +44377,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -44387,12 +44420,6 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
       }
@@ -44401,20 +44428,18 @@
   "minecraft:wooden_shovel": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -44435,6 +44460,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -44470,12 +44503,6 @@
         }
       },
       {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
-        }
-      },
-      {
         "type": "minecraft:lore",
         "value": []
       }
@@ -44484,20 +44511,18 @@
   "minecraft:wooden_sword": {
     "components": [
       {
-        "type": "minecraft:max_stack_size",
-        "value": 1
-      },
-      {
-        "type": "minecraft:repair_cost",
-        "value": 0
+        "type": "minecraft:rarity",
+        "value": "common"
       },
       {
         "type": "minecraft:damage",
         "value": 0
       },
       {
-        "type": "minecraft:rarity",
-        "value": "common"
+        "type": "minecraft:enchantments",
+        "value": {
+          "levels": {}
+        }
       },
       {
         "type": "minecraft:max_damage",
@@ -44519,6 +44544,14 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:repair_cost",
+        "value": 0
+      },
+      {
+        "type": "minecraft:max_stack_size",
+        "value": 1
       },
       {
         "type": "minecraft:attribute_modifiers",
@@ -44551,12 +44584,6 @@
               ]
             }
           ]
-        }
-      },
-      {
-        "type": "minecraft:enchantments",
-        "value": {
-          "levels": {}
         }
       },
       {
