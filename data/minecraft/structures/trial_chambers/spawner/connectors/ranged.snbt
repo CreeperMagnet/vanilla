@@ -1,19 +1,11 @@
 {
     size: [3, 1, 3],
     data: [
-        {pos: [0, 0, 0], state: "minecraft:air"},
-        {pos: [0, 0, 1], state: "minecraft:air"},
-        {pos: [0, 0, 2], state: "minecraft:air"},
         {pos: [1, 0, 0], state: "minecraft:jigsaw{orientation:down_north}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:empty", placement_priority: 0, pool: "minecraft:trial_chambers/spawner/contents/ranged", selection_priority: 0, target: "minecraft:spawner"}},
-        {pos: [1, 0, 1], state: "minecraft:air"},
-        {pos: [1, 0, 2], state: "minecraft:jigsaw{orientation:north_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:spawner_connector", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "minecraft:empty"}},
-        {pos: [2, 0, 0], state: "minecraft:air"},
-        {pos: [2, 0, 1], state: "minecraft:air"},
-        {pos: [2, 0, 2], state: "minecraft:air"}
+        {pos: [1, 0, 2], state: "minecraft:jigsaw{orientation:north_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:spawner_connector", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "minecraft:empty"}}
     ],
     entities: [],
     palette: [
-        "minecraft:air",
         "minecraft:jigsaw{orientation:down_north}",
         "minecraft:jigsaw{orientation:north_up}"
     ]

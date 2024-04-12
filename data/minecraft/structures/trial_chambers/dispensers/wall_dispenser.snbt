@@ -1,0 +1,19 @@
+{
+    size: [2, 2, 3],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:up_west}", nbt: {final_state: "minecraft:waxed_copper_block", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:copper_dispenser", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "minecraft:empty"}},
+        {pos: [0, 0, 1], state: "minecraft:dispenser{facing:west,triggered:false}", nbt: {LootTable: "minecraft:dispensers/trial_chambers/chamber", id: "minecraft:dispenser"}},
+        {pos: [0, 1, 0], state: "minecraft:air"},
+        {pos: [0, 1, 1], state: "minecraft:oak_button{face:floor,facing:east,powered:false}"},
+        {pos: [0, 1, 2], state: "minecraft:air"},
+        {pos: [1, 1, 1], state: "minecraft:waxed_copper_bulb{lit:true,powered:false}"}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:waxed_copper_bulb{lit:true,powered:false}",
+        "minecraft:air",
+        "minecraft:oak_button{face:floor,facing:east,powered:false}",
+        "minecraft:jigsaw{orientation:up_west}",
+        "minecraft:dispenser{facing:west,triggered:false}"
+    ]
+}
