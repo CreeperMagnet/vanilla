@@ -2481,7 +2481,7 @@
         {pos: [27, 2, 12], state: "minecraft:waxed_copper_block"},
         {pos: [27, 2, 13], state: "minecraft:air"},
         {pos: [27, 2, 14], state: "minecraft:air"},
-        {pos: [27, 2, 15], state: "minecraft:air"},
+        {pos: [27, 2, 15], state: "minecraft:chest{facing:north,type:single,waterlogged:false}", nbt: {Items: [], id: "minecraft:chest"}},
         {pos: [27, 2, 16], state: "minecraft:waxed_copper_block"},
         {pos: [27, 2, 17], state: "minecraft:waxed_copper_block"},
         {pos: [27, 2, 18], state: "minecraft:waxed_copper_block"},
@@ -6324,7 +6324,7 @@
         {pos: [14, 7, 27], state: "minecraft:waxed_copper_block"},
         {pos: [14, 7, 28], state: "minecraft:tuff_bricks"},
         {pos: [15, 7, 0], state: "minecraft:air"},
-        {pos: [15, 7, 1], state: "minecraft:air"},
+        {pos: [15, 7, 1], state: "minecraft:chest{facing:west,type:single,waterlogged:false}", nbt: {Items: [], id: "minecraft:chest"}},
         {pos: [15, 7, 2], state: "minecraft:air"},
         {pos: [15, 7, 3], state: "minecraft:air"},
         {pos: [15, 7, 4], state: "minecraft:air"},
@@ -11786,11 +11786,13 @@
         "minecraft:chiseled_tuff_bricks",
         "minecraft:air",
         "minecraft:jigsaw{orientation:up_east}",
+        "minecraft:chest{facing:north,type:single,waterlogged:false}",
         "minecraft:jigsaw{orientation:down_east}",
         "minecraft:jigsaw{orientation:down_south}",
         "minecraft:jigsaw{orientation:down_north}",
         "minecraft:jigsaw{orientation:down_west}",
         "minecraft:jigsaw{orientation:east_up}",
+        "minecraft:chest{facing:west,type:single,waterlogged:false}",
         "minecraft:jigsaw{orientation:north_up}"
     ]
 }

@@ -566,7 +566,7 @@
         {pos: [2, 2, 2], state: "minecraft:waxed_copper_block"},
         {pos: [2, 2, 3], state: "minecraft:air"},
         {pos: [2, 2, 4], state: "minecraft:air"},
-        {pos: [2, 2, 5], state: "minecraft:air"},
+        {pos: [2, 2, 5], state: "minecraft:chest{facing:north,type:single,waterlogged:false}", nbt: {Items: [], id: "minecraft:chest"}},
         {pos: [2, 2, 6], state: "minecraft:waxed_copper_block"},
         {pos: [2, 2, 7], state: "minecraft:waxed_copper_block"},
         {pos: [2, 2, 8], state: "minecraft:air"},
@@ -3416,7 +3416,7 @@
         {pos: [15, 12, 10], state: "minecraft:air"},
         {pos: [15, 12, 11], state: "minecraft:air"},
         {pos: [15, 12, 12], state: "minecraft:air"},
-        {pos: [15, 12, 13], state: "minecraft:air"},
+        {pos: [15, 12, 13], state: "minecraft:chest{facing:west,type:single,waterlogged:false}", nbt: {Items: [], id: "minecraft:chest"}},
         {pos: [16, 12, 0], state: "minecraft:tuff_bricks"},
         {pos: [16, 12, 1], state: "minecraft:tuff_bricks"},
         {pos: [16, 12, 2], state: "minecraft:waxed_copper_block"},
@@ -6401,12 +6401,14 @@
         "minecraft:oxidized_copper_trapdoor{facing:north,half:top,open:false,powered:false,waterlogged:false}",
         "minecraft:oxidized_copper_trapdoor{facing:west,half:top,open:false,powered:false,waterlogged:false}",
         "minecraft:waxed_cut_copper_slab{type:top,waterlogged:false}",
+        "minecraft:chest{facing:north,type:single,waterlogged:false}",
         "minecraft:jigsaw{orientation:down_east}",
         "minecraft:jigsaw{orientation:north_up}",
         "minecraft:jigsaw{orientation:south_up}",
         "minecraft:jigsaw{orientation:down_north}",
         "minecraft:jigsaw{orientation:down_west}",
         "minecraft:jigsaw{orientation:down_south}",
+        "minecraft:chest{facing:west,type:single,waterlogged:false}",
         "minecraft:jigsaw{orientation:west_up}"
     ]
 }

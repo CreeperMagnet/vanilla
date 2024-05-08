@@ -1,0 +1,32 @@
+{
+    size: [3, 2, 3],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:moss_block"},
+        {pos: [0, 0, 1], state: "minecraft:waxed_chiseled_copper"},
+        {pos: [0, 0, 2], state: "minecraft:moss_block"},
+        {pos: [1, 0, 0], state: "minecraft:waxed_chiseled_copper"},
+        {pos: [1, 0, 1], state: "minecraft:waxed_copper_block"},
+        {pos: [1, 0, 2], state: "minecraft:waxed_chiseled_copper"},
+        {pos: [2, 0, 0], state: "minecraft:moss_block"},
+        {pos: [2, 0, 1], state: "minecraft:waxed_chiseled_copper"},
+        {pos: [2, 0, 2], state: "minecraft:moss_block"},
+        {pos: [0, 1, 0], state: "minecraft:air"},
+        {pos: [0, 1, 1], state: "minecraft:air"},
+        {pos: [0, 1, 2], state: "minecraft:air"},
+        {pos: [1, 1, 0], state: "minecraft:jigsaw{orientation:up_north}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:spawner", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "minecraft:empty"}},
+        {pos: [1, 1, 1], state: "minecraft:trial_spawner{ominous:false,trial_spawner_state:waiting_for_players}", nbt: {normal_config: {simultaneous_mobs: 3.0f, simultaneous_mobs_added_per_player: 0.5f, spawn_potentials: [{data: {entity: {Size: 1, id: "minecraft:slime"}}, weight: 3}, {data: {entity: {Size: 2, id: "minecraft:slime"}}, weight: 1}], ticks_between_spawn: 20}, ominous_config: {loot_tables_to_eject: [{data: "minecraft:spawners/ominous/trial_chamber/key", weight: 3}, {data: "minecraft:spawners/ominous/trial_chamber/consumables", weight: 7}], simultaneous_mobs: 4.0f, total_mobs: 12.0f}}},
+        {pos: [1, 1, 2], state: "minecraft:air"},
+        {pos: [2, 1, 0], state: "minecraft:air"},
+        {pos: [2, 1, 1], state: "minecraft:air"},
+        {pos: [2, 1, 2], state: "minecraft:air"}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:moss_block",
+        "minecraft:waxed_chiseled_copper",
+        "minecraft:waxed_copper_block",
+        "minecraft:air",
+        "minecraft:jigsaw{orientation:up_north}",
+        "minecraft:trial_spawner{ominous:false,trial_spawner_state:waiting_for_players}"
+    ]
+}

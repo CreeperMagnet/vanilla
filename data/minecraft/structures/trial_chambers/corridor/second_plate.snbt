@@ -181,7 +181,7 @@
         {pos: [8, 0, 17], state: "minecraft:tuff_bricks"},
         {pos: [8, 0, 18], state: "minecraft:tuff_bricks"},
         {pos: [8, 0, 19], state: "minecraft:tuff_bricks"},
-        {pos: [9, 0, 0], state: "minecraft:jigsaw{orientation:north_up}", nbt: {final_state: "minecraft:tuff_bricks", id: "minecraft:jigsaw", joint: "rollable", name: "minecarft:empty", placement_priority: 1, pool: "minecraft:trial_chambers/corridor", selection_priority: 1, target: "minecraft:intersection"}},
+        {pos: [9, 0, 0], state: "minecraft:jigsaw{orientation:north_up}", nbt: {final_state: "minecraft:tuff_bricks", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:empty", placement_priority: 1, pool: "minecraft:trial_chambers/corridor", selection_priority: 1, target: "minecraft:intersection"}},
         {pos: [9, 0, 1], state: "minecraft:tuff_bricks"},
         {pos: [9, 0, 2], state: "minecraft:jigsaw{orientation:up_north}", nbt: {final_state: "minecraft:tuff_bricks", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:empty", placement_priority: 0, pool: "minecraft:trial_chambers/corridor/slices", selection_priority: 0, target: "minecraft:slice"}},
         {pos: [9, 0, 3], state: "minecraft:tuff_bricks"},

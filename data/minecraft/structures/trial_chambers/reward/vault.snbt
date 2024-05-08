@@ -16,7 +16,7 @@
         {pos: [0, 2, 0], state: "minecraft:air"},
         {pos: [0, 2, 1], state: "minecraft:waxed_cut_copper_slab{type:bottom,waterlogged:false}"},
         {pos: [1, 2, 0], state: "minecraft:jigsaw{orientation:north_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:reward_connector", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "minecraft:empty"}},
-        {pos: [1, 2, 1], state: "minecraft:vault{facing:north,ominous:false,vault_state:inactive}", nbt: {config: {key_item: {count: 1b, id: "minecraft:trial_key"}, loot_table: "minecraft:chests/trial_chambers/reward"}, id: "minecraft:vault"}},
+        {pos: [1, 2, 1], state: "minecraft:vault{facing:north,ominous:false,vault_state:inactive}", nbt: {config: {key_item: {count: 1, id: "minecraft:trial_key"}, loot_table: "minecraft:chests/trial_chambers/reward"}, id: "minecraft:vault"}},
         {pos: [2, 2, 0], state: "minecraft:air"},
         {pos: [2, 2, 1], state: "minecraft:waxed_cut_copper_slab{type:bottom,waterlogged:false}"}
     ],

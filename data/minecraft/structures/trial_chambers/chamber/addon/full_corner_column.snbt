@@ -883,7 +883,7 @@
         {pos: [4, 11, 14], state: "minecraft:waxed_copper_block"},
         {pos: [0, 12, 0], state: "minecraft:tuff_bricks"},
         {pos: [0, 12, 1], state: "minecraft:air"},
-        {pos: [0, 12, 2], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:upper_start", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "minecraft:"}},
+        {pos: [0, 12, 2], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:upper_start", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "minecraft:empty"}},
         {pos: [0, 12, 3], state: "minecraft:air"},
         {pos: [0, 12, 4], state: "minecraft:tuff_bricks"},
         {pos: [0, 12, 5], state: "minecraft:tuff_bricks"},

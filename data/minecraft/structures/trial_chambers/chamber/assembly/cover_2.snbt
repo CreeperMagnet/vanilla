@@ -112,7 +112,7 @@
         {pos: [2, 4, 4], state: "minecraft:waxed_copper_grate{waterlogged:false}"},
         {pos: [3, 4, 0], state: "minecraft:air"},
         {pos: [3, 4, 1], state: "minecraft:waxed_copper_grate{waterlogged:false}"},
-        {pos: [3, 4, 2], state: "minecraft:jigsaw{orientation:east_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:floor_dispenser", placement_priority: 0, pool: "minecraft:trial_chambers/dispensers/chamber", selection_priority: 0, target: "minecraft:empty"}},
+        {pos: [3, 4, 2], state: "minecraft:air"},
         {pos: [3, 4, 3], state: "minecraft:air"},
         {pos: [3, 4, 4], state: "minecraft:waxed_copper_grate{waterlogged:false}"},
         {pos: [4, 4, 1], state: "minecraft:waxed_copper_grate{waterlogged:false}"},
@@ -173,7 +173,6 @@
         "minecraft:air",
         "minecraft:waxed_oxidized_copper_trapdoor{facing:east,half:top,open:false,powered:false,waterlogged:false}",
         "minecraft:waxed_oxidized_copper_trapdoor{facing:north,half:top,open:false,powered:false,waterlogged:false}",
-        "minecraft:jigsaw{orientation:down_north}",
-        "minecraft:jigsaw{orientation:east_up}"
+        "minecraft:jigsaw{orientation:down_north}"
     ]
 }
