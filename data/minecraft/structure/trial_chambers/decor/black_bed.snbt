@@ -1,0 +1,16 @@
+{
+    size: [2, 2, 1],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:black_bed{facing:east,occupied:false,part:foot}", nbt: {id: "minecraft:bed"}},
+        {pos: [1, 0, 0], state: "minecraft:black_bed{facing:east,occupied:false,part:head}", nbt: {id: "minecraft:bed"}},
+        {pos: [0, 1, 0], state: "minecraft:jigsaw{orientation:east_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:bed", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "minecraft:empty"}},
+        {pos: [1, 1, 0], state: "minecraft:air"}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:air",
+        "minecraft:black_bed{facing:east,occupied:false,part:foot}",
+        "minecraft:black_bed{facing:east,occupied:false,part:head}",
+        "minecraft:jigsaw{orientation:east_up}"
+    ]
+}

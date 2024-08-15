@@ -1,7 +1,7 @@
 {
     size: [5, 4, 3],
     data: [
-        {pos: [0, 0, 0], state: "minecraft:air"},
+        {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:down_north}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:addon_upper", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "minecraft:empty"}},
         {pos: [0, 0, 1], state: "minecraft:air"},
         {pos: [0, 0, 2], state: "minecraft:air"},
         {pos: [1, 0, 0], state: "minecraft:waxed_chiseled_copper"},
@@ -38,10 +38,10 @@
         {pos: [1, 2, 1], state: "minecraft:air"},
         {pos: [1, 2, 2], state: "minecraft:chain{axis:y,waterlogged:false}"},
         {pos: [2, 2, 0], state: "minecraft:air"},
-        {pos: [2, 2, 1], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:empty", placement_priority: 0, pool: "minecraft:trial_chambers/reward/all", selection_priority: 0, target: "minecraft:reward_connector"}},
+        {pos: [2, 2, 1], state: "minecraft:air"},
         {pos: [2, 2, 2], state: "minecraft:air"},
         {pos: [3, 2, 0], state: "minecraft:chain{axis:y,waterlogged:false}"},
-        {pos: [3, 2, 1], state: "minecraft:air"},
+        {pos: [3, 2, 1], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:empty", placement_priority: 0, pool: "minecraft:trial_chambers/reward/all", selection_priority: 0, target: "minecraft:reward_connector"}},
         {pos: [3, 2, 2], state: "minecraft:chain{axis:y,waterlogged:false}"},
         {pos: [4, 2, 0], state: "minecraft:air"},
         {pos: [4, 2, 1], state: "minecraft:air"},
@@ -68,6 +68,7 @@
         "minecraft:waxed_copper_block",
         "minecraft:air",
         "minecraft:chain{axis:y,waterlogged:false}",
+        "minecraft:jigsaw{orientation:down_north}",
         "minecraft:jigsaw{orientation:west_up}"
     ]
 }

@@ -1,0 +1,28 @@
+{
+    size: [1, 4, 3],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:waxed_oxidized_cut_copper_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}"},
+        {pos: [0, 0, 1], state: "minecraft:barrel{facing:up,open:false}", nbt: {Items: [], id: "minecraft:barrel"}},
+        {pos: [0, 0, 2], state: "minecraft:tuff_bricks"},
+        {pos: [0, 1, 0], state: "minecraft:air"},
+        {pos: [0, 1, 1], state: "minecraft:hopper{enabled:true,facing:down}", nbt: {Items: [], TransferCooldown: 0, id: "minecraft:hopper"}},
+        {pos: [0, 1, 2], state: "minecraft:waxed_copper_bulb{lit:true,powered:false}"},
+        {pos: [0, 2, 0], state: "minecraft:jigsaw{orientation:down_east}", nbt: {final_state: "minecraft:air", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:disposal", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "minecraft:empty"}},
+        {pos: [0, 2, 1], state: "minecraft:air"},
+        {pos: [0, 2, 2], state: "minecraft:tuff_bricks"},
+        {pos: [0, 3, 0], state: "minecraft:air"},
+        {pos: [0, 3, 1], state: "minecraft:waxed_chiseled_copper"},
+        {pos: [0, 3, 2], state: "minecraft:tuff_bricks"}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:tuff_bricks",
+        "minecraft:waxed_copper_bulb{lit:true,powered:false}",
+        "minecraft:waxed_chiseled_copper",
+        "minecraft:waxed_oxidized_cut_copper_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}",
+        "minecraft:air",
+        "minecraft:barrel{facing:up,open:false}",
+        "minecraft:hopper{enabled:true,facing:down}",
+        "minecraft:jigsaw{orientation:down_east}"
+    ]
+}

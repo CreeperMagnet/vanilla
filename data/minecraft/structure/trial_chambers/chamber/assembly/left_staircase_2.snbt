@@ -208,7 +208,7 @@
         {pos: [4, 3, 2], state: "minecraft:air"},
         {pos: [4, 3, 3], state: "minecraft:air"},
         {pos: [4, 3, 4], state: "minecraft:air"},
-        {pos: [4, 3, 7], state: "minecraft:tuff_bricks"},
+        {pos: [4, 3, 7], state: "minecraft:chiseled_tuff_bricks"},
         {pos: [4, 3, 8], state: "minecraft:tuff_bricks"},
         {pos: [4, 3, 9], state: "minecraft:tuff_bricks"},
         {pos: [5, 3, 2], state: "minecraft:chiseled_tuff_bricks"},
