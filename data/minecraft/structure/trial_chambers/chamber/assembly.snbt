@@ -12659,7 +12659,7 @@
         {pos: [28, 12, 11], state: "minecraft:air"},
         {pos: [28, 12, 12], state: "minecraft:air"},
         {pos: [28, 12, 13], state: "minecraft:air"},
-        {pos: [28, 12, 14], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [], id: "minecraft:chest"}},
+        {pos: [28, 12, 14], state: "minecraft:air"},
         {pos: [28, 12, 15], state: "minecraft:air"},
         {pos: [28, 12, 16], state: "minecraft:air"},
         {pos: [28, 12, 17], state: "minecraft:air"},
@@ -18760,7 +18760,6 @@
         "minecraft:jigsaw{orientation:down_north}",
         "minecraft:jigsaw{orientation:west_up}",
         "minecraft:jigsaw{orientation:down_west}",
-        "minecraft:chest{facing:east,type:single,waterlogged:false}",
         "minecraft:jigsaw{orientation:south_up}"
     ]
 }

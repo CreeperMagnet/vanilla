@@ -4023,7 +4023,7 @@
         {pos: [1, 15, 10], state: "minecraft:tuff_bricks"},
         {pos: [1, 15, 11], state: "minecraft:tuff_bricks"},
         {pos: [1, 15, 12], state: "minecraft:tuff_bricks"},
-        {pos: [1, 15, 13], state: "minecraft:tuff_bricks"},
+        {pos: [1, 15, 13], state: "minecraft:dispenser{facing:east,triggered:false}", nbt: {LootTable: "minecraft:dispensers/trial_chambers/corridor", id: "minecraft:dispenser"}},
         {pos: [1, 15, 14], state: "minecraft:dispenser{facing:east,triggered:false}", nbt: {LootTable: "minecraft:dispensers/trial_chambers/corridor", id: "minecraft:dispenser"}},
         {pos: [1, 15, 15], state: "minecraft:tuff_bricks"},
         {pos: [1, 15, 16], state: "minecraft:tuff_bricks"},
