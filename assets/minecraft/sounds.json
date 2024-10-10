@@ -14886,7 +14886,10 @@
   },
   "entity.horse.armor": {
     "sounds": [
-      "mob/horse/armor"
+      {
+        "name": "mob/horse/armor",
+        "volume": 0.5
+      }
     ],
     "subtitle": "subtitles.entity.horse.armor"
   },
@@ -22778,6 +22781,12 @@
       "ui/cartography_table/drawmap3"
     ],
     "subtitle": "subtitles.ui.cartography_table.take_result"
+  },
+  "ui.hud.bubble_pop": {
+    "sounds": [
+      "ui/hud/hud_bubble"
+    ],
+    "subtitle": "subtitles.ui.hud.bubble_pop"
   },
   "ui.loom.select_pattern": {
     "sounds": [
