@@ -1261,7 +1261,7 @@
         {pos: [9, 3, 3], state: "minecraft:air"},
         {pos: [9, 3, 4], state: "minecraft:waxed_oxidized_cut_copper_stairs{facing:south,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [9, 3, 5], state: "minecraft:waxed_oxidized_copper"},
-        {pos: [9, 3, 6], state: "minecraft:chest{facing:south,type:single,waterlogged:false}", nbt: {Items: [{Slot: 10b, count: 1, id: "minecraft:iron_block"}, {Slot: 13b, count: 1, id: "minecraft:cake"}, {Slot: 16b, count: 1, id: "minecraft:diamond"}], id: "minecraft:chest"}},
+        {pos: [9, 3, 6], state: "minecraft:chest{facing:south,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/trial_chambers/intersection", id: "minecraft:chest"}},
         {pos: [9, 3, 7], state: "minecraft:air"},
         {pos: [9, 3, 8], state: "minecraft:air"},
         {pos: [9, 3, 9], state: "minecraft:air"},
