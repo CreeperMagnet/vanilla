@@ -24,6 +24,8 @@
     "dataPack.update_1_20.name",
     "dataPack.update_1_21.description",
     "dataPack.update_1_21.name",
+    "dataPack.winter_drop.description",
+    "dataPack.winter_drop.name",
     "deathScreen.score",
     "event.minecraft.raid.defeat",
     "event.minecraft.raid.victory",
@@ -179,6 +181,8 @@
     "subtitles.entity.goat.step",
     "subtitles.entity.hoglin.step",
     "subtitles.entity.llama.step",
+    "subtitles.entity.minecart.inside",
+    "subtitles.entity.minecart.inside_underwater",
     "subtitles.entity.panda.step",
     "subtitles.entity.piglin_brute.step",
     "subtitles.entity.piglin.step",
@@ -231,7 +235,11 @@
     "attribute.name.zombie.spawn_reinforcements",
     "realms.missing.snapshot.error.text",
     "entity.minecraft.boat",
-    "entity.minecraft.chest_boat"
+    "entity.minecraft.chest_boat",
+    "subtitles.ambient.cave",
+    "subtitles.block.creaking_heart.idle",
+    "subtitles.block.eyeblossom.idle",
+    "subtitles.block.generic.idle"
   ],
   "renamed": {
     "item.minecraft.dune_armor_trim_smithing_template.new": "item.minecraft.dune_armor_trim_smithing_template",

@@ -2,7 +2,6 @@
   "values": [
     "#minecraft:leaves",
     "#minecraft:saplings",
-    "#minecraft:small_flowers",
     "#minecraft:crops",
     "minecraft:short_grass",
     "minecraft:fern",
@@ -33,7 +32,6 @@
     "minecraft:cave_vines",
     "minecraft:cave_vines_plant",
     "minecraft:spore_blossom",
-    "minecraft:moss_carpet",
     "minecraft:pink_petals",
     "minecraft:big_dripleaf",
     "minecraft:big_dripleaf_stem",
