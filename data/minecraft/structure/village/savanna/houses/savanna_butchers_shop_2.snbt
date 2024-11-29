@@ -264,7 +264,7 @@
         {pos: [7, 4, 4], state: "minecraft:acacia_door{facing:east,half:lower,hinge:right,open:false,powered:false}"},
         {pos: [7, 4, 5], state: "minecraft:acacia_wood{axis:y}"},
         {pos: [7, 4, 6], state: "minecraft:acacia_wood{axis:y}"},
-        {pos: [8, 4, 3], state: "minecraft:smoker{facing:east,lit:false}", nbt: {BurnTime: 0s, CookTime: 0s, CookTimeTotal: 0s, Items: [], RecipesUsed: {}, id: "minecraft:smoker"}},
+        {pos: [8, 4, 3], state: "minecraft:smoker{facing:east,lit:false}", nbt: {Items: [], RecipesUsed: {}, cooking_time_spent: 0s, cooking_total_time: 0s, id: "minecraft:smoker", lit_time_remaining: 0s, lit_total_time: 0s}},
         {pos: [3, 5, 3], state: "minecraft:wall_torch{facing:west}"},
         {pos: [3, 5, 5], state: "minecraft:wall_torch{facing:west}"},
         {pos: [4, 5, 2], state: "minecraft:acacia_wood{axis:y}"},

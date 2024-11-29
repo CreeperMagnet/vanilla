@@ -82,7 +82,7 @@
         {pos: [3, 1, 1], state: "minecraft:snow_block"},
         {pos: [3, 1, 2], state: "minecraft:white_bed{facing:east,occupied:false,part:foot}", nbt: {id: "minecraft:bed"}},
         {pos: [3, 1, 3], state: "minecraft:air"},
-        {pos: [3, 1, 4], state: "minecraft:furnace{facing:north,lit:false}", nbt: {BurnTime: 0s, CookTime: 0s, CookTimeTotal: 0s, Items: [], RecipesUsed: {}, id: "minecraft:furnace"}},
+        {pos: [3, 1, 4], state: "minecraft:furnace{facing:north,lit:false}", nbt: {Items: [], RecipesUsed: {}, cooking_time_spent: 0s, cooking_total_time: 0s, id: "minecraft:furnace", lit_time_remaining: 0s, lit_total_time: 0s}},
         {pos: [3, 1, 5], state: "minecraft:snow_block"},
         {pos: [3, 1, 6], state: "minecraft:snow{layers:5}"},
         {pos: [4, 1, 0], state: "minecraft:snow{layers:5}"},

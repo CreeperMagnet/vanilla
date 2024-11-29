@@ -2477,7 +2477,7 @@
         {pos: [9, 3, 11], state: "minecraft:redstone_wall_torch{facing:north,lit:false}"},
         {pos: [9, 3, 12], state: "minecraft:gray_wool"},
         {pos: [9, 3, 13], state: "minecraft:redstone_wire{east:none,north:up,power:15,south:none,west:side}"},
-        {pos: [9, 3, 14], state: "minecraft:furnace{facing:north,lit:false}", nbt: {BurnTime: 0s, CookTime: 0s, CookTimeTotal: 200s, Items: [{Slot: 1b, count: 1, id: "minecraft:wooden_shovel"}, {Slot: 2b, count: 24, id: "minecraft:deepslate"}], RecipesUsed: {"minecraft:deepslate": 24}, id: "minecraft:furnace"}},
+        {pos: [9, 3, 14], state: "minecraft:furnace{facing:north,lit:false}", nbt: {Items: [{Slot: 1b, count: 1, id: "minecraft:wooden_shovel"}, {Slot: 2b, count: 24, id: "minecraft:deepslate"}], RecipesUsed: {"minecraft:deepslate": 24}, cooking_time_spent: 0s, cooking_total_time: 200s, id: "minecraft:furnace", lit_time_remaining: 0s, lit_total_time: 0s}},
         {pos: [9, 3, 18], state: "minecraft:deepslate_tiles"},
         {pos: [9, 3, 19], state: "minecraft:gray_carpet"},
         {pos: [9, 3, 20], state: "minecraft:gray_carpet"},
