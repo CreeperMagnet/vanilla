@@ -6,7 +6,7 @@
         {pos: [0, 2, 0], state: "minecraft:air"}
     ],
     entities: [
-        {blockPos: [0, 1, 0], pos: [0.514131830906629d, 1.0d, 0.4899480814774648d], nbt: {AbsorptionAmount: 0.0f, Air: 300s, ArmorItems: [{}, {}, {}, {}], Brain: {memories: {}}, CanPickUpLoot: 1b, CannotHunt: 1b, DeathTime: 0s, Dimension: -1, FallDistance: 0.0f, FallFlying: 0b, Fire: -1s, HandItems: [{}, {}], Health: 50.0f, HurtByTimestamp: 0, HurtTime: 0s, Invulnerable: 0b, LeftHanded: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], OnGround: 1b, PersistenceRequired: 1b, PortalCooldown: 0, Pos: [1.514131830906629d, 82.0d, 79.48994808147746d], Rotation: [0.0f, 0.0f], TimeInOverworld: 0, UUID: [I; 552996879, -713341260, -1235469532, 106638709], attributes: [], id: "minecraft:piglin_brute"}}
+        {blockPos: [0, 1, 0], pos: [0.514131830906629d, 1.0d, 0.4899480814774648d], nbt: {AbsorptionAmount: 0.0f, Air: 300s, ArmorItems: [{}, {}, {}, {}], Brain: {memories: {}}, CanPickUpLoot: 1b, CannotHunt: 1b, DeathTime: 0s, Dimension: -1, FallFlying: 0b, Fire: -1s, HandItems: [{}, {}], Health: 50.0f, HurtByTimestamp: 0, HurtTime: 0s, Invulnerable: 0b, LeftHanded: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], OnGround: 1b, PersistenceRequired: 1b, PortalCooldown: 0, Pos: [1.514131830906629d, 82.0d, 79.48994808147746d], Rotation: [0.0f, 0.0f], TimeInOverworld: 0, UUID: [I; 552996879, -713341260, -1235469532, 106638709], attributes: [], fall_distance: 0.0d, id: "minecraft:piglin_brute"}}
     ],
     palette: [
         "minecraft:air",
