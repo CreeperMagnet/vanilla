@@ -144,7 +144,7 @@
         {pos: [2, 1, 5], state: "minecraft:air"},
         {pos: [2, 1, 6], state: "minecraft:air"},
         {pos: [2, 1, 7], state: "minecraft:air"},
-        {pos: [2, 1, 8], state: "minecraft:chest{facing:north,type:single,waterlogged:false}", nbt: {Items: [{Slot: 10b, components: {"minecraft:enchantments": {levels: {"minecraft:efficiency": 1}}}, count: 1, id: "minecraft:iron_axe"}], id: "minecraft:chest"}},
+        {pos: [2, 1, 8], state: "minecraft:chest{facing:north,type:single,waterlogged:false}", nbt: {Items: [{Slot: 10b, components: {"minecraft:enchantments": {"minecraft:efficiency": 1}}, count: 1, id: "minecraft:iron_axe"}], id: "minecraft:chest"}},
         {pos: [2, 1, 9], state: "minecraft:dark_oak_log{axis:y}"},
         {pos: [2, 1, 10], state: "minecraft:dirt"},
         {pos: [2, 1, 11], state: "minecraft:dirt"},
