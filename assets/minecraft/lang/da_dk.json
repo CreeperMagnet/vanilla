@@ -6984,7 +6984,7 @@
     "telemetry.property.frame_rate_samples.title": "Framerate-prøver (FPS)",
     "telemetry.property.game_mode.title": "Spiltilstand",
     "telemetry.property.game_version.title": "Spilversion",
-    "telemetry.property.launcher_name.title": "Starter navn",
+    "telemetry.property.launcher_name.title": "Launcher navn",
     "telemetry.property.load_time_bootstrap_ms.title": "Opstartstid (millisekunder)",
     "telemetry.property.load_time_loading_overlay_ms.title": "Tid på indlæsningsskærm (millisekunder)",
     "telemetry.property.load_time_pre_window_ms.title": "Tid før vindue åbnes (millisekunder)",

@@ -3593,7 +3593,7 @@
     "gameMode.adventure": "Panglakbayan",
     "gameMode.changed": "Ang paraan ng laro mo ay binago sa %s",
     "gameMode.creative": "Kalikhaan",
-    "gameMode.hardcore": "Pangdalubhasan!",
+    "gameMode.hardcore": "Pangdalubhasan",
     "gameMode.spectator": "Taganood",
     "gameMode.survival": "Kaligtasan",
     "gamerule.allowFireTicksAwayFromPlayer": "Tick fire away from players",
