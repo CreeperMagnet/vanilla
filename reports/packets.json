@@ -520,6 +520,9 @@
       },
       "minecraft:update_tags": {
         "protocol_id": 127
+      },
+      "minecraft:waypoint": {
+        "protocol_id": 131
       }
     },
     "serverbound": {
