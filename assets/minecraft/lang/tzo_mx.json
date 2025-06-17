@@ -2412,7 +2412,7 @@
     "chat.type.team.text": "%s <%s> %s",
     "chat.type.text": "<%s> %s",
     "chat.type.text.narrate": "Xal li %se: %s",
-    "chat.validation_error": "Ch'ay xa'i k'alal ta xa'i ox li lo'ile",
+    "chat.validation_error": "Chopolaj k'alal ta xa'i ox li lo'ile",
     "chat_screen.message": "Mantal ta takel: %s",
     "chat_screen.title": "Pantaya lo'il",
     "chat_screen.usage": "Ts'ibao jun mantal xchi'uk net'o Enter sventa xatak",
