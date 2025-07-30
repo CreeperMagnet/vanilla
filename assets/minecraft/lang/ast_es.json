@@ -3844,7 +3844,7 @@
     "gui.banned.reason.spam_or_advertising": "Spam or advertising",
     "gui.banned.skin.description": "Your current skin violates our Community Standards. You can still play with a default skin, or select a new one.\n\nLearn more or submit a case review at the following link: %s",
     "gui.banned.skin.title": "Skin Not Allowed",
-    "gui.banned.title.permanent": "Espulsión permanentemente",
+    "gui.banned.title.permanent": "Espulsión permanente",
     "gui.banned.title.temporary": "Cuenta suspendida temporalmente",
     "gui.cancel": "Encaboxar",
     "gui.chatReport.comments": "Comments",

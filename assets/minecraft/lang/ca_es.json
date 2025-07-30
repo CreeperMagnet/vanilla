@@ -5697,7 +5697,6 @@
     "options.music_frequency": "Music Frequency",
     "options.music_frequency.constant": "Constant",
     "options.music_frequency.default": "Default",
-    "options.music_frequency.frequent": "Frequent",
     "options.music_frequency.tooltip": "Changes how frequently music plays while in a game world.",
     "options.narrator": "Narrador",
     "options.narrator.all": "Narrar-ho tot",
