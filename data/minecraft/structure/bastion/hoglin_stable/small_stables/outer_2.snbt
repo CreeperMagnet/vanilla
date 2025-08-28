@@ -357,7 +357,7 @@
         {pos: [3, 4, 0], state: "minecraft:basalt{axis:y}"},
         {pos: [3, 4, 1], state: "minecraft:air"},
         {pos: [3, 4, 2], state: "minecraft:air"},
-        {pos: [3, 4, 3], state: "minecraft:chain{axis:y,waterlogged:false}"},
+        {pos: [3, 4, 3], state: "minecraft:iron_chain{axis:y,waterlogged:false}"},
         {pos: [3, 4, 4], state: "minecraft:air"},
         {pos: [3, 4, 5], state: "minecraft:air"},
         {pos: [3, 4, 6], state: "minecraft:air"},
@@ -501,7 +501,7 @@
         "minecraft:blackstone_wall{east:none,north:low,south:low,up:false,waterlogged:false,west:none}",
         "minecraft:blackstone_wall{east:none,north:low,south:none,up:true,waterlogged:false,west:none}",
         "minecraft:lantern{hanging:true,waterlogged:false}",
-        "minecraft:chain{axis:y,waterlogged:false}",
+        "minecraft:iron_chain{axis:y,waterlogged:false}",
         "minecraft:jigsaw{orientation:north_up}",
         "minecraft:jigsaw{orientation:south_up}",
         "minecraft:jigsaw{orientation:up_south}"

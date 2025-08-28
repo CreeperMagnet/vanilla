@@ -23,7 +23,7 @@
         {pos: [1, 1, 1], state: "minecraft:air"},
         {pos: [1, 1, 2], state: "minecraft:air"},
         {pos: [2, 1, 0], state: "minecraft:air"},
-        {pos: [2, 1, 1], state: "minecraft:chain{axis:y,waterlogged:false}"},
+        {pos: [2, 1, 1], state: "minecraft:iron_chain{axis:y,waterlogged:false}"},
         {pos: [2, 1, 2], state: "minecraft:air"},
         {pos: [3, 1, 0], state: "minecraft:air"},
         {pos: [3, 1, 1], state: "minecraft:air"},
@@ -38,7 +38,7 @@
         {pos: [1, 2, 1], state: "minecraft:air"},
         {pos: [1, 2, 2], state: "minecraft:air"},
         {pos: [2, 2, 0], state: "minecraft:air"},
-        {pos: [2, 2, 1], state: "minecraft:chain{axis:y,waterlogged:false}"},
+        {pos: [2, 2, 1], state: "minecraft:iron_chain{axis:y,waterlogged:false}"},
         {pos: [2, 2, 2], state: "minecraft:air"},
         {pos: [3, 2, 0], state: "minecraft:air"},
         {pos: [3, 2, 1], state: "minecraft:air"},
@@ -53,7 +53,7 @@
         {pos: [1, 3, 1], state: "minecraft:air"},
         {pos: [1, 3, 2], state: "minecraft:air"},
         {pos: [2, 3, 0], state: "minecraft:air"},
-        {pos: [2, 3, 1], state: "minecraft:chain{axis:y,waterlogged:false}"},
+        {pos: [2, 3, 1], state: "minecraft:iron_chain{axis:y,waterlogged:false}"},
         {pos: [2, 3, 2], state: "minecraft:air"},
         {pos: [3, 3, 0], state: "minecraft:air"},
         {pos: [3, 3, 1], state: "minecraft:air"},
@@ -67,7 +67,7 @@
         "minecraft:waxed_copper_grate{waterlogged:false}",
         "minecraft:waxed_chiseled_copper",
         "minecraft:air",
-        "minecraft:chain{axis:y,waterlogged:false}",
+        "minecraft:iron_chain{axis:y,waterlogged:false}",
         "minecraft:jigsaw{orientation:down_north}"
     ]
 }
