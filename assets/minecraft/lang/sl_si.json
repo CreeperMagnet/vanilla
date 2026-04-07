@@ -2438,7 +2438,7 @@
     "book.sign.titlebox": "Naslov",
     "book.signButton": "Podpiši",
     "book.view.title": "Ekran za gledanje knjige",
-    "build.spawn_protection": "%s je pod zaščito začetnega mesta",
+    "build.spawn_protection": "%s je pod zaščito",
     "build.tooHigh": "Višina za grajenje je %s",
     "build.tooLow": "Najmanjša višina za grajenje je %s",
     "chat.cannotSend": "Sporočila ni mogoče poslati",

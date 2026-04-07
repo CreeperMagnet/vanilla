@@ -7741,7 +7741,7 @@
     "test.error.fail": "Умови провалу виконані",
     "test.error.invalid_block_type": "Виявлено неочікуваний тип блока: %s",
     "test.error.missing_block_entity": "Немає блока-сутности",
-    "test.error.not_a_block_item": "Зазначений блок не є елементом блоку",
+    "test.error.not_a_block_item": "Зазначений блок не є блоком-предметом",
     "test.error.position": "%s на %s, %s, %s (відносні: %s, %s, %s) на такті %s",
     "test.error.sequence.condition_already_triggered": "Умова вже спрацювала на %s",
     "test.error.sequence.condition_not_triggered": "Умова не спрацювала",

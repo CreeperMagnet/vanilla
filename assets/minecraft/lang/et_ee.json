@@ -6472,7 +6472,7 @@
     "selecteWorld.backupRequiredTooltip": "Maailma laadimine nõuab varunduse tegemist",
     "sign.edit": "Muuda sildi teksti",
     "sleep.not_possible": "Mistahes magamine ei jäta seda ööd vahele",
-    "sleep.players_sleeping": "%s/%s mängijat magavad",
+    "sleep.players_sleeping": "%s/%s mängijast magavad",
     "sleep.skipping_night": "Magamine läbi selle öö",
     "slot.only_single_allowed": "Lubatud on ainult üksikud lahtrid: saadi \"%s\"",
     "slot.unknown": "Tundmatu lahter \"%s\"",
