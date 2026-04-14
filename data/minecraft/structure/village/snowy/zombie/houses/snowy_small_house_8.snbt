@@ -14,12 +14,12 @@
         {pos: [2, 0, 0], state: "minecraft:snow_block"},
         {pos: [2, 0, 1], state: "minecraft:stripped_spruce_log{axis:y}"},
         {pos: [2, 0, 2], state: "minecraft:air"},
-        {pos: [2, 0, 3], state: "minecraft:white_bed{facing:east,occupied:false,part:foot}", nbt: {id: "minecraft:bed"}},
+        {pos: [2, 0, 3], state: "minecraft:white_bed{facing:east,occupied:false,part:foot}"},
         {pos: [2, 0, 4], state: "minecraft:snow_block"},
         {pos: [3, 0, 0], state: "minecraft:snow_block"},
         {pos: [3, 0, 1], state: "minecraft:spruce_stairs{facing:east,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [3, 0, 2], state: "minecraft:air"},
-        {pos: [3, 0, 3], state: "minecraft:white_bed{facing:east,occupied:false,part:head}", nbt: {id: "minecraft:bed"}},
+        {pos: [3, 0, 3], state: "minecraft:white_bed{facing:east,occupied:false,part:head}"},
         {pos: [3, 0, 4], state: "minecraft:snow_block"},
         {pos: [4, 0, 0], state: "minecraft:snow{layers:1}"},
         {pos: [4, 0, 1], state: "minecraft:snow_block"},
@@ -130,11 +130,11 @@
         "minecraft:spruce_door{facing:west,half:lower,hinge:left,open:false,powered:false}",
         "minecraft:spruce_stairs{facing:west,half:bottom,shape:straight,waterlogged:false}",
         "minecraft:air",
+        "minecraft:white_bed{facing:east,occupied:false,part:foot}",
         "minecraft:spruce_stairs{facing:east,half:bottom,shape:straight,waterlogged:false}",
+        "minecraft:white_bed{facing:east,occupied:false,part:head}",
         "minecraft:spruce_door{facing:west,half:upper,hinge:left,open:false,powered:false}",
         "minecraft:torch",
-        "minecraft:jigsaw{orientation:west_up}",
-        "minecraft:white_bed{facing:east,occupied:false,part:foot}",
-        "minecraft:white_bed{facing:east,occupied:false,part:head}"
+        "minecraft:jigsaw{orientation:west_up}"
     ]
 }

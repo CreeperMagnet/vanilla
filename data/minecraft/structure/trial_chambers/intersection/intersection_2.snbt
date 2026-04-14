@@ -4237,8 +4237,8 @@
         {pos: [8, 8, 9], state: "minecraft:air"},
         {pos: [8, 8, 10], state: "minecraft:air"},
         {pos: [8, 8, 11], state: "minecraft:air"},
-        {pos: [8, 8, 12], state: "minecraft:purple_bed{facing:south,occupied:false,part:foot}", nbt: {id: "minecraft:bed"}},
-        {pos: [8, 8, 13], state: "minecraft:purple_bed{facing:south,occupied:false,part:head}", nbt: {id: "minecraft:bed"}},
+        {pos: [8, 8, 12], state: "minecraft:purple_bed{facing:south,occupied:false,part:foot}"},
+        {pos: [8, 8, 13], state: "minecraft:purple_bed{facing:south,occupied:false,part:head}"},
         {pos: [8, 8, 14], state: "minecraft:waxed_copper_block"},
         {pos: [8, 8, 15], state: "minecraft:tuff_bricks"},
         {pos: [8, 8, 16], state: "minecraft:tuff_bricks"},
@@ -10146,6 +10146,8 @@
         "minecraft:ladder{facing:west,waterlogged:false}",
         "minecraft:oak_slab{type:bottom,waterlogged:false}",
         "minecraft:oak_fence{east:false,north:false,south:false,waterlogged:false,west:true}",
+        "minecraft:purple_bed{facing:south,occupied:false,part:foot}",
+        "minecraft:purple_bed{facing:south,occupied:false,part:head}",
         "minecraft:waxed_copper_door{facing:west,half:lower,hinge:left,open:false,powered:false}",
         "minecraft:oak_pressure_plate{powered:false}",
         "minecraft:potted_dead_bush",
@@ -10154,8 +10156,6 @@
         "minecraft:jigsaw{orientation:south_up}",
         "minecraft:jigsaw{orientation:east_up}",
         "minecraft:decorated_pot{cracked:false,facing:south,waterlogged:false}",
-        "minecraft:purple_bed{facing:south,occupied:false,part:foot}",
-        "minecraft:purple_bed{facing:south,occupied:false,part:head}",
         "minecraft:barrel{facing:up,open:false}",
         "minecraft:jigsaw{orientation:north_up}"
     ]

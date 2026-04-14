@@ -40,8 +40,8 @@
         {pos: [1, 1, 0], state: "minecraft:potted_cactus"},
         {pos: [1, 1, 1], state: "minecraft:smooth_sandstone"},
         {pos: [1, 1, 2], state: "minecraft:crafting_table"},
-        {pos: [1, 1, 3], state: "minecraft:lime_bed{facing:south,occupied:false,part:foot}", nbt: {id: "minecraft:bed"}},
-        {pos: [1, 1, 4], state: "minecraft:lime_bed{facing:south,occupied:false,part:head}", nbt: {id: "minecraft:bed"}},
+        {pos: [1, 1, 3], state: "minecraft:lime_bed{facing:south,occupied:false,part:foot}"},
+        {pos: [1, 1, 4], state: "minecraft:lime_bed{facing:south,occupied:false,part:head}"},
         {pos: [1, 1, 5], state: "minecraft:cut_sandstone"},
         {pos: [2, 1, 0], state: "minecraft:jigsaw{orientation:north_up}", nbt: {final_state: "minecraft:structure_void", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:building_entrance", pool: "minecraft:empty", target: "minecraft:building_entrance"}},
         {pos: [2, 1, 1], state: "minecraft:jungle_door{facing:north,half:lower,hinge:left,open:false,powered:false}"},
@@ -191,13 +191,13 @@
         "minecraft:crafting_table",
         "minecraft:air",
         "minecraft:potted_cactus",
+        "minecraft:lime_bed{facing:south,occupied:false,part:foot}",
+        "minecraft:lime_bed{facing:south,occupied:false,part:head}",
         "minecraft:jungle_door{facing:north,half:lower,hinge:left,open:false,powered:false}",
         "minecraft:jungle_door{facing:north,half:upper,hinge:left,open:false,powered:false}",
         "minecraft:jungle_button{face:wall,facing:north,powered:false}",
         "minecraft:wall_torch{facing:north}",
         "minecraft:jigsaw{orientation:up_north}",
-        "minecraft:lime_bed{facing:south,occupied:false,part:foot}",
-        "minecraft:lime_bed{facing:south,occupied:false,part:head}",
         "minecraft:jigsaw{orientation:north_up}"
     ]
 }

@@ -340,9 +340,9 @@
         {pos: [9, 2, 2], state: "minecraft:air"},
         {pos: [9, 2, 3], state: "minecraft:cobblestone"},
         {pos: [9, 2, 4], state: "minecraft:air"},
-        {pos: [9, 2, 5], state: "minecraft:white_bed{facing:east,occupied:false,part:foot}", nbt: {id: "minecraft:bed"}},
+        {pos: [9, 2, 5], state: "minecraft:white_bed{facing:east,occupied:false,part:foot}"},
         {pos: [9, 2, 6], state: "minecraft:air"},
-        {pos: [9, 2, 7], state: "minecraft:white_bed{facing:east,occupied:false,part:foot}", nbt: {id: "minecraft:bed"}},
+        {pos: [9, 2, 7], state: "minecraft:white_bed{facing:east,occupied:false,part:foot}"},
         {pos: [9, 2, 8], state: "minecraft:air"},
         {pos: [9, 2, 9], state: "minecraft:cobblestone"},
         {pos: [9, 2, 10], state: "minecraft:air"},
@@ -351,9 +351,9 @@
         {pos: [10, 2, 2], state: "minecraft:air"},
         {pos: [10, 2, 3], state: "minecraft:cobblestone"},
         {pos: [10, 2, 4], state: "minecraft:oak_fence{east:true,north:true,south:false,waterlogged:false,west:false}"},
-        {pos: [10, 2, 5], state: "minecraft:white_bed{facing:east,occupied:false,part:head}", nbt: {id: "minecraft:bed"}},
+        {pos: [10, 2, 5], state: "minecraft:white_bed{facing:east,occupied:false,part:head}"},
         {pos: [10, 2, 6], state: "minecraft:air"},
-        {pos: [10, 2, 7], state: "minecraft:white_bed{facing:east,occupied:false,part:head}", nbt: {id: "minecraft:bed"}},
+        {pos: [10, 2, 7], state: "minecraft:white_bed{facing:east,occupied:false,part:head}"},
         {pos: [10, 2, 8], state: "minecraft:oak_fence{east:true,north:false,south:true,waterlogged:false,west:false}"},
         {pos: [10, 2, 9], state: "minecraft:cobblestone"},
         {pos: [10, 2, 10], state: "minecraft:air"},
@@ -1112,7 +1112,9 @@
         "minecraft:oak_fence{east:false,north:false,south:false,waterlogged:false,west:true}",
         "minecraft:oak_stairs{facing:south,half:bottom,shape:straight,waterlogged:false}",
         "minecraft:oak_fence{east:false,north:false,south:true,waterlogged:false,west:false}",
+        "minecraft:white_bed{facing:east,occupied:false,part:foot}",
         "minecraft:oak_fence{east:true,north:true,south:false,waterlogged:false,west:false}",
+        "minecraft:white_bed{facing:east,occupied:false,part:head}",
         "minecraft:oak_fence{east:true,north:false,south:true,waterlogged:false,west:false}",
         "minecraft:wall_torch{facing:west}",
         "minecraft:oak_door{facing:east,half:upper,hinge:left,open:false,powered:false}",
@@ -1125,8 +1127,6 @@
         "minecraft:oak_stairs{facing:west,half:bottom,shape:inner_right,waterlogged:false}",
         "minecraft:oak_stairs{facing:north,half:bottom,shape:inner_left,waterlogged:false}",
         "minecraft:jigsaw{orientation:up_north}",
-        "minecraft:jigsaw{orientation:west_up}",
-        "minecraft:white_bed{facing:east,occupied:false,part:foot}",
-        "minecraft:white_bed{facing:east,occupied:false,part:head}"
+        "minecraft:jigsaw{orientation:west_up}"
     ]
 }

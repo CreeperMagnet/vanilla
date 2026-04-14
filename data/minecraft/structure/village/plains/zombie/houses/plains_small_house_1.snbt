@@ -73,14 +73,14 @@
         {pos: [2, 1, 6], state: "minecraft:air"},
         {pos: [3, 1, 0], state: "minecraft:air"},
         {pos: [3, 1, 1], state: "minecraft:cobblestone"},
-        {pos: [3, 1, 2], state: "minecraft:white_bed{facing:east,occupied:false,part:foot}", nbt: {id: "minecraft:bed"}},
+        {pos: [3, 1, 2], state: "minecraft:white_bed{facing:east,occupied:false,part:foot}"},
         {pos: [3, 1, 3], state: "minecraft:air"},
         {pos: [3, 1, 4], state: "minecraft:air"},
         {pos: [3, 1, 5], state: "minecraft:cobblestone"},
         {pos: [3, 1, 6], state: "minecraft:air"},
         {pos: [4, 1, 0], state: "minecraft:air"},
         {pos: [4, 1, 1], state: "minecraft:cobblestone"},
-        {pos: [4, 1, 2], state: "minecraft:white_bed{facing:east,occupied:false,part:head}", nbt: {id: "minecraft:bed"}},
+        {pos: [4, 1, 2], state: "minecraft:white_bed{facing:east,occupied:false,part:head}"},
         {pos: [4, 1, 3], state: "minecraft:air"},
         {pos: [4, 1, 4], state: "minecraft:oak_stairs{facing:east,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [4, 1, 5], state: "minecraft:cobblestone"},
@@ -352,6 +352,8 @@
         "minecraft:oak_planks",
         "minecraft:air",
         "minecraft:oak_door{facing:east,half:lower,hinge:right,open:false,powered:false}",
+        "minecraft:white_bed{facing:east,occupied:false,part:foot}",
+        "minecraft:white_bed{facing:east,occupied:false,part:head}",
         "minecraft:oak_stairs{facing:east,half:bottom,shape:straight,waterlogged:false}",
         "minecraft:oak_door{facing:east,half:upper,hinge:right,open:false,powered:false}",
         "minecraft:glass_pane{east:true,north:false,south:false,waterlogged:false,west:true}",
@@ -368,8 +370,6 @@
         "minecraft:oak_stairs{facing:south,half:bottom,shape:outer_right,waterlogged:false}",
         "minecraft:oak_stairs{facing:west,half:bottom,shape:outer_right,waterlogged:false}",
         "minecraft:jigsaw{orientation:west_up}",
-        "minecraft:jigsaw{orientation:up_north}",
-        "minecraft:white_bed{facing:east,occupied:false,part:foot}",
-        "minecraft:white_bed{facing:east,occupied:false,part:head}"
+        "minecraft:jigsaw{orientation:up_north}"
     ]
 }

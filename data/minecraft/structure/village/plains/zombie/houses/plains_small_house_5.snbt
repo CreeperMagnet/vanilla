@@ -177,7 +177,7 @@
         {pos: [4, 2, 8], state: "minecraft:air"},
         {pos: [5, 2, 0], state: "minecraft:air"},
         {pos: [5, 2, 1], state: "minecraft:oak_planks"},
-        {pos: [5, 2, 2], state: "minecraft:white_bed{facing:east,occupied:false,part:foot}", nbt: {id: "minecraft:bed"}},
+        {pos: [5, 2, 2], state: "minecraft:white_bed{facing:east,occupied:false,part:foot}"},
         {pos: [5, 2, 3], state: "minecraft:green_carpet"},
         {pos: [5, 2, 4], state: "minecraft:air"},
         {pos: [5, 2, 5], state: "minecraft:air"},
@@ -186,7 +186,7 @@
         {pos: [5, 2, 8], state: "minecraft:air"},
         {pos: [6, 2, 0], state: "minecraft:air"},
         {pos: [6, 2, 1], state: "minecraft:oak_planks"},
-        {pos: [6, 2, 2], state: "minecraft:white_bed{facing:east,occupied:false,part:head}", nbt: {id: "minecraft:bed"}},
+        {pos: [6, 2, 2], state: "minecraft:white_bed{facing:east,occupied:false,part:head}"},
         {pos: [6, 2, 3], state: "minecraft:green_carpet"},
         {pos: [6, 2, 4], state: "minecraft:air"},
         {pos: [6, 2, 5], state: "minecraft:oak_stairs{facing:east,half:bottom,shape:straight,waterlogged:false}"},
@@ -870,8 +870,10 @@
         "minecraft:oak_log{axis:z}",
         "minecraft:air",
         "minecraft:oak_door{facing:east,half:lower,hinge:left,open:false,powered:false}",
+        "minecraft:white_bed{facing:east,occupied:false,part:foot}",
         "minecraft:green_carpet",
         "minecraft:oak_fence{east:false,north:false,south:true,waterlogged:false,west:false}",
+        "minecraft:white_bed{facing:east,occupied:false,part:head}",
         "minecraft:oak_stairs{facing:east,half:bottom,shape:straight,waterlogged:false}",
         "minecraft:oak_door{facing:east,half:upper,hinge:left,open:false,powered:false}",
         "minecraft:wall_torch{facing:east}",
@@ -892,8 +894,6 @@
         "minecraft:oak_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}",
         "minecraft:wall_torch{facing:west}",
         "minecraft:jigsaw{orientation:up_north}",
-        "minecraft:jigsaw{orientation:west_up}",
-        "minecraft:white_bed{facing:east,occupied:false,part:foot}",
-        "minecraft:white_bed{facing:east,occupied:false,part:head}"
+        "minecraft:jigsaw{orientation:west_up}"
     ]
 }

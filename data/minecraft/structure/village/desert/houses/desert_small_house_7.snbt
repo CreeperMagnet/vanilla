@@ -97,8 +97,8 @@
         {pos: [6, 1, 1], state: "minecraft:smooth_sandstone_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [6, 1, 2], state: "minecraft:cut_sandstone"},
         {pos: [6, 1, 3], state: "minecraft:smooth_sandstone_stairs{facing:south,half:bottom,shape:straight,waterlogged:false}"},
-        {pos: [6, 1, 4], state: "minecraft:lime_bed{facing:south,occupied:false,part:foot}", nbt: {id: "minecraft:bed"}},
-        {pos: [6, 1, 5], state: "minecraft:lime_bed{facing:south,occupied:false,part:head}", nbt: {id: "minecraft:bed"}},
+        {pos: [6, 1, 4], state: "minecraft:lime_bed{facing:south,occupied:false,part:foot}"},
+        {pos: [6, 1, 5], state: "minecraft:lime_bed{facing:south,occupied:false,part:head}"},
         {pos: [6, 1, 6], state: "minecraft:smooth_sandstone"},
         {pos: [7, 1, 0], state: "minecraft:smooth_sandstone"},
         {pos: [7, 1, 1], state: "minecraft:smooth_sandstone"},
@@ -294,6 +294,8 @@
         "minecraft:jungle_door{facing:west,half:lower,hinge:right,open:false,powered:false}",
         "minecraft:smooth_sandstone_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}",
         "minecraft:smooth_sandstone_stairs{facing:south,half:bottom,shape:straight,waterlogged:false}",
+        "minecraft:lime_bed{facing:south,occupied:false,part:foot}",
+        "minecraft:lime_bed{facing:south,occupied:false,part:head}",
         "minecraft:potted_dead_bush",
         "minecraft:torch",
         "minecraft:jungle_door{facing:west,half:upper,hinge:left,open:false,powered:false}",
@@ -301,8 +303,6 @@
         "minecraft:smooth_sandstone_slab{type:bottom,waterlogged:false}",
         "minecraft:smooth_sandstone_slab{type:top,waterlogged:false}",
         "minecraft:jigsaw{orientation:up_north}",
-        "minecraft:jigsaw{orientation:west_up}",
-        "minecraft:lime_bed{facing:south,occupied:false,part:foot}",
-        "minecraft:lime_bed{facing:south,occupied:false,part:head}"
+        "minecraft:jigsaw{orientation:west_up}"
     ]
 }

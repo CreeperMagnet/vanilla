@@ -59,8 +59,8 @@
         {pos: [4, 1, 4], state: "minecraft:smooth_sandstone"},
         {pos: [5, 1, 0], state: "minecraft:smooth_sandstone"},
         {pos: [5, 1, 1], state: "minecraft:chiseled_sandstone"},
-        {pos: [5, 1, 2], state: "minecraft:green_bed{facing:south,occupied:false,part:foot}", nbt: {id: "minecraft:bed"}},
-        {pos: [5, 1, 3], state: "minecraft:green_bed{facing:south,occupied:false,part:head}", nbt: {id: "minecraft:bed"}},
+        {pos: [5, 1, 2], state: "minecraft:green_bed{facing:south,occupied:false,part:foot}"},
+        {pos: [5, 1, 3], state: "minecraft:green_bed{facing:south,occupied:false,part:head}"},
         {pos: [5, 1, 4], state: "minecraft:smooth_sandstone"},
         {pos: [6, 1, 0], state: "minecraft:cut_sandstone"},
         {pos: [6, 1, 1], state: "minecraft:smooth_sandstone"},
@@ -219,6 +219,8 @@
         "minecraft:air",
         "minecraft:jungle_door{facing:west,half:lower,hinge:right,open:false,powered:false}",
         "minecraft:green_carpet",
+        "minecraft:green_bed{facing:south,occupied:false,part:foot}",
+        "minecraft:green_bed{facing:south,occupied:false,part:head}",
         "minecraft:jungle_door{facing:west,half:upper,hinge:right,open:false,powered:false}",
         "minecraft:torch",
         "minecraft:potted_cactus",
@@ -226,8 +228,6 @@
         "minecraft:smooth_sandstone_slab{type:top,waterlogged:false}",
         "minecraft:smooth_sandstone_slab{type:bottom,waterlogged:false}",
         "minecraft:jigsaw{orientation:up_north}",
-        "minecraft:jigsaw{orientation:west_up}",
-        "minecraft:green_bed{facing:south,occupied:false,part:foot}",
-        "minecraft:green_bed{facing:south,occupied:false,part:head}"
+        "minecraft:jigsaw{orientation:west_up}"
     ]
 }

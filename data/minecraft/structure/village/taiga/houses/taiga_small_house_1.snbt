@@ -118,8 +118,8 @@
         {pos: [2, 2, 1], state: "minecraft:torch"},
         {pos: [2, 2, 2], state: "minecraft:cobblestone"},
         {pos: [2, 2, 3], state: "minecraft:air"},
-        {pos: [2, 2, 4], state: "minecraft:purple_bed{facing:south,occupied:false,part:foot}", nbt: {id: "minecraft:bed"}},
-        {pos: [2, 2, 5], state: "minecraft:purple_bed{facing:south,occupied:false,part:head}", nbt: {id: "minecraft:bed"}},
+        {pos: [2, 2, 4], state: "minecraft:purple_bed{facing:south,occupied:false,part:foot}"},
+        {pos: [2, 2, 5], state: "minecraft:purple_bed{facing:south,occupied:false,part:head}"},
         {pos: [2, 2, 6], state: "minecraft:cobblestone"},
         {pos: [2, 2, 7], state: "minecraft:air"},
         {pos: [2, 2, 8], state: "minecraft:air"},
@@ -490,6 +490,8 @@
         "minecraft:cobblestone_stairs{facing:south,half:bottom,shape:straight,waterlogged:false}",
         "minecraft:cobblestone_wall{east:low,north:none,south:low,up:true,waterlogged:false,west:none}",
         "minecraft:torch",
+        "minecraft:purple_bed{facing:south,occupied:false,part:foot}",
+        "minecraft:purple_bed{facing:south,occupied:false,part:head}",
         "minecraft:spruce_door{facing:south,half:lower,hinge:right,open:false,powered:false}",
         "minecraft:spruce_stairs{facing:east,half:bottom,shape:straight,waterlogged:false}",
         "minecraft:spruce_trapdoor{facing:west,half:top,open:true,powered:false,waterlogged:false}",
@@ -501,8 +503,6 @@
         "minecraft:wall_torch{facing:south}",
         "minecraft:jigsaw{orientation:up_north}",
         "minecraft:jigsaw{orientation:north_up}",
-        "minecraft:purple_bed{facing:south,occupied:false,part:foot}",
-        "minecraft:purple_bed{facing:south,occupied:false,part:head}",
         "minecraft:spruce_wall_sign{facing:north,waterlogged:false}",
         "minecraft:spruce_wall_sign{facing:south,waterlogged:false}"
     ]
