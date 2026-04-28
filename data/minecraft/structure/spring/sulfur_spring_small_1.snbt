@@ -23,7 +23,7 @@
         {pos: [1, 1, 3], state: "minecraft:sulfur"},
         {pos: [2, 1, 0], state: "minecraft:sulfur"},
         {pos: [2, 1, 1], state: "minecraft:sulfur"},
-        {pos: [2, 1, 2], state: "minecraft:potent_sulfur"},
+        {pos: [2, 1, 2], state: "minecraft:potent_sulfur{potent_sulfur_state:dormant}"},
         {pos: [2, 1, 3], state: "minecraft:sulfur"},
         {pos: [2, 1, 4], state: "minecraft:sulfur"},
         {pos: [3, 1, 1], state: "minecraft:sulfur"},
@@ -42,7 +42,7 @@
     palette: [
         "minecraft:sulfur",
         "minecraft:magma_block",
-        "minecraft:potent_sulfur",
+        "minecraft:potent_sulfur{potent_sulfur_state:dormant}",
         "minecraft:water{level:0}"
     ]
 }

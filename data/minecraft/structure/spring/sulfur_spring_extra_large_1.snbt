@@ -52,11 +52,11 @@
         {pos: [1, 1, 5], state: "minecraft:sulfur"},
         {pos: [1, 1, 6], state: "minecraft:sulfur"},
         {pos: [2, 1, 3], state: "minecraft:sulfur"},
-        {pos: [2, 1, 4], state: "minecraft:potent_sulfur"},
+        {pos: [2, 1, 4], state: "minecraft:potent_sulfur{potent_sulfur_state:dormant}"},
         {pos: [2, 1, 5], state: "minecraft:sulfur"},
         {pos: [2, 1, 6], state: "minecraft:sulfur"},
         {pos: [3, 1, 2], state: "minecraft:sulfur"},
-        {pos: [3, 1, 3], state: "minecraft:potent_sulfur"},
+        {pos: [3, 1, 3], state: "minecraft:potent_sulfur{potent_sulfur_state:dormant}"},
         {pos: [3, 1, 4], state: "minecraft:water{level:8}"},
         {pos: [3, 1, 5], state: "minecraft:sulfur"},
         {pos: [3, 1, 6], state: "minecraft:sulfur"},
@@ -65,7 +65,7 @@
         {pos: [4, 1, 2], state: "minecraft:sulfur"},
         {pos: [4, 1, 3], state: "minecraft:sulfur"},
         {pos: [4, 1, 4], state: "minecraft:sulfur"},
-        {pos: [4, 1, 5], state: "minecraft:potent_sulfur"},
+        {pos: [4, 1, 5], state: "minecraft:potent_sulfur{potent_sulfur_state:dormant}"},
         {pos: [4, 1, 6], state: "minecraft:sulfur"},
         {pos: [5, 1, 2], state: "minecraft:sulfur"},
         {pos: [5, 1, 3], state: "minecraft:sulfur"},
@@ -123,7 +123,7 @@
     palette: [
         "minecraft:sulfur",
         "minecraft:magma_block",
-        "minecraft:potent_sulfur",
+        "minecraft:potent_sulfur{potent_sulfur_state:dormant}",
         "minecraft:water{level:8}",
         "minecraft:water{level:0}"
     ]
