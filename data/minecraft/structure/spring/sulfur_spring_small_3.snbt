@@ -302,7 +302,7 @@
         {pos: [4, 5, 1], state: "minecraft:cinnabar"},
         {pos: [4, 5, 2], state: "minecraft:sulfur"},
         {pos: [4, 5, 3], state: "minecraft:sulfur"},
-        {pos: [4, 5, 4], state: "minecraft:sulfur_spike{thickness:tip,vertical_direction:up,waterlogged:false}"},
+        {pos: [4, 5, 4], state: "minecraft:sulfur_spike{thickness:tip,vertical_direction:up,waterlogged:true}"},
         {pos: [4, 5, 5], state: "minecraft:potent_sulfur{potent_sulfur_state:dormant}"},
         {pos: [4, 5, 6], state: "minecraft:sulfur"},
         {pos: [4, 5, 7], state: "minecraft:granite"},
@@ -672,8 +672,9 @@
         "minecraft:sulfur",
         "minecraft:magma_block",
         "minecraft:potent_sulfur{potent_sulfur_state:dormant}",
-        "minecraft:sulfur_spike{thickness:tip,vertical_direction:up,waterlogged:false}",
+        "minecraft:sulfur_spike{thickness:tip,vertical_direction:up,waterlogged:true}",
         "minecraft:water{level:0}",
-        "minecraft:air"
+        "minecraft:air",
+        "minecraft:sulfur_spike{thickness:tip,vertical_direction:up,waterlogged:false}"
     ]
 }

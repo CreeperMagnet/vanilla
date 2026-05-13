@@ -332,7 +332,7 @@
         {pos: [3, 5, 0], state: "minecraft:stone"},
         {pos: [3, 5, 1], state: "minecraft:granite"},
         {pos: [3, 5, 2], state: "minecraft:sulfur"},
-        {pos: [3, 5, 3], state: "minecraft:sulfur_spike{thickness:tip,vertical_direction:up,waterlogged:false}"},
+        {pos: [3, 5, 3], state: "minecraft:sulfur_spike{thickness:tip,vertical_direction:up,waterlogged:true}"},
         {pos: [3, 5, 4], state: "minecraft:water{level:0}"},
         {pos: [3, 5, 5], state: "minecraft:water{level:0}"},
         {pos: [3, 5, 6], state: "minecraft:sulfur"},
@@ -409,7 +409,7 @@
         {pos: [4, 6, 2], state: "minecraft:water{level:0}"},
         {pos: [4, 6, 3], state: "minecraft:water{level:0}"},
         {pos: [4, 6, 4], state: "minecraft:water{level:0}"},
-        {pos: [4, 6, 5], state: "minecraft:sulfur_spike{thickness:tip,vertical_direction:up,waterlogged:false}"},
+        {pos: [4, 6, 5], state: "minecraft:sulfur_spike{thickness:tip,vertical_direction:up,waterlogged:true}"},
         {pos: [4, 6, 6], state: "minecraft:sulfur"},
         {pos: [4, 6, 7], state: "minecraft:granite"},
         {pos: [4, 6, 8], state: "minecraft:tuff"},
@@ -737,8 +737,9 @@
         "minecraft:sulfur",
         "minecraft:magma_block",
         "minecraft:potent_sulfur{potent_sulfur_state:dormant}",
-        "minecraft:sulfur_spike{thickness:tip,vertical_direction:up,waterlogged:false}",
+        "minecraft:sulfur_spike{thickness:tip,vertical_direction:up,waterlogged:true}",
         "minecraft:water{level:0}",
-        "minecraft:air"
+        "minecraft:air",
+        "minecraft:sulfur_spike{thickness:tip,vertical_direction:up,waterlogged:false}"
     ]
 }
