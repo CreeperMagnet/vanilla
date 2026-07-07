@@ -10,7 +10,7 @@
         {pos: [0, 0, 6], state: "minecraft:dirt_path"},
         {pos: [0, 0, 7], state: "minecraft:dirt"},
         {pos: [1, 0, 0], state: "minecraft:dirt"},
-        {pos: [1, 0, 1], state: "minecraft:dirt_path"},
+        {pos: [1, 0, 1], state: "minecraft:dirt"},
         {pos: [1, 0, 2], state: "minecraft:dirt"},
         {pos: [1, 0, 3], state: "minecraft:dirt_path"},
         {pos: [1, 0, 4], state: "minecraft:dirt_path"},
@@ -59,15 +59,15 @@
         {pos: [0, 1, 7], state: "minecraft:white_wool_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [1, 1, 0], state: "minecraft:white_wool_stairs{facing:south,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [1, 1, 1], state: "minecraft:air"},
-        {pos: [1, 1, 2], state: "minecraft:air"},
+        {pos: [1, 1, 2], state: "minecraft:chest{facing:south,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
         {pos: [1, 1, 3], state: "minecraft:air"},
         {pos: [1, 1, 4], state: "minecraft:air"},
         {pos: [1, 1, 5], state: "minecraft:bush"},
         {pos: [1, 1, 6], state: "minecraft:air"},
         {pos: [1, 1, 7], state: "minecraft:white_wool_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [2, 1, 0], state: "minecraft:air"},
-        {pos: [2, 1, 1], state: "minecraft:air"},
-        {pos: [2, 1, 2], state: "minecraft:bush"},
+        {pos: [2, 1, 1], state: "minecraft:straw_bed{facing:north,occupied:false,part:head}"},
+        {pos: [2, 1, 2], state: "minecraft:straw_bed{facing:north,occupied:false,part:foot}"},
         {pos: [2, 1, 3], state: "minecraft:oxidized_copper_lantern{hanging:false,waterlogged:false}"},
         {pos: [2, 1, 4], state: "minecraft:bush"},
         {pos: [2, 1, 5], state: "minecraft:air"},
@@ -386,9 +386,7 @@
         {pos: [5, 7, 6], state: "minecraft:air"},
         {pos: [5, 7, 7], state: "minecraft:air"}
     ],
-    entities: [
-        {blockPos: [3, 1, 4], pos: [3.3853726698555278d, 1.0d, 4.058532444806929d], nbt: {Age: 3248s, Air: 300s, Fire: 0s, Health: 5s, Invulnerable: 0b, Item: {count: 64, id: "minecraft:bone_meal"}, Motion: [1.091273096972147E-189d, 0.0d, -3.266385400104204E-191d], OnGround: 1b, PickupDelay: 0s, PortalCooldown: 0, Pos: [45.38537266985553d, -60.0d, -183.94146755519307d], Rotation: [241.82568f, 0.0f], Thrower: [I; -1608900107, -1055441889, -1244602283, -1188563149], UUID: [I; 532103981, -1552397319, -2083243638, 128424894], fall_distance: 0.0d, id: "minecraft:item"}}
-    ],
+    entities: [],
     palette: [
         "minecraft:dirt",
         "minecraft:dirt_path",
@@ -397,9 +395,12 @@
         "minecraft:spruce_fence{east:false,north:false,south:false,waterlogged:false,west:false}",
         "minecraft:white_wool_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}",
         "minecraft:bush",
+        "minecraft:straw_bed{facing:north,occupied:false,part:head}",
+        "minecraft:straw_bed{facing:north,occupied:false,part:foot}",
         "minecraft:oxidized_copper_lantern{hanging:false,waterlogged:false}",
         "minecraft:spruce_fence{east:false,north:true,south:false,waterlogged:false,west:false}",
         "minecraft:spruce_fence{east:false,north:false,south:true,waterlogged:false,west:false}",
-        "minecraft:jigsaw{orientation:west_up}"
+        "minecraft:jigsaw{orientation:west_up}",
+        "minecraft:chest{facing:south,type:single,waterlogged:false}"
     ]
 }

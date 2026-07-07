@@ -26,7 +26,7 @@
         {pos: [2, 0, 6], state: "minecraft:grass_block{snowy:false}"},
         {pos: [2, 0, 7], state: "minecraft:dirt"},
         {pos: [3, 0, 0], state: "minecraft:dirt"},
-        {pos: [3, 0, 1], state: "minecraft:dirt_path"},
+        {pos: [3, 0, 1], state: "minecraft:grass_block{snowy:false}"},
         {pos: [3, 0, 2], state: "minecraft:dirt_path"},
         {pos: [3, 0, 3], state: "minecraft:grass_block{snowy:false}"},
         {pos: [3, 0, 4], state: "minecraft:grass_block{snowy:false}"},
@@ -90,8 +90,8 @@
         {pos: [2, 1, 6], state: "minecraft:short_grass"},
         {pos: [2, 1, 7], state: "minecraft:white_wool_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [3, 1, 0], state: "minecraft:white_wool_stairs{facing:south,half:bottom,shape:straight,waterlogged:false}"},
-        {pos: [3, 1, 1], state: "minecraft:air"},
-        {pos: [3, 1, 2], state: "minecraft:air"},
+        {pos: [3, 1, 1], state: "minecraft:straw_bed{facing:north,occupied:false,part:head}"},
+        {pos: [3, 1, 2], state: "minecraft:straw_bed{facing:north,occupied:false,part:foot}"},
         {pos: [3, 1, 3], state: "minecraft:short_grass"},
         {pos: [3, 1, 4], state: "minecraft:tall_grass{half:lower}"},
         {pos: [3, 1, 5], state: "minecraft:short_grass"},
@@ -99,7 +99,7 @@
         {pos: [3, 1, 7], state: "minecraft:white_wool_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [4, 1, 0], state: "minecraft:white_wool_stairs{facing:south,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [4, 1, 1], state: "minecraft:air"},
-        {pos: [4, 1, 2], state: "minecraft:air"},
+        {pos: [4, 1, 2], state: "minecraft:chest{facing:south,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
         {pos: [4, 1, 3], state: "minecraft:short_grass"},
         {pos: [4, 1, 4], state: "minecraft:air"},
         {pos: [4, 1, 5], state: "minecraft:air"},
@@ -526,10 +526,13 @@
         "minecraft:white_wool_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}",
         "minecraft:short_grass",
         "minecraft:tall_grass{half:lower}",
+        "minecraft:straw_bed{facing:north,occupied:false,part:head}",
+        "minecraft:straw_bed{facing:north,occupied:false,part:foot}",
         "minecraft:cherry_fence{east:false,north:true,south:false,waterlogged:false,west:false}",
         "minecraft:cherry_fence{east:false,north:false,south:true,waterlogged:false,west:false}",
         "minecraft:tall_grass{half:upper}",
         "minecraft:oxidized_copper_lantern{hanging:true,waterlogged:false}",
-        "minecraft:jigsaw{orientation:west_up}"
+        "minecraft:jigsaw{orientation:west_up}",
+        "minecraft:chest{facing:south,type:single,waterlogged:false}"
     ]
 }
