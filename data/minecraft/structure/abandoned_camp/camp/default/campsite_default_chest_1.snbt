@@ -24,11 +24,11 @@
         {pos: [9, 0, 6], state: "minecraft:dirt_path"},
         {pos: [9, 0, 7], state: "minecraft:dirt_path"},
         {pos: [9, 0, 8], state: "minecraft:dirt_path"},
-        {pos: [6, 1, 7], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [6, 1, 7], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
         {pos: [7, 1, 6], state: "minecraft:campfire{facing:south,lit:false,signal_fire:false,waterlogged:false}", nbt: {CookingTimes: [I; 0, 0, 0, 0], CookingTotalTimes: [I; 0, 0, 0, 0], Items: [], components: {}, id: "minecraft:campfire"}}
     ],
     entities: [
-        {blockPos: [8, 0, 6], pos: [8.5d, 0.9375d, 6.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-56.5d, -60.0625d, -58.5d], Rotation: [90.0f, 0.0f], UUID: [I; 866654444, 1512195109, -1170579657, -1717164900], block_pos: [I; -57, -61, -59], color: "pink", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [8, 0, 6], pos: [8.5d, 0.9375d, 6.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-56.5d, -60.0625d, -58.5d], Rotation: [90.0f, 0.0f], UUID: [I; 912325706, 1069566264, -2045714714, 755261155], block_pos: [I; -57, -61, -59], color: "red", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:grass_block{snowy:false}",

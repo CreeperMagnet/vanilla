@@ -96,8 +96,8 @@
         {pos: [7, 2, 8], state: "minecraft:lilac{half:upper}"}
     ],
     entities: [
-        {blockPos: [6, 1, 6], pos: [6.5d, 1.0d, 6.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -60.0d, 137.5d], Rotation: [90.0f, 0.0f], UUID: [I; 2125377369, -2102964282, -1089915460, -807965938], block_pos: [I; -87, -60, 137], color: "red", fall_distance: 0.0d, id: "minecraft:cushion"}},
-        {blockPos: [7, 1, 5], pos: [7.5d, 1.0d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-85.5d, -60.0d, 136.5d], Rotation: [90.0f, 0.0f], UUID: [I; -1876946090, 1120095886, -1222876252, -969870226], block_pos: [I; -86, -60, 136], color: "red", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [6, 1, 6], pos: [6.5d, 1.0d, 6.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -60.0d, 137.5d], Rotation: [90.0f, 0.0f], UUID: [I; -8585529, -401782245, -1253910662, -1498028292], block_pos: [I; -87, -60, 137], color: "red", fall_distance: 0.0d, id: "minecraft:cushion"}},
+        {blockPos: [7, 1, 5], pos: [7.5d, 1.0d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-85.5d, -60.0d, 136.5d], Rotation: [90.0f, 0.0f], UUID: [I; -1303931313, -712160965, -2077931407, 1471747265], block_pos: [I; -86, -60, 136], color: "red", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:grass_block{snowy:false}",

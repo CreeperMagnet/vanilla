@@ -46,7 +46,7 @@
         {pos: [5, 1, 9], state: "minecraft:sweet_berry_bush{age:3}"},
         {pos: [6, 1, 4], state: "minecraft:sweet_berry_bush{age:3}"},
         {pos: [6, 1, 5], state: "minecraft:sweet_berry_bush{age:3}"},
-        {pos: [6, 1, 6], state: "minecraft:barrel{facing:east,open:false}", nbt: {Items: [], LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
+        {pos: [6, 1, 6], state: "minecraft:barrel{facing:east,open:false}", nbt: {LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
         {pos: [6, 1, 7], state: "minecraft:sweet_berry_bush{age:3}"},
         {pos: [7, 1, 3], state: "minecraft:sweet_berry_bush{age:3}"},
         {pos: [7, 1, 7], state: "minecraft:short_grass"},
@@ -55,7 +55,7 @@
         {pos: [9, 1, 9], state: "minecraft:sweet_berry_bush{age:3}"}
     ],
     entities: [
-        {blockPos: [9, 0, 4], pos: [9.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-85.5d, -60.0625d, 195.5d], Rotation: [90.0f, 0.0f], UUID: [I; -1828223461, 1338330936, -1219824223, -1428367142], block_pos: [I; -86, -61, 195], color: "brown", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [9, 0, 6], pos: [9.5d, 0.9375d, 6.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-85.5d, -60.0625d, 197.5d], Rotation: [0.0f, 0.0f], UUID: [I; -1155178450, 1266369184, -1578314072, -179816011], block_pos: [I; -86, -61, 197], color: "brown", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:grass_block{snowy:false}",

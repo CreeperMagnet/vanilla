@@ -53,12 +53,12 @@
         {pos: [4, 1, 7], state: "minecraft:grass_block{snowy:false}"},
         {pos: [5, 1, 1], state: "minecraft:poplar_log{axis:y}"},
         {pos: [5, 1, 4], state: "minecraft:grass_block{snowy:false}"},
-        {pos: [5, 1, 5], state: "minecraft:jigsaw{orientation:up_east}", nbt: {components: {}, final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:bottom", placement_priority: 0, pool: "minecraft:abandoned_camp/trees/red_poplar", selection_priority: 0, target: "minecraft:bottom"}},
+        {pos: [5, 1, 5], state: "minecraft:jigsaw{orientation:up_east}", nbt: {components: {}, final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:down", placement_priority: 0, pool: "minecraft:abandoned_camp/trees/red_poplar", selection_priority: 0, target: "minecraft:down"}},
         {pos: [5, 1, 6], state: "minecraft:grass_block{snowy:false}"},
         {pos: [5, 1, 7], state: "minecraft:grass_block{snowy:false}"},
         {pos: [6, 1, 1], state: "minecraft:poplar_log{axis:x}"},
         {pos: [6, 1, 5], state: "minecraft:grass_block{snowy:false}"},
-        {pos: [6, 1, 6], state: "minecraft:dirt"},
+        {pos: [6, 1, 6], state: "minecraft:grass_block{snowy:false}"},
         {pos: [6, 1, 7], state: "minecraft:grass_block{snowy:false}"},
         {pos: [7, 1, 1], state: "minecraft:poplar_log{axis:x}"},
         {pos: [7, 1, 3], state: "minecraft:campfire{facing:east,lit:false,signal_fire:false,waterlogged:false}", nbt: {CookingTimes: [I; 0, 0, 0, 0], CookingTotalTimes: [I; 0, 0, 0, 0], Items: [], components: {}, id: "minecraft:campfire"}},
@@ -67,12 +67,11 @@
         {pos: [3, 2, 2], state: "minecraft:stone"},
         {pos: [3, 2, 6], state: "minecraft:leaf_litter{facing:east,segment_amount:1}"},
         {pos: [4, 2, 5], state: "minecraft:leaf_litter{facing:east,segment_amount:2}"},
-        {pos: [5, 2, 4], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
-        {pos: [6, 2, 6], state: "minecraft:poplar_log{axis:x}"}
+        {pos: [5, 2, 4], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}}
     ],
     entities: [
-        {blockPos: [7, 0, 4], pos: [7.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -60.0625d, 586.5d], Rotation: [0.0f, 0.0f], UUID: [I; -628162071, 570379431, -1592355018, 1729959055], block_pos: [I; -87, -61, 586], color: "orange", fall_distance: 0.0d, id: "minecraft:cushion"}},
-        {blockPos: [7, 2, 1], pos: [7.5d, 2.0d, 1.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -59.0d, 583.5d], Rotation: [0.0f, 0.0f], UUID: [I; -1129800865, -1609873321, -1199139026, -55553875], block_pos: [I; -87, -59, 583], color: "yellow", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [6, 0, 2], pos: [6.5d, 0.9375d, 2.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-87.5d, -60.0625d, 584.5d], Rotation: [90.0f, 0.0f], UUID: [I; 264686681, -2091299778, -1297700743, -1384025774], block_pos: [I; -88, -61, 584], color: "yellow", fall_distance: 0.0d, id: "minecraft:cushion"}},
+        {blockPos: [7, 0, 4], pos: [7.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -60.0625d, 586.5d], Rotation: [90.0f, 0.0f], UUID: [I; 688436820, -1412085080, -2032463194, -1444586959], block_pos: [I; -87, -61, 586], color: "orange", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:stone",

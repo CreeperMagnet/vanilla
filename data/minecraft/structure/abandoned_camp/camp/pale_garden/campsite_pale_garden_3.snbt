@@ -74,8 +74,8 @@
         {pos: [5, 1, 8], state: "minecraft:pale_moss_carpet{bottom:true,east:none,north:low,south:none,west:none}"},
         {pos: [6, 1, 2], state: "minecraft:pale_moss_carpet{bottom:true,east:none,north:none,south:low,west:low}"},
         {pos: [6, 1, 3], state: "minecraft:pale_moss_block"},
-        {pos: [6, 1, 4], state: "minecraft:barrel{facing:east,open:false}", nbt: {Items: [], LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
-        {pos: [6, 1, 5], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [6, 1, 4], state: "minecraft:barrel{facing:east,open:false}", nbt: {LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
+        {pos: [6, 1, 5], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
         {pos: [6, 1, 6], state: "minecraft:pale_moss_block"},
         {pos: [6, 1, 7], state: "minecraft:grass_block{snowy:false}"},
         {pos: [7, 1, 6], state: "minecraft:resin_block"},
@@ -278,7 +278,7 @@
         {pos: [7, 9, 5], state: "minecraft:pale_oak_leaves{distance:3,persistent:false,waterlogged:false}"}
     ],
     entities: [
-        {blockPos: [8, 0, 3], pos: [8.5d, 0.9375d, 3.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-85.5d, -60.0625d, 660.5d], Rotation: [90.0f, 0.0f], UUID: [I; 849456782, -146520065, -1172720945, 824521716], block_pos: [I; -86, -61, 660], color: "gray", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [8, 0, 3], pos: [8.5d, 0.9375d, 3.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-85.5d, -60.0625d, 660.5d], Rotation: [90.0f, 0.0f], UUID: [I; 1197559094, 1767063921, -1680016986, 1675023202], block_pos: [I; -86, -61, 660], color: "gray", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:grass_block{snowy:false}",

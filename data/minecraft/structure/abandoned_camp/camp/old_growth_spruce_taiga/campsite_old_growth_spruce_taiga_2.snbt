@@ -17,7 +17,7 @@
         {pos: [2, 0, 2], state: "minecraft:dirt"},
         {pos: [2, 0, 3], state: "minecraft:podzol{snowy:false}"},
         {pos: [2, 0, 4], state: "minecraft:dirt_path"},
-        {pos: [2, 0, 5], state: "minecraft:dirt"},
+        {pos: [2, 0, 5], state: "minecraft:dirt_path"},
         {pos: [2, 0, 6], state: "minecraft:podzol{snowy:false}"},
         {pos: [2, 0, 7], state: "minecraft:podzol{snowy:false}"},
         {pos: [2, 0, 8], state: "minecraft:podzol{snowy:false}"},
@@ -37,7 +37,7 @@
         {pos: [5, 0, 4], state: "minecraft:dirt_path"},
         {pos: [5, 0, 5], state: "minecraft:dirt_path"},
         {pos: [5, 0, 6], state: "minecraft:podzol{snowy:false}"},
-        {pos: [5, 0, 7], state: "minecraft:jigsaw{orientation:up_south}", nbt: {components: {}, final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:bottom", placement_priority: 0, pool: "minecraft:abandoned_camp/trees/spruce", selection_priority: 0, target: "minecraft:bottom"}},
+        {pos: [5, 0, 7], state: "minecraft:jigsaw{orientation:up_south}", nbt: {components: {}, final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:bottom", placement_priority: 0, pool: "minecraft:abandoned_camp/trees/thick_spruce", selection_priority: 0, target: "minecraft:bottom"}},
         {pos: [5, 0, 8], state: "minecraft:podzol{snowy:false}"},
         {pos: [5, 0, 9], state: "minecraft:podzol{snowy:false}"},
         {pos: [6, 0, 2], state: "minecraft:dirt"},
@@ -73,21 +73,14 @@
         {pos: [2, 1, 3], state: "minecraft:mossy_cobblestone"},
         {pos: [3, 1, 4], state: "minecraft:campfire{facing:west,lit:false,signal_fire:false,waterlogged:false}", nbt: {CookingTimes: [I; 0, 0, 0, 0], CookingTotalTimes: [I; 0, 0, 0, 0], Items: [], components: {}, id: "minecraft:campfire"}},
         {pos: [6, 1, 2], state: "minecraft:cobblestone"},
-        {pos: [6, 1, 3], state: "minecraft:barrel{facing:west,open:false}", nbt: {Items: [], LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
+        {pos: [6, 1, 3], state: "minecraft:barrel{facing:west,open:false}", nbt: {LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
         {pos: [7, 1, 2], state: "minecraft:mossy_cobblestone"},
         {pos: [7, 1, 3], state: "minecraft:mossy_cobblestone"},
         {pos: [1, 2, 3], state: "minecraft:mossy_cobblestone"},
         {pos: [7, 2, 2], state: "minecraft:mossy_cobblestone"}
     ],
     entities: [
-        {blockPos: [3, 0, 3], pos: [3.5d, 0.9375d, 3.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-90.5d, -60.0625d, 285.5d], Rotation: [180.0f, 0.0f], UUID: [I; -958798888, -162772344, -1727672692, 1321528807], block_pos: [I; -91, -61, 285], color: "green", fall_distance: 0.0d, id: "minecraft:cushion"}},
-        {blockPos: [3, 0, 3], pos: [3.5d, 0.9375d, 3.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-90.5d, -60.0625d, 285.5d], Rotation: [-180.0f, 0.0f], UUID: [I; -1438075227, 701186547, -1387390491, 528129874], block_pos: [I; -91, -61, 285], color: "green", fall_distance: 0.0d, id: "minecraft:cushion"}},
-        {blockPos: [3, 0, 5], pos: [3.5d, 0.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-90.5d, -60.0625d, 287.5d], Rotation: [90.0f, 0.0f], UUID: [I; -237992743, -1506784411, -1752104281, 1508598192], block_pos: [I; -91, -61, 287], color: "brown", fall_distance: 0.0d, id: "minecraft:cushion"}},
-        {blockPos: [3, 0, 5], pos: [3.5d, 0.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-90.5d, -60.0625d, 287.5d], Rotation: [90.0f, 0.0f], UUID: [I; -1984249841, 1455115544, -1295327321, -1703680216], block_pos: [I; -91, -61, 287], color: "brown", fall_distance: 0.0d, id: "minecraft:cushion"}},
-        {blockPos: [5, 0, 4], pos: [5.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-88.5d, -60.0625d, 286.5d], Rotation: [90.0f, 0.0f], UUID: [I; 229665488, -1576450946, -1385204657, -1468155041], block_pos: [I; -89, -61, 286], color: "brown", fall_distance: 0.0d, id: "minecraft:cushion"}},
-        {blockPos: [5, 0, 4], pos: [5.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-88.5d, -60.0625d, 286.5d], Rotation: [90.0f, 0.0f], UUID: [I; 410944124, -1129821026, -1587388368, 115751412], block_pos: [I; -89, -61, 286], color: "brown", fall_distance: 0.0d, id: "minecraft:cushion"}},
-        {blockPos: [2, 2, 3], pos: [2.5d, 2.0d, 3.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-91.5d, -59.0d, 285.5d], Rotation: [90.0f, 0.0f], UUID: [I; 1639575886, 1371423661, -1303780811, 6993314], block_pos: [I; -92, -59, 285], color: "green", fall_distance: 0.0d, id: "minecraft:cushion"}},
-        {blockPos: [2, 2, 3], pos: [2.5d, 2.0d, 3.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-91.5d, -59.0d, 285.5d], Rotation: [90.0f, 0.0f], UUID: [I; 1064632128, -901952024, -1319794600, 1111722419], block_pos: [I; -92, -59, 285], color: "green", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [2, 0, 5], pos: [2.5d, 0.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-91.5d, -60.0625d, 287.5d], Rotation: [90.0f, 0.0f], UUID: [I; -1273148498, 986465495, -1942000373, 748063314], block_pos: [I; -92, -61, 287], color: "brown", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:podzol{snowy:false}",

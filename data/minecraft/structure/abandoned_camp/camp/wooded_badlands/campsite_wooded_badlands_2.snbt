@@ -67,7 +67,7 @@
         {pos: [3, 1, 7], state: "minecraft:red_sand"},
         {pos: [4, 1, 2], state: "minecraft:red_sandstone"},
         {pos: [4, 1, 3], state: "minecraft:red_sandstone"},
-        {pos: [4, 1, 5], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [4, 1, 5], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
         {pos: [4, 1, 6], state: "minecraft:red_sandstone"},
         {pos: [4, 1, 7], state: "minecraft:red_sandstone"},
         {pos: [4, 1, 8], state: "minecraft:red_sand"},
@@ -144,7 +144,7 @@
         {pos: [3, 6, 5], state: "minecraft:cactus_flower"}
     ],
     entities: [
-        {blockPos: [5, 0, 5], pos: [5.5d, 0.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-88.5d, -60.0625d, 557.5d], Rotation: [90.0f, 0.0f], UUID: [I; -1931171657, 1383156794, -1463765142, -1486771460], block_pos: [I; -89, -61, 557], color: "brown", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [5, 0, 5], pos: [5.5d, 0.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-88.5d, -60.0625d, 557.5d], Rotation: [90.0f, 0.0f], UUID: [I; 70175570, -1179366736, -1223296782, -900468141], block_pos: [I; -89, -61, 557], color: "brown", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:red_sandstone",

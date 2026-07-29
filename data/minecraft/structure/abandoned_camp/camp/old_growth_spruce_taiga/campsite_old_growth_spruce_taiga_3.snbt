@@ -44,7 +44,7 @@
         {pos: [3, 1, 6], state: "minecraft:cobblestone"},
         {pos: [4, 1, 6], state: "minecraft:short_grass"},
         {pos: [4, 1, 7], state: "minecraft:short_grass"},
-        {pos: [5, 1, 7], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [5, 1, 7], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
         {pos: [6, 1, 4], state: "minecraft:short_grass"},
         {pos: [7, 1, 4], state: "minecraft:short_grass"},
         {pos: [7, 1, 7], state: "minecraft:campfire{facing:west,lit:false,signal_fire:false,waterlogged:false}", nbt: {CookingTimes: [I; 0, 0, 0, 0], CookingTotalTimes: [I; 0, 0, 0, 0], Items: [], components: {}, id: "minecraft:campfire"}},
@@ -54,7 +54,7 @@
         {pos: [2, 2, 5], state: "minecraft:mossy_cobblestone"}
     ],
     entities: [
-        {blockPos: [8, 0, 6], pos: [8.5d, 0.9375d, 6.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-85.5d, -60.0625d, 303.5d], Rotation: [180.0f, 0.0f], UUID: [I; -124750729, -918075954, -1288911565, -553872662], block_pos: [I; -86, -61, 303], color: "gray", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [7, 0, 6], pos: [7.5d, 0.9375d, 6.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -60.0625d, 303.5d], Rotation: [270.0f, 0.0f], UUID: [I; -579667531, 374164621, -1484815612, -1050047201], block_pos: [I; -87, -61, 303], color: "gray", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:dirt",

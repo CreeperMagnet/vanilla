@@ -88,9 +88,12 @@
         {pos: [9, 1, 6], state: "minecraft:dirt_path"},
         {pos: [9, 1, 7], state: "minecraft:dirt_path"},
         {pos: [7, 2, 4], state: "minecraft:campfire{facing:west,lit:false,signal_fire:false,waterlogged:false}", nbt: {CookingTimes: [I; 0, 0, 0, 0], CookingTotalTimes: [I; 0, 0, 0, 0], Items: [], components: {}, id: "minecraft:campfire"}},
-        {pos: [7, 2, 6], state: "minecraft:barrel{facing:up,open:false}", nbt: {Items: [], LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}}
+        {pos: [7, 2, 6], state: "minecraft:barrel{facing:up,open:false}", nbt: {LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}}
     ],
-    entities: [],
+    entities: [
+        {blockPos: [8, 1, 4], pos: [8.5d, 1.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-43.5d, -60.0625d, 51.5d], Rotation: [180.0f, 0.0f], UUID: [I; 1656539682, -1007858775, -2117535012, 1601953568], block_pos: [I; -44, -61, 51], color: "white", fall_distance: 0.0d, id: "minecraft:cushion"}},
+        {blockPos: [7, 2, 5], pos: [7.5d, 2.0d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-44.5d, -60.0d, 52.5d], Rotation: [90.0f, 0.0f], UUID: [I; -1648958871, 531055649, -1290648216, 1461040737], block_pos: [I; -45, -60, 52], color: "white", fall_distance: 0.0d, id: "minecraft:cushion"}}
+    ],
     palette: [
         "minecraft:dirt",
         "minecraft:mossy_cobblestone",

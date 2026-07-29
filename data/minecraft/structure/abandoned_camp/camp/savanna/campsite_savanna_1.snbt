@@ -41,7 +41,7 @@
         {pos: [4, 1, 6], state: "minecraft:grass_block{snowy:false}"},
         {pos: [5, 1, 2], state: "minecraft:grass_block{snowy:false}"},
         {pos: [5, 1, 3], state: "minecraft:grass_block{snowy:false}"},
-        {pos: [5, 1, 4], state: "minecraft:jigsaw{orientation:up_west}", nbt: {components: {}, final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:bottom", placement_priority: 0, pool: "minecraft:abandoned_camp/trees/acacia", selection_priority: 0, target: "minecraft:bottom"}},
+        {pos: [5, 1, 4], state: "minecraft:jigsaw{orientation:up_west}", nbt: {components: {}, final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:down", placement_priority: 0, pool: "minecraft:abandoned_camp/trees/acacia", selection_priority: 0, target: "minecraft:down"}},
         {pos: [5, 1, 5], state: "minecraft:grass_block{snowy:false}"},
         {pos: [6, 1, 2], state: "minecraft:grass_block{snowy:false}"},
         {pos: [6, 1, 3], state: "minecraft:grass_block{snowy:false}"},
@@ -62,7 +62,7 @@
         {pos: [6, 3, 2], state: "minecraft:tall_grass{half:upper}"}
     ],
     entities: [
-        {blockPos: [10, 0, 4], pos: [10.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-85.5d, -60.0625d, 496.5d], Rotation: [0.0f, 0.0f], UUID: [I; 1083712410, 1744783361, -1739510684, -998639149], block_pos: [I; -86, -61, 496], color: "brown", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [9, 0, 5], pos: [9.5d, 0.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -60.0625d, 497.5d], Rotation: [90.0f, 0.0f], UUID: [I; 799480242, -1428928498, -1592679379, -1948520705], block_pos: [I; -87, -61, 497], color: "brown", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:dirt",

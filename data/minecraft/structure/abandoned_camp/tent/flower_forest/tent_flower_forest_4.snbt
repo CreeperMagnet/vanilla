@@ -172,7 +172,7 @@
         {pos: [5, 2, 0], state: "minecraft:air"},
         {pos: [5, 2, 1], state: "minecraft:white_wool_stairs{facing:south,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [5, 2, 2], state: "minecraft:air"},
-        {pos: [5, 2, 3], state: "minecraft:bee_nest{facing:east,honey_level:0}", nbt: {bees: [], components: {}, id: "minecraft:beehive"}},
+        {pos: [5, 2, 3], state: "minecraft:air"},
         {pos: [5, 2, 4], state: "minecraft:air"},
         {pos: [5, 2, 5], state: "minecraft:air"},
         {pos: [5, 2, 6], state: "minecraft:white_wool_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}"},
@@ -534,7 +534,6 @@
         "minecraft:oak_fence{east:false,north:false,south:true,waterlogged:false,west:false}",
         "minecraft:oak_fence{east:false,north:true,south:false,waterlogged:false,west:false}",
         "minecraft:jigsaw{orientation:west_up}",
-        "minecraft:chest{facing:east,type:single,waterlogged:false}",
-        "minecraft:bee_nest{facing:east,honey_level:0}"
+        "minecraft:chest{facing:east,type:single,waterlogged:false}"
     ]
 }

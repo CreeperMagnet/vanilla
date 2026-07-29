@@ -228,7 +228,7 @@
         {pos: [4, 3, 0], state: "minecraft:air"},
         {pos: [4, 3, 1], state: "minecraft:air"},
         {pos: [4, 3, 2], state: "minecraft:white_wool_stairs{facing:south,half:bottom,shape:straight,waterlogged:false}"},
-        {pos: [4, 3, 3], state: "minecraft:vine{east:false,north:true,south:false,up:true,west:false}"},
+        {pos: [4, 3, 3], state: "minecraft:vine{east:false,north:true,south:false,up:false,west:false}"},
         {pos: [4, 3, 4], state: "minecraft:vine{east:false,north:false,south:true,up:false,west:false}"},
         {pos: [4, 3, 5], state: "minecraft:white_wool_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [4, 3, 6], state: "minecraft:air"},

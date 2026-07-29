@@ -3,7 +3,7 @@
     data: [
         {pos: [2, 0, 1], state: "minecraft:grass_block{snowy:false}"},
         {pos: [2, 0, 3], state: "minecraft:grass_block{snowy:false}"},
-        {pos: [2, 0, 8], state: "minecraft:jigsaw{orientation:up_west}", nbt: {components: {}, final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:bottom", placement_priority: 0, pool: "minecraft:abandoned_camp/trees/spruce", selection_priority: 0, target: "minecraft:bottom"}},
+        {pos: [2, 0, 8], state: "minecraft:jigsaw{orientation:up_west}", nbt: {components: {}, final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:bottom", placement_priority: 0, pool: "minecraft:abandoned_camp/trees/birch", selection_priority: 0, target: "minecraft:bottom"}},
         {pos: [3, 0, 2], state: "minecraft:dirt"},
         {pos: [3, 0, 3], state: "minecraft:dirt"},
         {pos: [3, 0, 4], state: "minecraft:dirt"},
@@ -54,7 +54,7 @@
         {pos: [4, 1, 1], state: "minecraft:bush"},
         {pos: [4, 1, 7], state: "minecraft:birch_log{axis:y}"},
         {pos: [5, 1, 7], state: "minecraft:birch_log{axis:x}"},
-        {pos: [6, 1, 2], state: "minecraft:chest{facing:south,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [6, 1, 2], state: "minecraft:chest{facing:south,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
         {pos: [6, 1, 7], state: "minecraft:birch_log{axis:x}"},
         {pos: [7, 1, 1], state: "minecraft:bush"},
         {pos: [7, 1, 3], state: "minecraft:short_grass"},
@@ -63,11 +63,11 @@
         {pos: [8, 1, 5], state: "minecraft:campfire{facing:east,lit:false,signal_fire:false,waterlogged:false}", nbt: {CookingTimes: [I; 0, 0, 0, 0], CookingTotalTimes: [I; 0, 0, 0, 0], Items: [], components: {}, id: "minecraft:campfire"}},
         {pos: [8, 1, 7], state: "minecraft:birch_log{axis:x}"},
         {pos: [9, 1, 1], state: "minecraft:bush"},
-        {pos: [9, 1, 8], state: "minecraft:bush"}
+        {pos: [9, 1, 8], state: "minecraft:short_grass"}
     ],
     entities: [
-        {blockPos: [8, 0, 4], pos: [8.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -60.0625d, 106.5d], Rotation: [90.0f, 0.0f], UUID: [I; 1934045390, -612807214, -1996981460, -455585901], block_pos: [I; -87, -61, 106], color: "light_gray", fall_distance: 0.0d, id: "minecraft:cushion"}},
-        {blockPos: [8, 2, 7], pos: [8.5d, 2.0d, 7.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -59.0d, 109.5d], Rotation: [0.0f, 0.0f], UUID: [I; -1080332741, 1385712866, -1727482642, 38806205], block_pos: [I; -87, -59, 109], color: "blue", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [8, 0, 4], pos: [8.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -60.0625d, 106.5d], Rotation: [90.0f, 0.0f], UUID: [I; -2086232769, -739817524, -2003978596, -876797433], block_pos: [I; -87, -61, 106], color: "light_gray", fall_distance: 0.0d, id: "minecraft:cushion"}},
+        {blockPos: [8, 2, 7], pos: [8.5d, 2.0d, 7.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -59.0d, 109.5d], Rotation: [0.0f, 0.0f], UUID: [I; -1531617927, -729920836, -1696718752, -1070683782], block_pos: [I; -87, -59, 109], color: "blue", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:grass_block{snowy:false}",

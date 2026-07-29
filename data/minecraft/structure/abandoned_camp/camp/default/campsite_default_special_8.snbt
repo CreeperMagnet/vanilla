@@ -3,7 +3,7 @@
     data: [
         {pos: [3, 0, 6], state: "minecraft:dirt_path"},
         {pos: [4, 0, 5], state: "minecraft:dirt_path"},
-        {pos: [4, 0, 6], state: "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [{Slot: 9b, count: 7, id: "minecraft:oxidized_copper_chain"}], LootTable: "minecraft:chests/abandoned_camp_secret_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [4, 0, 6], state: "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_secret_chest", components: {}, id: "minecraft:chest"}},
         {pos: [4, 0, 7], state: "minecraft:dirt_path"},
         {pos: [5, 0, 4], state: "minecraft:dirt_path"},
         {pos: [5, 0, 5], state: "minecraft:dirt_path"},
@@ -22,10 +22,13 @@
         {pos: [9, 0, 5], state: "minecraft:dirt_path"},
         {pos: [9, 0, 6], state: "minecraft:dirt_path"},
         {pos: [9, 0, 7], state: "minecraft:dirt_path"},
-        {pos: [4, 1, 6], state: "minecraft:barrel{facing:east,open:false}", nbt: {Items: [], LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
+        {pos: [4, 1, 6], state: "minecraft:barrel{facing:east,open:false}", nbt: {LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
         {pos: [7, 1, 5], state: "minecraft:campfire{facing:south,lit:false,signal_fire:false,waterlogged:false}", nbt: {CookingTimes: [I; 0, 0, 0, 0], CookingTotalTimes: [I; 0, 0, 0, 0], Items: [], components: {}, id: "minecraft:campfire"}}
     ],
-    entities: [],
+    entities: [
+        {blockPos: [7, 0, 4], pos: [7.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-44.5d, -60.0625d, 38.5d], Rotation: [180.0f, 0.0f], UUID: [I; -795423257, -2021504034, -1442132202, -277401432], block_pos: [I; -45, -61, 38], color: "black", fall_distance: 0.0d, id: "minecraft:cushion"}},
+        {blockPos: [8, 0, 5], pos: [8.5d, 0.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-43.5d, -60.0625d, 39.5d], Rotation: [90.0f, 0.0f], UUID: [I; 1849529845, -1564719795, -1703167238, -838308970], block_pos: [I; -44, -61, 39], color: "black", fall_distance: 0.0d, id: "minecraft:cushion"}}
+    ],
     palette: [
         "minecraft:grass_block{snowy:false}",
         "minecraft:dirt_path",

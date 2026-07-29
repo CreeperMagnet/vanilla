@@ -20,12 +20,12 @@
         {pos: [9, 0, 5], state: "minecraft:dirt_path"},
         {pos: [9, 0, 6], state: "minecraft:dirt_path"},
         {pos: [9, 0, 7], state: "minecraft:dirt_path"},
-        {pos: [5, 1, 5], state: "minecraft:barrel{facing:east,open:false}", nbt: {Items: [], LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
+        {pos: [5, 1, 5], state: "minecraft:barrel{facing:east,open:false}", nbt: {LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
         {pos: [7, 1, 4], state: "minecraft:campfire{facing:west,lit:false,signal_fire:false,waterlogged:false}", nbt: {CookingTimes: [I; 0, 0, 0, 0], CookingTotalTimes: [I; 0, 0, 0, 0], Items: [], components: {}, id: "minecraft:campfire"}}
     ],
     entities: [
-        {blockPos: [6, 0, 4], pos: [6.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-45.5d, -60.0625d, -133.5d], Rotation: [90.0f, 0.0f], UUID: [I; -1343075430, 2059616419, -1677151287, -827407536], block_pos: [I; -46, -61, -134], color: "red", fall_distance: 0.0d, id: "minecraft:cushion"}},
-        {blockPos: [7, 0, 5], pos: [7.5d, 0.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-44.5d, -60.0625d, -132.5d], Rotation: [90.0f, 0.0f], UUID: [I; 1143218883, 44386055, -1418176717, -1758672839], block_pos: [I; -45, -61, -133], color: "red", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [7, 0, 3], pos: [7.5d, 0.9375d, 3.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-44.5d, -60.0625d, -134.5d], Rotation: [180.0f, 0.0f], UUID: [I; -1690803199, -763345018, -1668357499, 264277233], block_pos: [I; -45, -61, -135], color: "green", fall_distance: 0.0d, id: "minecraft:cushion"}},
+        {blockPos: [7, 0, 5], pos: [7.5d, 0.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-44.5d, -60.0625d, -132.5d], Rotation: [90.0f, 0.0f], UUID: [I; -611068520, -71874315, -1476374997, 1432162795], block_pos: [I; -45, -61, -133], color: "green", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:dirt",

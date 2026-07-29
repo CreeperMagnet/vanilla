@@ -11,7 +11,7 @@
         {pos: [6, 0, 5], state: "minecraft:dirt_path"},
         {pos: [6, 0, 6], state: "minecraft:dirt"},
         {pos: [7, 0, 3], state: "minecraft:dirt_path"},
-        {pos: [7, 0, 4], state: "minecraft:dirt_path"},
+        {pos: [7, 0, 4], state: "minecraft:dirt"},
         {pos: [7, 0, 6], state: "minecraft:dirt_path"},
         {pos: [8, 0, 3], state: "minecraft:dirt_path"},
         {pos: [8, 0, 4], state: "minecraft:dirt_path"},
@@ -22,11 +22,11 @@
         {pos: [9, 0, 5], state: "minecraft:dirt_path"},
         {pos: [9, 0, 6], state: "minecraft:dirt_path"},
         {pos: [9, 0, 7], state: "minecraft:dirt_path"},
-        {pos: [3, 1, 5], state: "minecraft:barrel{facing:east,open:false}", nbt: {Items: [], LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
-        {pos: [6, 1, 6], state: "minecraft:campfire{facing:west,lit:false,signal_fire:false,waterlogged:false}", nbt: {CookingTimes: [I; 0, 0, 0, 0], CookingTotalTimes: [I; 0, 0, 0, 0], Items: [], components: {}, id: "minecraft:campfire"}}
+        {pos: [3, 1, 5], state: "minecraft:barrel{facing:east,open:false}", nbt: {LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
+        {pos: [7, 1, 4], state: "minecraft:campfire{facing:west,lit:false,signal_fire:false,waterlogged:false}", nbt: {CookingTimes: [I; 0, 0, 0, 0], CookingTotalTimes: [I; 0, 0, 0, 0], Items: [], components: {}, id: "minecraft:campfire"}}
     ],
     entities: [
-        {blockPos: [6, 0, 5], pos: [6.5d, 0.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-58.5d, -60.0625d, -80.5d], Rotation: [0.0f, 0.0f], UUID: [I; -194051782, 1933787265, -1602965600, 1319416203], block_pos: [I; -59, -61, -81], color: "brown", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [8, 0, 3], pos: [8.5d, 0.9375d, 3.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-56.5d, -60.0625d, -82.5d], Rotation: [90.0f, 0.0f], UUID: [I; 1984636164, -167296448, -1912652752, -512181566], block_pos: [I; -57, -61, -83], color: "white", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:dirt",

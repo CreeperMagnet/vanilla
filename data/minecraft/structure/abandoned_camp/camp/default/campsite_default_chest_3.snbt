@@ -32,7 +32,7 @@
         {pos: [4, 1, 4], state: "minecraft:campfire{facing:east,lit:false,signal_fire:false,waterlogged:false}", nbt: {CookingTimes: [I; 0, 0, 0, 0], CookingTotalTimes: [I; 0, 0, 0, 0], Items: [], components: {}, id: "minecraft:campfire"}}
     ],
     entities: [
-        {blockPos: [5, 0, 4], pos: [5.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-59.5d, -60.0625d, -34.5d], Rotation: [90.0f, 0.0f], UUID: [I; 30190138, 454053688, -2130175051, 774612736], block_pos: [I; -60, -61, -35], color: "purple", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [5, 0, 4], pos: [5.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-59.5d, -60.0625d, -34.5d], Rotation: [180.0f, 0.0f], UUID: [I; -1191877018, 954026576, -1312969079, -1502509401], block_pos: [I; -60, -61, -35], color: "purple", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:gravel",

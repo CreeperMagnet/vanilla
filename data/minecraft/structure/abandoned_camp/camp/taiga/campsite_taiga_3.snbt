@@ -13,7 +13,7 @@
         {pos: [4, 0, 5], state: "minecraft:dirt"},
         {pos: [4, 0, 6], state: "minecraft:dirt"},
         {pos: [4, 0, 7], state: "minecraft:water{level:0}"},
-        {pos: [4, 0, 8], state: "minecraft:water{level:0}"},
+        {pos: [4, 0, 8], state: "minecraft:seagrass"},
         {pos: [4, 0, 9], state: "minecraft:cobblestone"},
         {pos: [5, 0, 3], state: "minecraft:dirt"},
         {pos: [5, 0, 4], state: "minecraft:dirt"},
@@ -25,7 +25,7 @@
         {pos: [6, 0, 4], state: "minecraft:dirt"},
         {pos: [6, 0, 5], state: "minecraft:dirt"},
         {pos: [6, 0, 6], state: "minecraft:water{level:0}"},
-        {pos: [6, 0, 7], state: "minecraft:water{level:0}"},
+        {pos: [6, 0, 7], state: "minecraft:seagrass"},
         {pos: [6, 0, 8], state: "minecraft:water{level:0}"},
         {pos: [6, 0, 9], state: "minecraft:mossy_cobblestone"},
         {pos: [7, 0, 1], state: "minecraft:dirt_path"},
@@ -63,7 +63,7 @@
         {pos: [5, 1, 4], state: "minecraft:grass_block{snowy:false}"},
         {pos: [5, 1, 5], state: "minecraft:grass_block{snowy:false}"},
         {pos: [6, 1, 2], state: "minecraft:cobweb"},
-        {pos: [6, 1, 4], state: "minecraft:barrel{facing:east,open:false}", nbt: {Items: [], LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
+        {pos: [6, 1, 4], state: "minecraft:barrel{facing:east,open:false}", nbt: {LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
         {pos: [6, 1, 5], state: "minecraft:grass_block{snowy:false}"},
         {pos: [9, 1, 3], state: "minecraft:campfire{facing:west,lit:false,signal_fire:false,waterlogged:false}", nbt: {CookingTimes: [I; 0, 0, 0, 0], CookingTotalTimes: [I; 0, 0, 0, 0], Items: [], components: {}, id: "minecraft:campfire"}},
         {pos: [9, 1, 7], state: "minecraft:cobweb"},
@@ -74,7 +74,7 @@
         {pos: [9, 2, 7], state: "minecraft:cobweb"}
     ],
     entities: [
-        {blockPos: [8, 0, 4], pos: [8.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -60.0625d, 211.5d], Rotation: [0.0f, 0.0f], UUID: [I; 2106870552, 289425349, -1686429915, 1247264919], block_pos: [I; -87, -61, 211], color: "green", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [8, 0, 4], pos: [8.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -60.0625d, 211.5d], Rotation: [90.0f, 0.0f], UUID: [I; -323568643, -1790751108, -1117290033, 1436913011], block_pos: [I; -87, -61, 211], color: "green", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:dirt",
@@ -82,6 +82,7 @@
         "minecraft:mossy_cobblestone",
         "minecraft:grass_block{snowy:false}",
         "minecraft:water{level:0}",
+        "minecraft:seagrass",
         "minecraft:dirt_path",
         "minecraft:cobweb",
         "minecraft:short_grass",

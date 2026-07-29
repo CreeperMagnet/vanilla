@@ -15,7 +15,7 @@
         {pos: [5, 0, 2], state: "minecraft:dirt"},
         {pos: [5, 0, 3], state: "minecraft:dirt"},
         {pos: [5, 0, 4], state: "minecraft:dirt"},
-        {pos: [5, 0, 5], state: "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_secret_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [5, 0, 5], state: "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_secret_chest", components: {}, id: "minecraft:chest"}},
         {pos: [5, 0, 6], state: "minecraft:dirt"},
         {pos: [6, 0, 4], state: "minecraft:dirt"},
         {pos: [6, 0, 5], state: "minecraft:dirt"},
@@ -49,12 +49,12 @@
         {pos: [9, 1, 5], state: "minecraft:dirt_path"},
         {pos: [9, 1, 6], state: "minecraft:dirt_path"},
         {pos: [4, 2, 5], state: "minecraft:campfire{facing:north,lit:false,signal_fire:false,waterlogged:false}", nbt: {CookingTimes: [I; 0, 0, 0, 0], CookingTotalTimes: [I; 0, 0, 0, 0], Items: [], components: {}, id: "minecraft:campfire"}},
-        {pos: [5, 2, 3], state: "minecraft:barrel{facing:up,open:false}", nbt: {Items: [], LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}}
+        {pos: [5, 2, 3], state: "minecraft:barrel{facing:up,open:false}", nbt: {LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}}
     ],
     entities: [
-        {blockPos: [3, 1, 6], pos: [3.5d, 1.9375d, 6.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-35.5d, -60.0625d, -79.5d], Rotation: [90.0f, 0.0f], UUID: [I; -2015089538, 1419660526, -1148819896, -1365641138], block_pos: [I; -36, -61, -80], color: "magenta", fall_distance: 0.0d, id: "minecraft:cushion"}},
-        {blockPos: [4, 1, 3], pos: [4.5d, 1.9375d, 3.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-34.5d, -60.0625d, -82.5d], Rotation: [90.0f, 0.0f], UUID: [I; 1674655457, 2040219923, -1283070780, -1614891054], block_pos: [I; -35, -61, -83], color: "magenta", fall_distance: 0.0d, id: "minecraft:cushion"}},
-        {blockPos: [5, 1, 6], pos: [5.5d, 1.9375d, 6.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-33.5d, -60.0625d, -79.5d], Rotation: [90.0f, 0.0f], UUID: [I; 1733637022, -2040184377, -2091149470, -401732424], block_pos: [I; -34, -61, -80], color: "magenta", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [3, 1, 5], pos: [3.5d, 1.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-35.5d, -60.0625d, -80.5d], Rotation: [90.0f, 0.0f], UUID: [I; 982425768, 934104761, -2012909319, -437429954], block_pos: [I; -36, -61, -81], color: "light_blue", fall_distance: 0.0d, id: "minecraft:cushion"}},
+        {blockPos: [4, 1, 6], pos: [4.5d, 1.9375d, 6.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-34.5d, -60.0625d, -79.5d], Rotation: [90.0f, 0.0f], UUID: [I; 777142890, 1035224395, -1155928825, 1744199472], block_pos: [I; -35, -61, -80], color: "light_blue", fall_distance: 0.0d, id: "minecraft:cushion"}},
+        {blockPos: [5, 1, 4], pos: [5.5d, 1.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-33.5d, -60.0625d, -81.5d], Rotation: [180.0f, 0.0f], UUID: [I; -2044457554, 332481199, -2011098371, 914444700], block_pos: [I; -34, -61, -82], color: "light_blue", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:dirt",

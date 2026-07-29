@@ -58,7 +58,7 @@
         {pos: [3, 1, 7], state: "minecraft:cobweb"},
         {pos: [3, 1, 8], state: "minecraft:potatoes{age:7}"},
         {pos: [3, 1, 9], state: "minecraft:mossy_cobblestone_wall{east:low,north:none,south:none,up:false,waterlogged:false,west:low}"},
-        {pos: [4, 1, 4], state: "minecraft:barrel{facing:up,open:false}", nbt: {Items: [], LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
+        {pos: [4, 1, 4], state: "minecraft:barrel{facing:up,open:false}", nbt: {LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
         {pos: [4, 1, 5], state: "minecraft:cobblestone_wall{east:none,north:low,south:none,up:true,waterlogged:false,west:low}"},
         {pos: [4, 1, 6], state: "minecraft:cobweb"},
         {pos: [4, 1, 7], state: "minecraft:potatoes{age:7}"},
@@ -67,7 +67,11 @@
         {pos: [5, 1, 8], state: "minecraft:mossy_cobblestone_wall{east:none,north:low,south:none,up:true,waterlogged:false,west:none}"},
         {pos: [6, 1, 5], state: "minecraft:campfire{facing:west,lit:false,signal_fire:false,waterlogged:false}", nbt: {CookingTimes: [I; 0, 0, 0, 0], CookingTotalTimes: [I; 0, 0, 0, 0], Items: [], components: {}, id: "minecraft:campfire"}}
     ],
-    entities: [],
+    entities: [
+        {blockPos: [5, 0, 5], pos: [5.5d, 0.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-33.5d, -60.0625d, 26.5d], Rotation: [0.0f, 0.0f], UUID: [I; 1062896955, -1431484034, -2061100484, 1707536773], block_pos: [I; -34, -61, 26], color: "pink", fall_distance: 0.0d, id: "minecraft:cushion"}},
+        {blockPos: [6, 0, 4], pos: [6.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-32.5d, -60.0625d, 25.5d], Rotation: [90.0f, 0.0f], UUID: [I; 1078704886, 58082288, -1828611406, -84821428], block_pos: [I; -33, -61, 25], color: "pink", fall_distance: 0.0d, id: "minecraft:cushion"}},
+        {blockPos: [7, 0, 5], pos: [7.5d, 0.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-31.5d, -60.0625d, 26.5d], Rotation: [90.0f, 0.0f], UUID: [I; -1916266650, 1789674677, -1257262275, 1567950078], block_pos: [I; -32, -61, 26], color: "pink", fall_distance: 0.0d, id: "minecraft:cushion"}}
+    ],
     palette: [
         "minecraft:grass_block{snowy:false}",
         "minecraft:gravel",

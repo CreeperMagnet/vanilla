@@ -65,7 +65,7 @@
         {pos: [3, 1, 9], state: "minecraft:cherry_log{axis:y}"},
         {pos: [3, 1, 10], state: "minecraft:cherry_leaves{distance:1,persistent:true,waterlogged:false}"},
         {pos: [4, 1, 4], state: "minecraft:pink_petals{facing:north,flower_amount:2}"},
-        {pos: [4, 1, 6], state: "minecraft:barrel{facing:up,open:false}", nbt: {Items: [], LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
+        {pos: [4, 1, 6], state: "minecraft:barrel{facing:up,open:false}", nbt: {LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
         {pos: [4, 1, 9], state: "minecraft:cherry_leaves{distance:1,persistent:true,waterlogged:false}"},
         {pos: [4, 1, 10], state: "minecraft:pink_petals{facing:west,flower_amount:1}"},
         {pos: [5, 1, 4], state: "minecraft:cherry_log{axis:x}"},
@@ -80,7 +80,7 @@
         {pos: [3, 2, 9], state: "minecraft:cherry_leaves{distance:1,persistent:true,waterlogged:false}"}
     ],
     entities: [
-        {blockPos: [6, 0, 7], pos: [6.5d, 0.9375d, 7.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-87.5d, -60.0625d, 17.5d], Rotation: [270.0f, 0.0f], UUID: [I; 1696666052, -621000458, -1875011370, 1684521237], block_pos: [I; -88, -61, 17], color: "magenta", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [6, 2, 4], pos: [6.5d, 2.0d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-87.5d, -59.0d, 14.5d], Rotation: [180.0f, 0.0f], UUID: [I; -711591330, -1615705424, -1800443833, -532463810], block_pos: [I; -88, -59, 14], color: "magenta", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:grass_block{snowy:false}",

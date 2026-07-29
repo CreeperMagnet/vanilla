@@ -9,10 +9,10 @@
         {pos: [5, 0, 9], state: "minecraft:dirt_path"},
         {pos: [5, 0, 10], state: "minecraft:dirt_path"},
         {pos: [5, 0, 11], state: "minecraft:dirt_path"},
-        {pos: [6, 0, 4], state: "minecraft:jigsaw{orientation:up_north}", nbt: {components: {}, final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:bottom", placement_priority: 0, pool: "minecraft:abandoned_camp/trees/acacia", selection_priority: 0, target: "minecraft:bottom"}},
+        {pos: [6, 0, 4], state: "minecraft:jigsaw{orientation:up_north}", nbt: {components: {}, final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:down", placement_priority: 0, pool: "minecraft:abandoned_camp/trees/acacia", selection_priority: 0, target: "minecraft:down"}},
         {pos: [6, 0, 7], state: "minecraft:dirt_path"},
         {pos: [6, 0, 8], state: "minecraft:dirt_path"},
-        {pos: [6, 0, 9], state: "minecraft:jigsaw{orientation:up_west}", nbt: {components: {}, final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:bottom", placement_priority: 0, pool: "minecraft:abandoned_camp/trees/acacia", selection_priority: 0, target: "minecraft:bottom"}},
+        {pos: [6, 0, 9], state: "minecraft:jigsaw{orientation:up_west}", nbt: {components: {}, final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:down", placement_priority: 0, pool: "minecraft:abandoned_camp/trees/acacia", selection_priority: 0, target: "minecraft:down"}},
         {pos: [6, 0, 10], state: "minecraft:dirt_path"},
         {pos: [7, 0, 6], state: "minecraft:grass_block{snowy:false}"},
         {pos: [7, 0, 7], state: "minecraft:dirt_path"},
@@ -39,12 +39,12 @@
         {pos: [7, 1, 5], state: "minecraft:cobweb"},
         {pos: [7, 1, 6], state: "minecraft:cobweb"},
         {pos: [8, 1, 5], state: "minecraft:cobweb"},
-        {pos: [8, 1, 8], state: "minecraft:chest{facing:west,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [8, 1, 8], state: "minecraft:chest{facing:west,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
         {pos: [8, 1, 9], state: "minecraft:cobweb"},
         {pos: [9, 1, 9], state: "minecraft:cobweb"}
     ],
     entities: [
-        {blockPos: [6, 0, 8], pos: [6.5d, 0.9375d, 8.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-89.5d, -60.0625d, 528.5d], Rotation: [90.0f, 0.0f], UUID: [I; 703853248, -375242464, -1504256611, -1727683167], block_pos: [I; -90, -61, 528], color: "light_gray", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [6, 0, 8], pos: [6.5d, 0.9375d, 8.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-89.5d, -60.0625d, 528.5d], Rotation: [90.0f, 0.0f], UUID: [I; -1479540355, 1591492689, -1797361078, 184847245], block_pos: [I; -90, -61, 528], color: "light_gray", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:grass_block{snowy:false}",

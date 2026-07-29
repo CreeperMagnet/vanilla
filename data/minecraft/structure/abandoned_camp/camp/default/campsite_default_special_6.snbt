@@ -17,7 +17,7 @@
         {pos: [4, 0, 8], state: "minecraft:dirt"},
         {pos: [5, 0, 2], state: "minecraft:gravel"},
         {pos: [5, 0, 3], state: "minecraft:cobblestone"},
-        {pos: [5, 0, 4], state: "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_secret_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [5, 0, 4], state: "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:true}", nbt: {LootTable: "minecraft:chests/abandoned_camp_secret_chest", components: {}, id: "minecraft:chest"}},
         {pos: [5, 0, 5], state: "minecraft:gravel"},
         {pos: [5, 0, 6], state: "minecraft:mossy_cobblestone"},
         {pos: [5, 0, 7], state: "minecraft:dirt"},
@@ -61,7 +61,7 @@
         {pos: [4, 1, 3], state: "minecraft:cobblestone"},
         {pos: [4, 1, 4], state: "minecraft:seagrass"},
         {pos: [4, 1, 5], state: "minecraft:water{level:0}"},
-        {pos: [4, 1, 6], state: "minecraft:seagrass"},
+        {pos: [4, 1, 6], state: "minecraft:water{level:0}"},
         {pos: [4, 1, 7], state: "minecraft:water{level:0}"},
         {pos: [4, 1, 8], state: "minecraft:mossy_cobblestone"},
         {pos: [5, 1, 2], state: "minecraft:mossy_cobblestone"},
@@ -69,7 +69,7 @@
         {pos: [5, 1, 4], state: "minecraft:water{level:0}"},
         {pos: [5, 1, 5], state: "minecraft:water{level:0}"},
         {pos: [5, 1, 6], state: "minecraft:water{level:0}"},
-        {pos: [5, 1, 7], state: "minecraft:water{level:0}"},
+        {pos: [5, 1, 7], state: "minecraft:seagrass"},
         {pos: [5, 1, 8], state: "minecraft:cobblestone"},
         {pos: [6, 1, 1], state: "minecraft:cobblestone"},
         {pos: [6, 1, 2], state: "minecraft:water{level:0}"},
@@ -100,9 +100,12 @@
         {pos: [9, 1, 7], state: "minecraft:dirt_path"},
         {pos: [9, 1, 8], state: "minecraft:dirt"},
         {pos: [7, 2, 7], state: "minecraft:campfire{facing:west,lit:false,signal_fire:false,waterlogged:false}", nbt: {CookingTimes: [I; 0, 0, 0, 0], CookingTotalTimes: [I; 0, 0, 0, 0], Items: [], components: {}, id: "minecraft:campfire"}},
-        {pos: [9, 2, 8], state: "minecraft:barrel{facing:up,open:false}", nbt: {Items: [], LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}}
+        {pos: [9, 2, 8], state: "minecraft:barrel{facing:up,open:false}", nbt: {LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}}
     ],
-    entities: [],
+    entities: [
+        {blockPos: [7, 1, 6], pos: [7.5d, 1.9375d, 6.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-44.5d, -60.0625d, 66.5d], Rotation: [270.0f, 0.0f], UUID: [I; -1818604544, -1912779213, -1600989897, -2111456593], block_pos: [I; -45, -61, 66], color: "light_gray", fall_distance: 0.0d, id: "minecraft:cushion"}},
+        {blockPos: [7, 1, 8], pos: [7.5d, 1.9375d, 8.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-44.5d, -60.0625d, 68.5d], Rotation: [270.0f, 0.0f], UUID: [I; -1325313760, 1676626068, -1880022603, 1078131403], block_pos: [I; -45, -61, 68], color: "light_gray", fall_distance: 0.0d, id: "minecraft:cushion"}}
+    ],
     palette: [
         "minecraft:dirt",
         "minecraft:mossy_cobblestone",
@@ -111,7 +114,7 @@
         "minecraft:water{level:0}",
         "minecraft:seagrass",
         "minecraft:dirt_path",
-        "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:false}",
+        "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:true}",
         "minecraft:jigsaw{orientation:east_up}",
         "minecraft:campfire{facing:west,lit:false,signal_fire:false,waterlogged:false}",
         "minecraft:barrel{facing:up,open:false}"

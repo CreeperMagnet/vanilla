@@ -62,7 +62,7 @@
         {pos: [1, 1, 2], state: "minecraft:crafting_table"},
         {pos: [1, 1, 3], state: "minecraft:air"},
         {pos: [1, 1, 4], state: "minecraft:air"},
-        {pos: [1, 1, 5], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [1, 1, 5], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
         {pos: [1, 1, 6], state: "minecraft:short_grass"},
         {pos: [1, 1, 7], state: "minecraft:white_wool_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [2, 1, 0], state: "minecraft:white_wool_stairs{facing:south,half:bottom,shape:straight,waterlogged:false}"},

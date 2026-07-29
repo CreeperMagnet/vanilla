@@ -47,7 +47,7 @@
         {pos: [3, 1, 3], state: "minecraft:grass_block{snowy:false}"},
         {pos: [4, 1, 1], state: "minecraft:grass_block{snowy:false}"},
         {pos: [4, 1, 2], state: "minecraft:grass_block{snowy:false}"},
-        {pos: [4, 1, 3], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [4, 1, 3], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
         {pos: [5, 1, 6], state: "minecraft:large_fern{half:lower}"},
         {pos: [6, 1, 2], state: "minecraft:large_fern{half:lower}"},
         {pos: [7, 1, 1], state: "minecraft:fern"},
@@ -63,8 +63,8 @@
         {pos: [1, 3, 2], state: "minecraft:large_fern{half:upper}"}
     ],
     entities: [
-        {blockPos: [7, 0, 3], pos: [7.5d, 0.9375d, 3.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -60.0625d, 180.5d], Rotation: [90.0f, 0.0f], UUID: [I; -746412091, -984855539, -1630385444, 1862920956], block_pos: [I; -87, -61, 180], color: "green", fall_distance: 0.0d, id: "minecraft:cushion"}},
-        {blockPos: [7, 0, 5], pos: [7.5d, 0.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -60.0625d, 182.5d], Rotation: [90.0f, 0.0f], UUID: [I; 1220863263, 739856088, -1538901435, 680197655], block_pos: [I; -87, -61, 182], color: "gray", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [7, 0, 3], pos: [7.5d, 0.9375d, 3.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -60.0625d, 180.5d], Rotation: [90.0f, 0.0f], UUID: [I; 2057171199, -1918156393, -1814690647, 1298301316], block_pos: [I; -87, -61, 180], color: "green", fall_distance: 0.0d, id: "minecraft:cushion"}},
+        {blockPos: [7, 0, 5], pos: [7.5d, 0.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -60.0625d, 182.5d], Rotation: [90.0f, 0.0f], UUID: [I; -135735487, -1031257474, -1637920971, -1604207666], block_pos: [I; -87, -61, 182], color: "gray", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:grass_block{snowy:false}",

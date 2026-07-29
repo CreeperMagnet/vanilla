@@ -14,7 +14,7 @@
         {pos: [2, 0, 8], state: "minecraft:grass_block{snowy:false}"},
         {pos: [3, 0, 1], state: "minecraft:grass_block{snowy:false}"},
         {pos: [3, 0, 2], state: "minecraft:dirt"},
-        {pos: [3, 0, 3], state: "minecraft:jigsaw{orientation:up_west}", nbt: {components: {}, final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:bottom", placement_priority: 0, pool: "minecraft:abandoned_camp/trees/oak", selection_priority: 0, target: "minecraft:bottom"}},
+        {pos: [3, 0, 3], state: "minecraft:dirt_path"},
         {pos: [3, 0, 4], state: "minecraft:dirt_path"},
         {pos: [3, 0, 6], state: "minecraft:grass_block{snowy:false}"},
         {pos: [3, 0, 7], state: "minecraft:grass_block{snowy:false}"},
@@ -55,7 +55,7 @@
         {pos: [8, 0, 4], state: "minecraft:dirt_path"},
         {pos: [8, 0, 5], state: "minecraft:grass_block{snowy:false}"},
         {pos: [8, 0, 6], state: "minecraft:grass_block{snowy:false}"},
-        {pos: [8, 0, 7], state: "minecraft:jigsaw{orientation:up_east}", nbt: {components: {}, final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:bottom", placement_priority: 0, pool: "minecraft:abandoned_camp/trees/spruce", selection_priority: 0, target: "minecraft:bottom"}},
+        {pos: [8, 0, 7], state: "minecraft:dirt_path"},
         {pos: [8, 0, 8], state: "minecraft:grass_block{snowy:false}"},
         {pos: [9, 0, 1], state: "minecraft:dirt_path"},
         {pos: [9, 0, 3], state: "minecraft:dirt_path"},
@@ -98,7 +98,7 @@
         {pos: [6, 1, 8], state: "minecraft:dandelion"},
         {pos: [7, 1, 1], state: "minecraft:tall_grass{half:lower}"},
         {pos: [7, 1, 2], state: "minecraft:oak_fence{east:false,north:false,south:false,waterlogged:false,west:false}"},
-        {pos: [7, 1, 5], state: "minecraft:chest{facing:north,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [7, 1, 5], state: "minecraft:chest{facing:north,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
         {pos: [7, 1, 6], state: "minecraft:short_grass"},
         {pos: [7, 1, 7], state: "minecraft:short_grass"},
         {pos: [7, 1, 8], state: "minecraft:short_grass"},
@@ -124,7 +124,7 @@
         {pos: [4, 3, 2], state: "minecraft:tall_grass{half:upper}"}
     ],
     entities: [
-        {blockPos: [6, 0, 4], pos: [6.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-87.5d, -60.0625d, -43.5d], Rotation: [0.0f, 0.0f], UUID: [I; -2049776546, -1465827211, -1765705420, -668287920], block_pos: [I; -88, -61, -44], color: "cyan", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [5, 0, 3], pos: [5.5d, 0.9375d, 3.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-88.5d, -60.0625d, -44.5d], Rotation: [90.0f, 0.0f], UUID: [I; 192045255, -1095612061, -2118555110, 1992928288], block_pos: [I; -89, -61, -45], color: "cyan", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:grass_block{snowy:false}",
@@ -136,8 +136,6 @@
         "minecraft:dandelion",
         "minecraft:oak_fence{east:false,north:false,south:false,waterlogged:false,west:false}",
         "minecraft:tall_grass{half:upper}",
-        "minecraft:jigsaw{orientation:up_west}",
-        "minecraft:jigsaw{orientation:up_east}",
         "minecraft:jigsaw{orientation:east_up}",
         "minecraft:campfire{facing:south,lit:false,signal_fire:false,waterlogged:false}",
         "minecraft:oxidized_copper_golem_statue{copper_golem_pose:sitting,facing:north,waterlogged:false}",

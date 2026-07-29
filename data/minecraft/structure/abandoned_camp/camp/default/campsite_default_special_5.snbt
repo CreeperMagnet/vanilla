@@ -79,10 +79,12 @@
         {pos: [9, 1, 4], state: "minecraft:jigsaw{orientation:east_up}", nbt: {components: {}, final_state: "minecraft:dirt_path", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:end_connector", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "minecraft:connector"}},
         {pos: [9, 1, 5], state: "minecraft:dirt_path"},
         {pos: [9, 1, 6], state: "minecraft:dirt_path"},
-        {pos: [6, 2, 3], state: "minecraft:barrel{facing:south,open:false}", nbt: {Items: [], LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
+        {pos: [6, 2, 3], state: "minecraft:barrel{facing:south,open:false}", nbt: {LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
         {pos: [7, 2, 5], state: "minecraft:campfire{facing:south,lit:false,signal_fire:false,waterlogged:false}", nbt: {CookingTimes: [I; 0, 0, 0, 0], CookingTotalTimes: [I; 0, 0, 0, 0], Items: [], components: {}, id: "minecraft:campfire"}}
     ],
-    entities: [],
+    entities: [
+        {blockPos: [8, 1, 5], pos: [8.5d, 1.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-56.5d, -60.0625d, 13.5d], Rotation: [180.0f, 0.0f], UUID: [I; 681796675, -1438560992, -1734559374, -1859306620], block_pos: [I; -57, -61, 13], color: "green", fall_distance: 0.0d, id: "minecraft:cushion"}}
+    ],
     palette: [
         "minecraft:dirt",
         "minecraft:gravel",

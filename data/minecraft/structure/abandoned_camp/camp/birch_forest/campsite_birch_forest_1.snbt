@@ -42,7 +42,6 @@
         {pos: [5, 0, 8], state: "minecraft:dirt_path"},
         {pos: [6, 0, 2], state: "minecraft:dirt"},
         {pos: [6, 0, 5], state: "minecraft:dirt_path"},
-        {pos: [6, 0, 6], state: "minecraft:dirt_path"},
         {pos: [6, 0, 7], state: "minecraft:dirt_path"},
         {pos: [6, 0, 8], state: "minecraft:grass_block{snowy:false}"},
         {pos: [7, 0, 2], state: "minecraft:grass_block{snowy:false}"},
@@ -84,7 +83,7 @@
         {pos: [3, 1, 4], state: "minecraft:short_grass"},
         {pos: [3, 1, 5], state: "minecraft:short_grass"},
         {pos: [3, 1, 6], state: "minecraft:poppy"},
-        {pos: [3, 1, 7], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [3, 1, 7], state: "minecraft:chest{facing:east,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
         {pos: [3, 1, 8], state: "minecraft:dandelion"},
         {pos: [4, 1, 0], state: "minecraft:grass_block{snowy:false}"},
         {pos: [4, 1, 1], state: "minecraft:grass_block{snowy:false}"},
@@ -122,7 +121,7 @@
         {pos: [4, 3, 3], state: "minecraft:rose_bush{half:upper}"}
     ],
     entities: [
-        {blockPos: [6, 0, 6], pos: [6.5d, 0.9375d, 6.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-87.5d, -60.0625d, 363.5d], Rotation: [90.0f, 0.0f], UUID: [I; 994736308, 1805798844, -2073578145, -2014029824], block_pos: [I; -88, -61, 363], color: "red", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [5, 0, 4], pos: [5.5d, 0.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-88.5d, -60.0625d, 361.5d], Rotation: [90.0f, 0.0f], UUID: [I; -1294055997, -55753844, -1264201198, 1105366350], block_pos: [I; -89, -61, 361], color: "red", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:grass_block{snowy:false}",

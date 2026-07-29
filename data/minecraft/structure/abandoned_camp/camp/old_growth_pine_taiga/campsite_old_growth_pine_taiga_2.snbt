@@ -30,7 +30,7 @@
         {pos: [2, 0, 6], state: "minecraft:dirt"},
         {pos: [2, 0, 7], state: "minecraft:dirt"},
         {pos: [2, 0, 8], state: "minecraft:dirt"},
-        {pos: [2, 0, 9], state: "minecraft:dirt"},
+        {pos: [2, 0, 9], state: "minecraft:grass_block{snowy:false}"},
         {pos: [3, 0, 0], state: "minecraft:grass_block{snowy:false}"},
         {pos: [3, 0, 1], state: "minecraft:grass_block{snowy:false}"},
         {pos: [3, 0, 2], state: "minecraft:grass_block{snowy:false}"},
@@ -76,7 +76,7 @@
         {pos: [7, 0, 2], state: "minecraft:dirt"},
         {pos: [7, 0, 3], state: "minecraft:dirt"},
         {pos: [7, 0, 4], state: "minecraft:grass_block{snowy:false}"},
-        {pos: [7, 0, 5], state: "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_secret_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [7, 0, 5], state: "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_secret_chest", components: {}, id: "minecraft:chest"}},
         {pos: [7, 0, 6], state: "minecraft:dirt"},
         {pos: [7, 0, 7], state: "minecraft:grass_block{snowy:false}"},
         {pos: [7, 0, 8], state: "minecraft:grass_block{snowy:false}"},
@@ -154,7 +154,7 @@
         {pos: [2, 2, 6], state: "minecraft:mossy_cobblestone"},
         {pos: [2, 2, 7], state: "minecraft:cobblestone"},
         {pos: [2, 2, 8], state: "minecraft:mossy_cobblestone"},
-        {pos: [3, 2, 6], state: "minecraft:chest{facing:north,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [3, 2, 6], state: "minecraft:chest{facing:north,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
         {pos: [3, 2, 7], state: "minecraft:mossy_cobblestone"},
         {pos: [3, 2, 8], state: "minecraft:cobblestone"},
         {pos: [3, 2, 9], state: "minecraft:mossy_cobblestone"},
@@ -174,7 +174,7 @@
         {pos: [5, 4, 7], state: "minecraft:mossy_cobblestone"}
     ],
     entities: [
-        {blockPos: [4, 1, 5], pos: [4.5d, 1.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-89.5d, -60.0625d, 242.5d], Rotation: [0.0f, 0.0f], UUID: [I; -843770877, 75907524, -2052689478, -37334380], block_pos: [I; -90, -61, 242], color: "green", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [4, 1, 3], pos: [4.5d, 1.9375d, 3.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-89.5d, -60.0625d, 240.5d], Rotation: [90.0f, 0.0f], UUID: [I; -114689901, -1532146174, -1368767282, -1868884196], block_pos: [I; -90, -61, 240], color: "green", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:grass_block{snowy:false}",

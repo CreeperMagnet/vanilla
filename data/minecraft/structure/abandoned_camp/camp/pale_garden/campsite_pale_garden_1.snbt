@@ -106,7 +106,7 @@
         {pos: [6, 1, 1], state: "minecraft:grass_block{snowy:false}"},
         {pos: [6, 1, 2], state: "minecraft:dirt"},
         {pos: [6, 1, 3], state: "minecraft:pale_moss_carpet{bottom:true,east:none,north:low,south:low,west:low}"},
-        {pos: [6, 1, 4], state: "minecraft:barrel{facing:up,open:false}", nbt: {Items: [], LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
+        {pos: [6, 1, 4], state: "minecraft:barrel{facing:up,open:false}", nbt: {LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
         {pos: [6, 1, 5], state: "minecraft:pale_moss_carpet{bottom:true,east:none,north:low,south:low,west:low}"},
         {pos: [6, 1, 6], state: "minecraft:dirt"},
         {pos: [6, 1, 7], state: "minecraft:grass_block{snowy:false}"},
@@ -162,7 +162,7 @@
         {pos: [5, 3, 7], state: "minecraft:tall_grass{half:upper}"},
         {pos: [6, 3, 1], state: "minecraft:tall_grass{half:upper}"},
         {pos: [6, 3, 3], state: "minecraft:grass_block{snowy:false}"},
-        {pos: [6, 3, 4], state: "minecraft:jigsaw{orientation:up_west}", nbt: {components: {}, final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:bottom", placement_priority: 0, pool: "minecraft:abandoned_camp/trees/pale_oak", selection_priority: 0, target: "minecraft:bottom"}},
+        {pos: [6, 3, 4], state: "minecraft:jigsaw{orientation:up_west}", nbt: {components: {}, final_state: "minecraft:dirt", id: "minecraft:jigsaw", joint: "rollable", name: "minecraft:down", placement_priority: 0, pool: "minecraft:abandoned_camp/trees/pale_oak", selection_priority: 0, target: "minecraft:down"}},
         {pos: [6, 3, 5], state: "minecraft:pale_moss_block"},
         {pos: [7, 3, 2], state: "minecraft:pale_moss_carpet{bottom:true,east:none,north:none,south:low,west:none}"},
         {pos: [7, 3, 3], state: "minecraft:grass_block{snowy:false}"},
@@ -171,7 +171,7 @@
         {pos: [4, 4, 6], state: "minecraft:tall_grass{half:upper}"}
     ],
     entities: [
-        {blockPos: [7, 0, 3], pos: [7.5d, 0.9375d, 3.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-86.5d, -60.0625d, 630.5d], Rotation: [90.0f, 0.0f], UUID: [I; -1884399625, 844579911, -1930735368, -841586858], block_pos: [I; -87, -61, 630], color: "white", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [8, 0, 3], pos: [8.5d, 0.9375d, 3.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-85.5d, -60.0625d, 630.5d], Rotation: [90.0f, 0.0f], UUID: [I; -1654844066, 1066880404, -1209804175, -2013760285], block_pos: [I; -86, -61, 630], color: "white", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:pale_moss_block",

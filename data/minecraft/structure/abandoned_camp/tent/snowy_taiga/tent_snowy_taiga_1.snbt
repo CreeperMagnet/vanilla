@@ -118,7 +118,7 @@
         {pos: [6, 1, 2], state: "minecraft:snow_block"},
         {pos: [6, 1, 3], state: "minecraft:snow{layers:2}"},
         {pos: [6, 1, 4], state: "minecraft:snow{layers:1}"},
-        {pos: [6, 1, 5], state: "minecraft:chest{facing:west,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [6, 1, 5], state: "minecraft:chest{facing:west,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_common_chest", components: {}, id: "minecraft:chest"}},
         {pos: [6, 1, 6], state: "minecraft:air"},
         {pos: [6, 1, 7], state: "minecraft:white_wool_stairs{facing:north,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [7, 1, 0], state: "minecraft:white_wool_stairs{facing:south,half:bottom,shape:straight,waterlogged:false}"},
