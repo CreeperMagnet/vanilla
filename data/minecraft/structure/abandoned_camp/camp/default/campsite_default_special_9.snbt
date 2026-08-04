@@ -60,7 +60,7 @@
         {pos: [4, 1, 3], state: "minecraft:stone"},
         {pos: [4, 1, 4], state: "minecraft:gravel"},
         {pos: [4, 1, 5], state: "minecraft:oak_fence{east:false,north:true,south:false,waterlogged:false,west:true}"},
-        {pos: [4, 1, 6], state: "minecraft:waxed_oxidized_copper_chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_secret_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [4, 1, 6], state: "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_secret_chest", components: {}, id: "minecraft:chest"}},
         {pos: [4, 1, 7], state: "minecraft:oak_fence{east:true,north:false,south:false,waterlogged:false,west:false}"},
         {pos: [4, 1, 8], state: "minecraft:cobweb"},
         {pos: [4, 1, 9], state: "minecraft:stone"},
@@ -146,7 +146,7 @@
         "minecraft:oak_fence{east:false,north:true,south:false,waterlogged:false,west:false}",
         "minecraft:dirt_path",
         "minecraft:oak_fence{east:false,north:false,south:false,waterlogged:false,west:false}",
-        "minecraft:waxed_oxidized_copper_chest{facing:east,type:single,waterlogged:false}",
+        "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:false}",
         "minecraft:jigsaw{orientation:east_up}",
         "minecraft:campfire{facing:west,lit:false,signal_fire:false,waterlogged:false}",
         "minecraft:chest{facing:north,type:single,waterlogged:false}"

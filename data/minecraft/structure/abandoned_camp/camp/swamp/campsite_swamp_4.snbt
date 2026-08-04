@@ -61,7 +61,7 @@
         {pos: [5, 0, 2], state: "minecraft:clay"},
         {pos: [5, 0, 3], state: "minecraft:clay"},
         {pos: [5, 0, 4], state: "minecraft:clay"},
-        {pos: [5, 0, 5], state: "minecraft:waxed_oxidized_copper_chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_secret_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [5, 0, 5], state: "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:true}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_secret_chest", components: {}, id: "minecraft:chest"}},
         {pos: [5, 0, 6], state: "minecraft:clay"},
         {pos: [5, 0, 7], state: "minecraft:clay"},
         {pos: [5, 0, 8], state: "minecraft:grass_block{snowy:false}"},
@@ -235,7 +235,7 @@
         "minecraft:firefly_bush",
         "minecraft:lily_pad",
         "minecraft:oak_fence{east:false,north:false,south:false,waterlogged:false,west:false}",
-        "minecraft:waxed_oxidized_copper_chest{facing:east,type:single,waterlogged:false}",
+        "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:true}",
         "minecraft:jigsaw{orientation:east_up}",
         "minecraft:barrel{facing:south,open:false}",
         "minecraft:campfire{facing:east,lit:false,signal_fire:false,waterlogged:false}"
