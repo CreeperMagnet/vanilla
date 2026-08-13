@@ -1,0 +1,10 @@
+{
+    size: [1, 1, 1],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:suspicious_sand{dusted:0}", nbt: {components: {}, id: "minecraft:brushable_block"}}
+    ],
+    entities: [],
+    palette: [
+        "minecraft:suspicious_sand{dusted:0}"
+    ]
+}
