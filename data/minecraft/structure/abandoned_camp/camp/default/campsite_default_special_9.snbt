@@ -60,7 +60,7 @@
         {pos: [4, 1, 3], state: "minecraft:stone"},
         {pos: [4, 1, 4], state: "minecraft:gravel"},
         {pos: [4, 1, 5], state: "minecraft:oak_fence{east:false,north:true,south:false,waterlogged:false,west:true}"},
-        {pos: [4, 1, 6], state: "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:false}", nbt: {Items: [], LootTable: "minecraft:chests/abandoned_camp_secret_chest", components: {}, id: "minecraft:chest"}},
+        {pos: [4, 1, 6], state: "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_secret_chest", components: {}, id: "minecraft:chest"}},
         {pos: [4, 1, 7], state: "minecraft:oak_fence{east:true,north:false,south:false,waterlogged:false,west:false}"},
         {pos: [4, 1, 8], state: "minecraft:cobweb"},
         {pos: [4, 1, 9], state: "minecraft:stone"},
@@ -131,7 +131,7 @@
         {pos: [4, 4, 7], state: "minecraft:oak_planks"}
     ],
     entities: [
-        {blockPos: [7, 2, 4], pos: [7.5d, 2.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-44.5d, -60.0625d, 25.5d], Rotation: [90.0f, 0.0f], UUID: [I; 81757732, -736538999, -2126076803, -14337517], block_pos: [I; -45, -61, 25], color: "lime", fall_distance: 0.0d, id: "minecraft:cushion"}},
+        {blockPos: [7, 2, 4], pos: [7.5d, 2.9375d, 4.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-44.5d, -60.0625d, 25.5d], Rotation: [90.0f, 0.0f], UUID: [I; 1652016059, -319730727, -1331072590, -1593483239], block_pos: [I; -45, -61, 25], color: "lime", fall_distance: 0.0d, id: "minecraft:cushion"}},
         {blockPos: [7, 2, 6], pos: [7.5d, 2.9375d, 6.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-44.5d, -60.0625d, 27.5d], Rotation: [90.0f, 0.0f], UUID: [I; -1183388430, -1482996785, -1394944803, 1965343296], block_pos: [I; -45, -61, 27], color: "lime", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [

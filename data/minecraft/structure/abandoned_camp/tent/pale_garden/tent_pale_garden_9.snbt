@@ -16,7 +16,7 @@
         {pos: [1, 0, 4], state: "minecraft:dirt_path"},
         {pos: [1, 0, 5], state: "minecraft:dirt_path"},
         {pos: [1, 0, 6], state: "minecraft:dirt_path"},
-        {pos: [1, 0, 7], state: "minecraft:coarse_dirt"},
+        {pos: [1, 0, 7], state: "minecraft:dirt"},
         {pos: [2, 0, 0], state: "minecraft:dirt"},
         {pos: [2, 0, 1], state: "minecraft:dirt_path"},
         {pos: [2, 0, 2], state: "minecraft:pale_moss_block"},
@@ -518,7 +518,6 @@
     palette: [
         "minecraft:dirt",
         "minecraft:pale_moss_block",
-        "minecraft:coarse_dirt",
         "minecraft:grass_block{snowy:false}",
         "minecraft:crafting_table",
         "minecraft:dirt_path",

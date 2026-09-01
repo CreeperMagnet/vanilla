@@ -161,7 +161,6 @@
         {pos: [8, 1, 5], state: "minecraft:dirt_path"},
         {pos: [8, 1, 6], state: "minecraft:dirt"},
         {pos: [8, 1, 7], state: "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:false}", nbt: {LootTable: "minecraft:chests/abandoned_camp_secret_chest", components: {}, id: "minecraft:chest"}},
-        {pos: [8, 1, 8], state: "minecraft:mycelium{snowy:false}"},
         {pos: [9, 1, 2], state: "minecraft:dirt_path"},
         {pos: [9, 1, 3], state: "minecraft:grass_block{snowy:false}"},
         {pos: [9, 1, 4], state: "minecraft:dirt_path"},
@@ -186,7 +185,6 @@
         {pos: [7, 2, 7], state: "minecraft:cobweb"},
         {pos: [8, 2, 6], state: "minecraft:barrel{facing:up,open:false}", nbt: {LootTable: "minecraft:barrels/abandoned_camp_barrel", components: {}, id: "minecraft:barrel"}},
         {pos: [8, 2, 7], state: "minecraft:mushroom_stem{down:true,east:true,north:true,south:true,up:false,west:true}"},
-        {pos: [8, 2, 8], state: "minecraft:brown_mushroom"},
         {pos: [9, 2, 3], state: "minecraft:cobweb"},
         {pos: [4, 3, 1], state: "minecraft:cobweb"},
         {pos: [4, 3, 2], state: "minecraft:mushroom_stem{down:false,east:true,north:true,south:true,up:false,west:true}"},
@@ -271,13 +269,12 @@
         {pos: [5, 8, 3], state: "minecraft:red_mushroom_block{down:false,east:true,north:false,south:true,up:true,west:false}"}
     ],
     entities: [
-        {blockPos: [8, 1, 5], pos: [8.5d, 1.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-85.5d, -60.0625d, 467.5d], Rotation: [90.0f, 0.0f], UUID: [I; 1565295832, 468274716, -1646104292, -192354055], block_pos: [I; -86, -61, 467], color: "green", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [8, 1, 5], pos: [8.5d, 1.9375d, 5.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-85.5d, -60.0625d, 467.5d], Rotation: [90.0f, 0.0f], UUID: [I; 250658999, 1395018639, -1810121144, 43777593], block_pos: [I; -86, -61, 467], color: "green", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:grass_block{snowy:false}",
         "minecraft:dirt",
         "minecraft:clay",
-        "minecraft:mycelium{snowy:false}",
         "minecraft:mushroom_stem{down:true,east:true,north:true,south:true,up:false,west:true}",
         "minecraft:mushroom_stem{down:false,east:true,north:true,south:true,up:false,west:true}",
         "minecraft:red_mushroom_block{down:false,east:false,north:true,south:false,up:false,west:true}",
@@ -313,7 +310,6 @@
         "minecraft:short_grass",
         "minecraft:lily_pad",
         "minecraft:cobweb",
-        "minecraft:brown_mushroom",
         "minecraft:oxidized_copper_chest{facing:east,type:single,waterlogged:false}",
         "minecraft:jigsaw{orientation:east_up}",
         "minecraft:campfire{facing:west,lit:false,signal_fire:false,waterlogged:false}",

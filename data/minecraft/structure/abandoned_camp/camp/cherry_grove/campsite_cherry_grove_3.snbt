@@ -75,10 +75,8 @@
         {pos: [6, 1, 7], state: "minecraft:short_grass"},
         {pos: [6, 1, 8], state: "minecraft:short_grass"},
         {pos: [7, 1, 2], state: "minecraft:short_grass"},
-        {pos: [7, 1, 3], state: "minecraft:short_grass"},
         {pos: [7, 1, 7], state: "minecraft:short_grass"},
         {pos: [7, 1, 8], state: "minecraft:short_grass"},
-        {pos: [7, 1, 9], state: "minecraft:short_grass"},
         {pos: [8, 1, 2], state: "minecraft:short_grass"},
         {pos: [8, 1, 3], state: "minecraft:short_grass"},
         {pos: [8, 1, 4], state: "minecraft:short_grass"},
@@ -108,8 +106,8 @@
         {pos: [13, 2, 4], state: "minecraft:tall_grass{half:upper}"}
     ],
     entities: [
-        {blockPos: [8, 0, 6], pos: [8.5d, 0.9375d, 6.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-90.5d, -60.0625d, 32.5d], Rotation: [270.0f, 0.0f], UUID: [I; 1873567228, 1621443711, -1442958979, -430753824], block_pos: [I; -91, -61, 32], color: "pink", fall_distance: 0.0d, id: "minecraft:cushion"}},
-        {blockPos: [9, 2, 8], pos: [9.5d, 2.0d, 8.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-89.5d, -59.0d, 34.5d], Rotation: [0.0f, 0.0f], UUID: [I; 2106270805, -275167222, -1185528199, 2060636119], block_pos: [I; -90, -59, 34], color: "white", fall_distance: 0.0d, id: "minecraft:cushion"}}
+        {blockPos: [8, 0, 6], pos: [8.5d, 0.9375d, 6.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-90.5d, -60.0625d, 32.5d], Rotation: [-450.0f, 0.0f], UUID: [I; 779577819, -587117948, -2032451032, -1596451995], block_pos: [I; -91, -61, 32], color: "pink", fall_distance: 0.0d, id: "minecraft:cushion"}},
+        {blockPos: [9, 2, 8], pos: [9.5d, 2.0d, 8.5d], nbt: {Air: 300s, Fire: 0s, Invulnerable: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [-89.5d, -59.0d, 34.5d], Rotation: [0.0f, 0.0f], UUID: [I; -1793685755, -1020048339, -2031879385, 66992985], block_pos: [I; -90, -59, 34], color: "white", fall_distance: 0.0d, id: "minecraft:cushion"}}
     ],
     palette: [
         "minecraft:grass_block{snowy:false}",

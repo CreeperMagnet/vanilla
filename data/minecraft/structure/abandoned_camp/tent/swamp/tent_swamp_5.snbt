@@ -139,7 +139,7 @@
         {pos: [0, 2, 7], state: "minecraft:air"},
         {pos: [1, 2, 0], state: "minecraft:air"},
         {pos: [1, 2, 1], state: "minecraft:white_wool_stairs{facing:south,half:bottom,shape:straight,waterlogged:false}"},
-        {pos: [1, 2, 2], state: "minecraft:vine{east:false,north:true,south:false,up:false,west:false}"},
+        {pos: [1, 2, 2], state: "minecraft:vine{east:false,north:true,south:false,up:true,west:false}"},
         {pos: [1, 2, 3], state: "minecraft:vine{east:false,north:true,south:false,up:false,west:false}"},
         {pos: [1, 2, 4], state: "minecraft:air"},
         {pos: [1, 2, 5], state: "minecraft:air"},
@@ -155,7 +155,7 @@
         {pos: [2, 2, 7], state: "minecraft:air"},
         {pos: [3, 2, 0], state: "minecraft:air"},
         {pos: [3, 2, 1], state: "minecraft:white_wool_stairs{facing:south,half:bottom,shape:straight,waterlogged:false}"},
-        {pos: [3, 2, 2], state: "minecraft:vine{east:false,north:true,south:false,up:false,west:false}"},
+        {pos: [3, 2, 2], state: "minecraft:vine{east:false,north:true,south:false,up:true,west:false}"},
         {pos: [3, 2, 3], state: "minecraft:vine{east:false,north:true,south:false,up:false,west:false}"},
         {pos: [3, 2, 4], state: "minecraft:air"},
         {pos: [3, 2, 5], state: "minecraft:air"},
@@ -532,9 +532,9 @@
         "minecraft:vine{east:false,north:false,south:false,up:false,west:true}",
         "minecraft:straw_bed{facing:east,occupied:false,part:head}",
         "minecraft:oak_fence{east:false,north:true,south:false,waterlogged:false,west:false}",
+        "minecraft:vine{east:false,north:true,south:false,up:true,west:false}",
         "minecraft:vine{east:false,north:false,south:true,up:true,west:false}",
         "minecraft:oak_fence{east:false,north:false,south:true,waterlogged:false,west:false}",
-        "minecraft:vine{east:false,north:true,south:false,up:true,west:false}",
         "minecraft:jigsaw{orientation:west_up}",
         "minecraft:barrel{facing:south,open:false}"
     ]
