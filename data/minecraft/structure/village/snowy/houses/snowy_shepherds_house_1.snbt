@@ -7,7 +7,7 @@
         {pos: [0, 0, 3], state: "minecraft:stripped_spruce_log{axis:y}"},
         {pos: [0, 0, 4], state: "minecraft:stripped_spruce_log{axis:y}"},
         {pos: [0, 0, 5], state: "minecraft:stripped_spruce_log{axis:y}"},
-        {pos: [0, 0, 6], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:structure_void", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:buidling_entrance", pool: "minecraft:empty", target: "minecraft:buidling_entrance"}},
+        {pos: [0, 0, 6], state: "minecraft:jigsaw{orientation:west_up}", nbt: {final_state: "minecraft:structure_void", id: "minecraft:jigsaw", joint: "aligned", name: "minecraft:building_entrance", pool: "minecraft:empty", target: "minecraft:building_entrance"}},
         {pos: [0, 0, 7], state: "minecraft:spruce_stairs{facing:east,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [0, 0, 8], state: "minecraft:snow{layers:1}"},
         {pos: [0, 0, 9], state: "minecraft:snow{layers:1}"},
